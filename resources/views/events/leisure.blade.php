@@ -21,7 +21,7 @@
 
 @foreach ($microposts as $micropost)
           //  @include(カレンダーのやつ)
-          // ここではスポーツのイベントを表示する。
+          // ここではレジャーのイベントを表示する。
 @endforeach
            
         </div>
