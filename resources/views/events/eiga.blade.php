@@ -17,10 +17,10 @@
                 <li role="presentation" class="{{ Request::is('events/*/gurume') ? 'active' : '' }}"><a href="{{ route('events.gurume') }}">グルメ</a></li>
                 <li role="presentation" class="{{ Request::is('events/*/geijutsu') ? 'active' : '' }}"><a href="{{ route('events.geijutsu') }}">芸術</a></li>           
             </ul>
-
-
-           
+            
+            @foreach($eiga_events as $eiga_event)
+            <p>{!! nl2br(e($eiga_event->name . ": " . $eiga_event->prefecture)) !!}</p>
+            @endforeach
         </div>
-    </div>
-
+    
 @endsection

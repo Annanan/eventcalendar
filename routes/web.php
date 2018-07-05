@@ -29,3 +29,4 @@ Route::get('sports', 'EventsController@sports')->name('events.sports');
 Route::get('ongaku', 'EventsController@ongaku')->name('events.ongaku');
 Route::get('gurume', 'EventsController@gurume')->name('events.gurume');
 Route::get('geijutsu', 'EventsController@geijutsu')->name('events.geijutsu');
+Route::get('mycalendar', 'UsersController@mycalendar')->name('mypage.mycalendar');

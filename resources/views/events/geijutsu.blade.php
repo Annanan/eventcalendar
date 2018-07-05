@@ -18,9 +18,11 @@
                 <li role="presentation" class="{{ Request::is('events/*/geijutsu') ? 'active' : '' }}"><a href="{{ route('events.geijutsu') }}">芸術</a></li>           
             </ul>
 
-
+            @foreach($geijutsu_events as $geijutsu_event)
+            <p>{!! nl2br(e($geijutsu_event->name . ": " . $geijutsu_event->prefecture)) !!}</p>
+            @endforeach
            
         </div>
-    </div>
+    
 
 @endsection

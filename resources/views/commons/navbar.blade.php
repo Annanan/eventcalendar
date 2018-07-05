@@ -8,7 +8,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-left" href="/"><img src="{{ secure_asset("images/logo.png") }}" alt="Monolist"></a>
+                <a class="navbar-left" href="/"><img src="{{ secure_asset("images/logo.png") }}" alt="イベントもうラクん"></a>
             </div>
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
@@ -24,11 +24,7 @@
                             </a>
                             <ul class="dropdown-menu">
                                 <li>
-                                    <a href="{{ route('users.show', Auth::id()) }}">マイジャンル</a>
-                                </li>
-                                <li role="separator" class="divider"></li>
-                                <li>
-                                    <a href="{{ route('users.show', Auth::id()) }}">マイカレンダー</a>
+                                    <a href="{{ route('mypage.mycalendar', Auth::id()) }}">マイカレンダー</a>
                                 </li>
                                 <li role="separator" class="divider"></li>
                                 <li>

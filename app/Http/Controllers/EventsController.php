@@ -7,30 +7,66 @@ use Illuminate\Http\Request;
 class EventsController extends Controller
 {
     public function omatsuri() {
-        return view('events.omatsuri');
+        
+        $omatsuri_events = \DB::table('events')->select('*')->where('genre', 'お祭り')->get();
+        
+        return view('events.omatsuri', [
+            'omatsuri_events' => $omatsuri_events,
+        ]);
     }
     
     public function eiga() {
-        return view('events.eiga');
+        
+        $eiga_events = \DB::table('events')->select('*')->where('genre', '映画')->get();
+        
+        return view('events.eiga', [
+            'eiga_events' => $eiga_events,
+        ]);
     }
     
     public function leisure() {
-        return view('events.leisure');
+        
+        $leisure_events = \DB::table('events')->select('*')->where('genre', 'レジャー')->get();
+        
+        return view('events.leisure', [
+            'leisure_events' => $leisure_events,
+        ]);
     }
     
     public function sports() {
-        return view('events.sports');
+        
+        $sports_events = \DB::table('events')->select('*')->where('genre', 'スポーツ')->get();
+        
+        return view('events.sports', [
+            'sports_events' => $sports_events,
+        ]);
     }
     
     public function ongaku() {
-        return view('events.ongaku');
+        
+        $ongaku_events = \DB::table('events')->select('*')->where('genre', '音楽フェス')->get();
+        
+        return view('events.ongaku', [
+            'ongaku_events' => $ongaku_events,
+        ]);
     }
     
     public function gurume() {
-        return view('events.gurume');
+        
+        $gurume_events = \DB::table('events')->select('*')->where('genre', 'グルメ')->get();
+        
+        return view('events.gurume', [
+            'gurume_events' => $gurume_events,
+        ]);
     }
     
     public function geijutsu() {
-        return view('events.geijutsu');
+        
+        $geijutsu_events = \DB::table('events')->select('*')->where('genre', '芸術')->get();
+        
+        return view('events.geijutsu', [
+            'geijutsu_events' => $geijutsu_events,
+        ]);
     }
+    
 }
