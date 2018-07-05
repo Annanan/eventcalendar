@@ -9,20 +9,16 @@
             <ul class="nav nav-tabs nav-justified">
                 //１行が各ジャンルのタブをあらわす。要ルート変更
                 
-                <li role="presentation" class="{{ Request::is('users/' . $user->id) ? 'active' : '' }}"><a href="{{ route('users.show', ['id' => $user->id]) }}">全イベント <span class="badge">{{ $count_microposts }}</span></a></li>
-                <li role="presentation" class="{{ Request::is('users/*/followings') ? 'active' : '' }}"><a href="{{ route('users.followings', ['id' => $user->id]) }}">　お祭り・花火大会 <span class="badge">{{ $count_followings }}</span></a></li>
-                <li role="presentation" class="{{ Request::is('users/*/followers') ? 'active' : '' }}"><a href="{{ route('users.followers', ['id' => $user->id]) }}">映画 <span class="badge">{{ $count_followers }}</span></a></li>
-                <li role="presentation" class="{{ Request::is('users/*/favorites') ? 'active' : '' }}"><a href="{{ route('users.favorites', ['id' => $user->id]) }}">レジャー<span class="badge">{{ $count_favorites }}</span></a></li>  
-                <li role="presentation" class="{{ Request::is('users/' . $user->id) ? 'active' : '' }}"><a href="{{ route('users.show', ['id' => $user->id]) }}">スポーツ<span class="badge">{{ $count_microposts }}</span></a></li>
-                <li role="presentation" class="{{ Request::is('users/*/followings') ? 'active' : '' }}"><a href="{{ route('users.followings', ['id' => $user->id]) }}">音楽<span class="badge">{{ $count_followings }}</span></a></li>
-                <li role="presentation" class="{{ Request::is('users/*/followers') ? 'active' : '' }}"><a href="{{ route('users.followers', ['id' => $user->id]) }}">グルメ<span class="badge">{{ $count_followers }}</span></a></li>
-                <li role="presentation" class="{{ Request::is('users/*/favorites') ? 'active' : '' }}"><a href="{{ route('users.favorites', ['id' => $user->id]) }}">芸術<span class="badge">{{ $count_favorites }}</span></a></li>           
+                <li role="presentation" class="{{ Request::is('events/*/omatsuri') ? 'active' : '' }}"><a href="{{ route('events.omatsuri') }}">　お祭り・花火大会 </a></li>
+                <li role="presentation" class="{{ Request::is('events/*/eiga') ? 'active' : '' }}"><a href="{{ route('events.eiga') }}">映画 </a></li>
+                <li role="presentation" class="{{ Request::is('events/*/leisure') ? 'active' : '' }}"><a href="{{ route('events.leisure') }}">レジャー</a></li>  
+                <li role="presentation" class="{{ Request::is('events/*/sports') ? 'active' : '' }}"><a href="{{ route('events.sports') }}">スポーツ</a></li>
+                <li role="presentation" class="{{ Request::is('events/*/ongaku') ? 'active' : '' }}"><a href="{{ route('events.ongaku') }}">音楽</a></li>
+                <li role="presentation" class="{{ Request::is('events/*/gurume') ? 'active' : '' }}"><a href="{{ route('events.gurume') }}">グルメ</a></li>
+                <li role="presentation" class="{{ Request::is('events/*/geijutsu') ? 'active' : '' }}"><a href="{{ route('events.geijutsu') }}">芸術</a></li>           
             </ul>
 
-@foreach ($microposts as $micropost)
-          //  @include(カレンダーのやつ)
-          // ここではグルメのイベントを表示する。
-@endforeach
+
            
         </div>
     </div>
