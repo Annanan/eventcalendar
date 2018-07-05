@@ -5,9 +5,8 @@
 
    
         
-        <div class="col-xs-8">
+        <div class="col-xs-12">
             <ul class="nav nav-tabs nav-justified">
-                //１行が各ジャンルのタブをあらわす。要ルート変更
                 
                 <li role="presentation" class="{{ Request::is('events/*/omatsuri') ? 'active' : '' }}"><a href="{{ route('events.omatsuri') }}">　お祭り・花火大会 </a></li>
                 <li role="presentation" class="{{ Request::is('events/*/eiga') ? 'active' : '' }}"><a href="{{ route('events.eiga') }}">映画 </a></li>
@@ -17,10 +16,8 @@
                 <li role="presentation" class="{{ Request::is('events/*/gurume') ? 'active' : '' }}"><a href="{{ route('events.gurume') }}">グルメ</a></li>
                 <li role="presentation" class="{{ Request::is('events/*/geijutsu') ? 'active' : '' }}"><a href="{{ route('events.geijutsu') }}">芸術</a></li>           
             </ul>
-
-            @foreach($gurume_events as $gurume_event)
-            <p>{!! nl2br(e($gurume_event->name . ": " . $gurume_event->prefecture)) !!}</p>
-            @endforeach
+            
+            @include('commons.calendar')
            
         </div>
     
