@@ -201,7 +201,7 @@
             <td class="wednesday">22
               <br> 
               <?php foreach ($events as $event) {  
-                  if($event->eventdate =22){
+                  if($event->eventdate ==22){
                    echo $event->name .'('. $event->prefecture .')' .'<br>';  }
               }?> 
             </td>
