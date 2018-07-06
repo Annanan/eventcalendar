@@ -1,5 +1,11 @@
+@for ($i = 1; $i <= 5; $i++)
+@endfor
+
 
 @foreach($events as $event)
+
+
+@endforeach
 
 
 <link rel="stylesheet" href="{{ secure_asset('css/style.css') }}">
@@ -20,11 +26,11 @@
         <tr class="week1">
             <td class="monday"></td>
             <td class="tuesday"></td>
-            <td class="wednesday">1<br>{{ $event->name . $event->prefecture }}</td>
-            <td class="thursday">2<br>{{ $event->name . $event->prefecture }}</td>
-            <td class="friday">3<br>{{ $event->name . $event->prefecture }}</td>
-            <td class="saturday">4<br>{{ $event->name . $event->prefecture }}</td>
-            <td class="sunday">5<br>{{ $event->name . $event->prefecture }}</td>
+            <td class="wednesday">{{ $i }}<br>{{ $event->name . $event->prefecture }}</td>
+            <td class="thursday">{{  $i }}<br>{{ $event->name . $event->prefecture }}</td>
+            <td class="friday">{{  $i }}<br>{{ $event->name . $event->prefecture }}</td>
+            <td class="saturday">{{  $i }}<br>{{ $event->name . $event->prefecture }}</td>
+            <td class="sunday">{{  $i }}<br>{{ $event->name . $event->prefecture }}</td>
         </tr>
         <tr class="week2">
             <td class="monday">6</td>
@@ -64,5 +70,3 @@
         </tr>
     </tbody>
 </table>
-
-@endforeach

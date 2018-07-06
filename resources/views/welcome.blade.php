@@ -5,9 +5,8 @@
 
    
         
-        <div class="col-xs-8">
+        <div class="col-xs-12">
             <ul class="nav nav-tabs nav-justified">
-                １行が各ジャンルのタブをあらわす。要ルート変更
                 
                 <li role="presentation" class="{{ Request::is('events/*/omatsuri') ? 'active' : '' }}"><a href="{{ route('events.omatsuri') }}">　お祭り・花火大会 </a></li>
                 <li role="presentation" class="{{ Request::is('events/*/eiga') ? 'active' : '' }}"><a href="{{ route('events.eiga') }}">映画 </a></li>
