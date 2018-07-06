@@ -17,7 +17,7 @@
                 <li role="presentation" class="{{ Request::is('events/*/geijutsu') ? 'active' : '' }}"><a href="{{ route('events.geijutsu') }}">芸術</a></li>           
             </ul>
             
-            @include('commons.calendar')
+            @include('commons.calendar',['events' => $gurume_events])
            
         </div>
     
