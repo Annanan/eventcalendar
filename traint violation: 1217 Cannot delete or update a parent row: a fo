@@ -1,0 +1,210 @@
+[33mcommit d6c10028ddf1a05c8d0854b31e11863bb738efb4[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Shungo.Yanase <shungosp@gmail.com>
+Date:   Fri Jul 6 06:40:09 2018 +0000
+
+    Create event_favorite_button
+
+[33mcommit 443286e4cf81b5d086631ef88ceafb90c09f9a7a[m
+Author: Shungo.Yanase <shungosp@gmail.com>
+Date:   Fri Jul 6 06:31:36 2018 +0000
+
+    edit UsersController
+
+[33mcommit e05012bacd5ab87ce7dc593e620c5593a9d252de[m
+Author: Shungo.Yanase <shungosp@gmail.com>
+Date:   Fri Jul 6 06:17:46 2018 +0000
+
+    edit Event.php and create EventFavoriteController
+
+[33mcommit 7a0411fa863bb4cc787a9ecafd24cdfb2d4e67c3[m
+Author: Shungo.Yanase <shungosp@gmail.com>
+Date:   Fri Jul 6 05:51:33 2018 +0000
+
+    add to event favo function User.php by Shungo
+
+[33mcommit 92abcd0e543b22342ce6bb6b5f6466ee1eabeb0f[m
+Author: Shungo.Yanase <shungosp@gmail.com>
+Date:   Fri Jul 6 05:38:16 2018 +0000
+
+    create event intermideate table by shungo
+
+[33mcommit 4b21ca18c32e9828c3eac5cbbcc52a9473e8e374[m
+Author: kanna.hirao <kanna.hirao@rakuten.com>
+Date:   Fri Jul 6 04:24:34 2018 +0000
+
+    shita mittsu to welcome sonota
+
+[33mcommit ae2c687784bb4981eb75aed2b6186013e66b5308[m
+Author: kanna.hirao <kanna.hirao@rakuten.com>
+Date:   Fri Jul 6 04:23:41 2018 +0000
+
+    shita mittsu sonota
+
+[33mcommit 9b91de921150d98a356060b4d706e513c5bfad4f[m
+Author: EC2 Default User <ec2-user@ip-172-31-47-27.us-east-2.compute.internal>
+Date:   Fri Jul 6 04:22:49 2018 +0000
+
+    ue3tsu sonota
+
+[33mcommit 094ed4c732eb4e249ff22baa4f9f7f746cbd833a[m
+Author: EC2 Default User <ec2-user@ip-172-31-47-27.us-east-2.compute.internal>
+Date:   Fri Jul 6 04:19:45 2018 +0000
+
+    hensuu link
+
+[33mcommit e2adced00c8387f2296263450674888f8437fb6f[m
+Author: EC2 Default User <ec2-user@ip-172-31-47-27.us-east-2.compute.internal>
+Date:   Fri Jul 6 04:14:37 2018 +0000
+
+    modify goriita calendar
+
+[33mcommit 3eaafbe71a4a40de9201772abffbc73ea7a8c25b[m
+Author: EC2 Default User <ec2-user@ip-172-31-47-27.us-east-2.compute.internal>
+Date:   Fri Jul 6 04:12:53 2018 +0000
+
+    calendar gorittayo
+
+[33mcommit ac7b53fae26e669f82b901ec619b5d969efb8fbe[m
+Author: kanna.hirao <kanna.hirao@rakuten.com>
+Date:   Fri Jul 6 03:21:58 2018 +0000
+
+    .sql
+
+[33mcommit c035455ca6ad6259e4e03866daf65c676027a12c[m
+Author: EC2 Default User <ec2-user@ip-172-31-47-27.us-east-2.compute.internal>
+Date:   Fri Jul 6 01:22:43 2018 +0000
+
+    calendar try in the friday morning by shingo
+
+[33mcommit ceab01fc0f168789fa1cd73b77feb4d1920a74d0[m
+Author: kanna.hirao <kanna.hirao@rakuten.com>
+Date:   Fri Jul 6 00:42:39 2018 +0000
+
+    sukoshi naosita
+
+[33mcommit 84a3318ef91a136f5febee835481ef91a96e5b5d[m
+Author: kanna.hirao <kanna.hirao@rakuten.com>
+Date:   Thu Jul 5 07:02:17 2018 +0000
+
+    calendar dekita foreach tochuu
+
+[33mcommit cb12926bac709ad70baa0a72211696f511442257[m
+Author: kanna.hirao <kanna.hirao@rakuten.com>
+Date:   Thu Jul 5 04:21:41 2018 +0000
+
+    ikesouna kigasuru
+
+[33mcommit e16a4311e0fe8466d972219096d0f27a36de2c83[m
+Author: kanna.hirao <kanna.hirao@rakuten.com>
+Date:   Thu Jul 5 02:02:54 2018 +0000
+
+    gozen owari
+
+[33mcommit ee42e66b6e1a1a08d08c3b663d83e597f8f82050[m
+Author: kanna.hirao <kanna.hirao@rakuten.com>
+Date:   Thu Jul 5 01:18:05 2018 +0000
+
+    iroiro tsukuru
+
+[33mcommit 5836e96791831fac7f7e228c0081ec17febff580[m
+Author: kanna.hirao <kanna.hirao@rakuten.com>
+Date:   Thu Jul 5 00:41:22 2018 +0000
+
+    set timezone nado
+
+[33mcommit f5e270437977b9c2a749cd569262318b47bd961a[m
+Author: kanna.hirao <kanna.hirao@rakuten.com>
+Date:   Thu Jul 5 00:30:53 2018 +0000
+
+    .env tukurinaoshi
+
+[33mcommit 82ddb4ea558ebab0b7432a280d1a443fbd4cabeb[m
+Merge: bb0a02a 1195d15
+Author: kanna.hirao <kanna.hirao@rakuten.com>
+Date:   Thu Jul 5 00:22:27 2018 +0000
+
+    Merge branch 'master' of https://github.com/Annanan/eventcalendar
+
+[33mcommit bb0a02a41aa13a2c7466d4fccaafedac1b3052e0[m
+Author: kanna.hirao <kanna.hirao@rakuten.com>
+Date:   Thu Jul 5 00:21:21 2018 +0000
+
+    .env mokkaikesu
+
+[33mcommit 8dabefa5779dbecb2be442c16eba4e25533e1a05[m
+Author: kanna.hirao <kanna.hirao@rakuten.com>
+Date:   Wed Jul 4 08:17:35 2018 +0000
+
+    .env wakaranai
+
+[33mcommit 1195d15249456a5a4fb4a46c6f9c4858b4f09b4c[m
+Author: kanna.hirao <kanna.hirao@rakuten.com>
+Date:   Wed Jul 4 08:05:23 2018 +0000
+
+    .env
+
+[33mcommit 36bc21ee9ed4ff28459fe2b6301e93a134aa7090[m
+Author: daiki.ishikawa <diking@gmail.com>
+Date:   Wed Jul 4 07:19:51 2018 +0000
+
+    add events geijutsu gurume ongaku
+
+[33mcommit dee3fe7c661fcadc6cb50190736bfd3308d7b94f[m
+Author: anna.hirai <tomato@gmail.com>
+Date:   Wed Jul 4 07:18:20 2018 +0000
+
+    eiga and omatsuri.blade.php
+
+[33mcommit 21dd0e3bea2c08b6d846fe4dad8300db5ff6afb3[m
+Author: EC2 Default User <ec2-user@ip-172-31-47-27.us-east-2.compute.internal>
+Date:   Wed Jul 4 07:17:30 2018 +0000
+
+    sports leisure
+
+[33mcommit 68f4d87f90fd812e8ff984dd877f33d04f7378fc[m
+Author: EC2 Default User <ec2-user@ip-172-31-47-27.us-east-2.compute.internal>
+Date:   Wed Jul 4 07:11:38 2018 +0000
+
+    tab on the welcome blade
+
+[33mcommit 24ee044600e5b8526ca28a05396164481067b247[m
+Author: EC2 Default User <ec2-user@ip-172-31-47-27.us-east-2.compute.internal>
+Date:   Wed Jul 4 06:49:26 2018 +0000
+
+    make calendar.blade
+
+[33mcommit 83d9d3b04cb434c0678fe5578093b92bc0edcc89[m
+Author: daiki.ishikawa <diking@gmail.com>
+Date:   Wed Jul 4 06:47:08 2018 +0000
+
+    chnaged to id
+
+[33mcommit 6fc59b45012736741320ccb07536c4c6be7d7b27[m
+Author: EC2 Default User <ec2-user@ip-172-31-47-27.us-east-2.compute.internal>
+Date:   Wed Jul 4 06:45:53 2018 +0000
+
+    layout navbar
+
+[33mcommit e1e2e67913fd86c875b64463376c8d6b8f846fba[m
+Author: anna.hirai <tomato@gmail.com>
+Date:   Wed Jul 4 06:45:03 2018 +0000
+
+    register.balde.php
+
+[33mcommit 4d8375197d8bd40f3bb9466b8ccadad4e316b209[m
+Author: daiki.ishikawa <diking@gmail.com>
+Date:   Wed Jul 4 06:43:23 2018 +0000
+
+    login
+
+[33mcommit 0d2f1667a18c47dc77ee35d0a20181613dce76e4[m
+Author: anna.hirai <tomato@gmail.com>
+Date:   Wed Jul 4 06:38:05 2018 +0000
+
+    make new auth folder
+
+[33mcommit 6bf1bdc52f4f37c77827c9d8557987cc1be5ed63[m
+Author: anna.hirai <tomato@gmail.com>
+Date:   Wed Jul 4 06:27:44 2018 +0000
+
+    init
