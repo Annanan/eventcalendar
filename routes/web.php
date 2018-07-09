@@ -29,7 +29,7 @@ Route::get('sports', 'EventsController@sports')->name('events.sports');
 Route::get('ongaku', 'EventsController@ongaku')->name('events.ongaku');
 Route::get('gurume', 'EventsController@gurume')->name('events.gurume');
 Route::get('geijutsu', 'EventsController@geijutsu')->name('events.geijutsu');
-Route::get('mycalendar', 'UsersController@mycalendar')->name('mypage.mycalendar');
+Route::get('mycalendar', 'UsersController@event_favorites')->name('mypage.mycalendar');
 
 Route::group(['prefix' => 'users/{id}'], function () {
         Route::post('favoru', 'EventFavoriteController@store')->name('user.favoru');
@@ -38,3 +38,4 @@ Route::group(['prefix' => 'users/{id}'], function () {
 });
 
 Route::resource('events', 'EventFavoriteController', ['only' => ['store', 'destroy']]);
+
