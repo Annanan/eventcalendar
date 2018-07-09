@@ -35,10 +35,10 @@ class User extends Authenticatable
     
    
    //ユーザーがイベントを追加しないのでけ消し 
-    // public function event_favorites()
-    // {
-    //     return $this->hasMany(Event::class);
-    // }
+    public function events()
+    {
+        return $this->hasMany(Event::class);
+    }
    
    
    

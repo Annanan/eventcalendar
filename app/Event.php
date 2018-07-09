@@ -8,7 +8,7 @@ class Event extends Model
 {
     public function user()
     {
-        return $this->belongsTo(User::class);
+        return $this->belongsToMany(User::class, 'event_favorites', 'event_id', 'user_id')->withTimestamps();
         // よくわかっていない
     }
 }

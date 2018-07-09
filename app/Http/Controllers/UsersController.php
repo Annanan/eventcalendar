@@ -21,7 +21,7 @@ class UsersController extends Controller
     public function event_favorites()
     {
         $user = \Auth::user(); //ログインしている人間
-        $event_favorites = $user->event_favorites(); //やや不安
+        $event_favorites = $user->events(); //やや不安
 
         // $data += $this->counts($user);
 
