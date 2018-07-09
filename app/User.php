@@ -27,10 +27,23 @@ class User extends Authenticatable
         'password', 'remember_token',
     ];
     
-    public function eventfavorites()
+    
+      public function event_favorites()
     {
-        return $this->hasMany(Event::class);
+        return $this->belongsToMany(Event::class, 'event_favorites', 'user_id', 'event_id')->withTimestamps();
     }
+    
+   
+   //ユーザーがイベントを追加しないのでけ消し 
+    // public function event_favorites()
+    // {
+    //     return $this->hasMany(Event::class);
+    // }
+   
+   
+   
+   
+   //⇓ふぁぼる動作だよ
     
     public function event_favo($eventId)
 {
@@ -39,25 +52,28 @@ class User extends Authenticatable
     if ($exist) {
         return false;
     } else {
-        $this->eventfavorites()->attach($eventId);
+        $this->event_favorites()->attach($eventId);
         return true;
     }
 }
+
+//⇓ふぁぼ取り消しの動作だよ
 
 public function event_unfavo($eventId)
 {
     $exist = $this->event_favotteru($eventId);
 
     if ($exist) {
-        $this->eventfavorites()->detach($eventId);
+        $this->event_favorites()->detach($eventId);
         return true;
     } else {
         return false;
     }
 }
 
+//ふぁぼってあるよ
 
 public function event_favotteru($eventId) {
-    return $this->eventfavorites()->where('event_id', $eventId)->exists();
+    return $this->event_favorites()->where('event_id', $eventId)->exists();
 }
 }

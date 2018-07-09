@@ -28,9 +28,12 @@
             <td class="wednesday">1 
               <br> 
               <?php foreach ($events as $event) {  
-                  if($event->eventdate ==1){
+                  if($event->eventdate ==1){  
                    echo $event->name .'('. $event->prefecture .')' .'<br>';  }
-              }?>   
+              }?> 
+              @if(Auth::user())
+              @include ('favorites.favorite_button') 
+              @endif
               </td>
             
             <td class="thursday">2

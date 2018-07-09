@@ -30,3 +30,11 @@ Route::get('ongaku', 'EventsController@ongaku')->name('events.ongaku');
 Route::get('gurume', 'EventsController@gurume')->name('events.gurume');
 Route::get('geijutsu', 'EventsController@geijutsu')->name('events.geijutsu');
 Route::get('mycalendar', 'UsersController@mycalendar')->name('mypage.mycalendar');
+
+Route::group(['prefix' => 'users/{id}'], function () {
+        Route::post('favoru', 'EventFavoriteController@store')->name('user.favoru');
+        Route::delete('unfavoru', 'EventFavoriteController@destroy')->name('user.unfavoru');
+        Route::get('favorites', 'UsersController@event_favorites')->name('users.favorites');
+});
+
+Route::resource('events', 'EventFavoriteController', ['only' => ['store', 'destroy']]);

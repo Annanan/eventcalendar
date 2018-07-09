@@ -2,7 +2,12 @@
 
 namespace App\Http\Controllers;
 
+
 use Illuminate\Http\Request;
+
+use App\User;
+
+use App\Event;
 
 class UsersController extends Controller
 {
@@ -10,17 +15,16 @@ class UsersController extends Controller
         return view('mypage.mycalendar');
     }
     
-    public function event_favorites($id)
+  //カレンダーに送るデータをふぁぼったイベントにする。
+  //ログインしているユーザーが自分自身のお気に入りしか見えないようにする。
+  
+    public function event_favorites()
     {
-        $user = User::find($id);
-        $event_favorites = $user->event_favorites()->paginate(50);
-
-        $data = [
-            'event_favorites' => $event_favorites,
-        ];
+        $user = \Auth::user(); //ログインしている人間
+        $event_favorites = $user->event_favorites(); //やや不安
 
         // $data += $this->counts($user);
 
-        return view('mypage.mycalendar', $data);
+        return view('mypage.mycalendar',  ['event_favorites' => $event_favorites, ]);
     }
 }
