@@ -18,9 +18,8 @@
 
             </ul>
 
-
+            @include('commons.calendar', ['events' => $events])
            
         </div>
-    </div>
 
 @endsection

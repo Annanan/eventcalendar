@@ -11,9 +11,7 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', 'EventsController@zenbu')->name('events.events');
 
 Route::get('signup', 'Auth\RegisterController@showRegistrationForm')->name('signup.get');
 Route::post('signup', 'Auth\RegisterController@register')->name('signup.post');
@@ -30,6 +28,8 @@ Route::get('ongaku', 'EventsController@ongaku')->name('events.ongaku');
 Route::get('gurume', 'EventsController@gurume')->name('events.gurume');
 Route::get('geijutsu', 'EventsController@geijutsu')->name('events.geijutsu');
 Route::get('mycalendar', 'UsersController@event_favorites')->name('mypage.mycalendar');
+
+Route::get('/show/{id}', 'EventsController@show')->name('events.show');
 
 Route::group(['prefix' => 'users/{id}'], function () {
         Route::post('favoru', 'EventFavoriteController@store')->name('user.favoru');
