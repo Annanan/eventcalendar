@@ -26,6 +26,7 @@
             
             <td class="wednesday">1 
               <br>
+              <p>
               <?php foreach ($events as $event) {  
                 if($event->eventdate ==1){ 
               ?>
@@ -34,7 +35,9 @@
               @if (Auth::user())
               @include ('favorites.favorite_button')
               @endif
+              </p>
               <?php
+              
               '<br>';
                 }
               } 

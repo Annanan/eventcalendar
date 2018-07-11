@@ -25,3 +25,15 @@ td {
 a {
     font-size: 10px;
 }
+
+p.overflow {
+
+  width: 100px;
+
+  white-space: nowrap;
+
+  overflow: hidden;
+
+  text-overflow: ellipsis;
+
+}
