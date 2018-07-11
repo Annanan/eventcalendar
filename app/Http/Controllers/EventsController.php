@@ -83,13 +83,9 @@ class EventsController extends Controller
     public function show($id) {
         
         $event = Event::find($id);
-    
         return view('commons.show', [
             'event'=>$event,
             ]
         );
     }
-   
-    
-    
 }

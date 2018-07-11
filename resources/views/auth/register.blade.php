@@ -15,11 +15,6 @@
                 </div>
                 
                 <div class="form-group">
-                    {!! Form::label('loginid', 'ログインID') !!}
-                    {!! Form::text('loginid', old('loginid'), ['class' => 'form-control']) !!}
-                </div>
-                
-                <div class="form-group">
                     {!! Form::label('password', 'パスワード') !!}
                     {!! Form::password('password', ['class' => 'form-control']) !!}
                 </div>

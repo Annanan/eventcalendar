@@ -22,11 +22,12 @@
                                 {{ Auth::user()->name }}
                                 <span class="caret"></span>
                             </a>
-                            <ul class="dropdown-menu">
+                            <ul>
+                            <!--<ul class="dropdown-menu">-->
                                 <li>
                                     <a href="{{ route('mypage.mycalendar', Auth::id()) }}">マイカレンダー</a>
                                 </li>
-                                <li role="separator" class="divider"></li>
+                                <!--<li role="separator" class="divider"></li>-->
                                 <li>
                                     <a href="{{ route('logout.get') }}">ログアウト</a>
                                 </li>

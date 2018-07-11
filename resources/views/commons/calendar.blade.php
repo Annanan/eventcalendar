@@ -29,9 +29,15 @@
               <span>
               <?php foreach ($events as $event) {  
                 if($event->eventdate ==1){ 
+
                   echo'('. $event->prefecture .')';
               ?>   
                   {!! link_to_route('events.show', $event->name, ['id' => $event->id]) !!}
+
+              ?>
+                {!! link_to_route('events.show', $event->name, ['id' => $event->id]) !!}
+              
+
               @if (Auth::user())
               @include ('favorites.favorite_button')
               @endif
