@@ -3,6 +3,7 @@
 table {
     width: 100%;
     height: 530px;
+    font-size: 10px;
 }
 
 .week{
@@ -26,7 +27,7 @@ a {
     font-size: 10px;
 }
 
-p.overflow {
+span{
 
   width: 100px;
 
@@ -35,5 +36,11 @@ p.overflow {
   overflow: hidden;
 
   text-overflow: ellipsis;
+  
+  display: block;
 
+}
+
+span .todouhuken {
+    float: right;
 }
