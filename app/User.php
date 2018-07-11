@@ -34,11 +34,11 @@ class User extends Authenticatable
     }
     
    
-   //ユーザーがイベントを追加しないのでけ消し 
-    public function events()
-    {
-        return $this->hasMany(Event::class);
-    }
+   //ユーザーがイベントを追加しないので消し 
+    // public function events()
+    // // {
+    // //     return $this->hasMany(Event::class);
+    // // }
    
    
    

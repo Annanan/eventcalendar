@@ -4,11 +4,22 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
+use App\Event;
+
 class EventsController extends Controller
 {
+   
+    public function zenbu() {
+        $events = \DB::table('events')->select('*')->get();
+        
+        return view('welcome', [
+            'events' => $events,
+        ]);
+    }
+    
     public function omatsuri() {
         
-        $omatsuri_events = \DB::table('events')->select('*')->where('genre', 'お祭り')->get();
+        $omatsuri_events = \DB::table('events')->select('*')->where('genre', 'お祭り・花火大会')->get();
         
         return view('events.omatsuri', [
             'omatsuri_events' => $omatsuri_events,
@@ -69,6 +80,15 @@ class EventsController extends Controller
         ]);
     }
     
+    public function show($id) {
+        
+        $event = Event::find($id);
+    
+        return view('commons.show', [
+            'event'=>$event,
+            ]
+        );
+    }
    
     
     

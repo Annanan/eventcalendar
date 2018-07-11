@@ -9,6 +9,8 @@ use App\User;
 
 use App\Event;
 
+use Auth;
+
 class UsersController extends Controller
 {
     public function mycalendar() {
@@ -20,11 +22,14 @@ class UsersController extends Controller
   
     public function event_favorites()
     {
-        $user = \Auth::user(); //ログインしている人間
-        $event_favorites = $user->events(); //やや不安
+        if (Auth::check()) {
+        
+        $user = Auth::user(); //ログインしている人間
+        $event_favorites = $user->event_favorites; //やや不安
 
         // $data += $this->counts($user);
 
         return view('mypage.mycalendar',  ['event_favorites' => $event_favorites, ]);
+    }
     }
 }
