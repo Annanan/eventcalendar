@@ -20,6 +20,5 @@
             @include('commons.calendar',['events' => $omatsuri_events])
            
         </div>
-    </div>
 
 @endsection
