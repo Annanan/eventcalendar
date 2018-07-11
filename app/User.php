@@ -28,8 +28,7 @@ class User extends Authenticatable
     ];
     
     
-      public function event_favorites()
-    {
+      public function event_favorites() {
         return $this->belongsToMany(Event::class, 'event_favorites', 'user_id', 'event_id')->withTimestamps();
     }
     
