@@ -26,6 +26,7 @@
             
             <td class="wednesday">1 
               <br>
+              <p>
               <?php foreach ($events as $event) {  
                 if($event->eventdate ==1){ 
               ?>
@@ -34,7 +35,9 @@
               @if (Auth::user())
               @include ('favorites.favorite_button')
               @endif
+              </p>
               <?php
+              
               '<br>';
                 }
               } 
@@ -47,11 +50,12 @@
                   if($event->eventdate ==2){
               ?>
                   {!! link_to_route('events.show', $event->name, ['id' => $event->id]) !!}
-              <?php    echo'('. $event->prefecture .')' ?>              @if (Auth::user())
+              <?php    echo'('. $event->prefecture .')' ?>              
+              @if (Auth::user())
               @include ('favorites.favorite_button')
               @endif
               <?php
-              '<br>';
+              print '<br>';
                 }
               }?> 
               </td>
@@ -67,7 +71,7 @@
               @include ('favorites.favorite_button')
               @endif
               <?php
-              '<br>';
+              print '<br>';
                 }
               } 
               ?>
@@ -84,7 +88,7 @@
               @include ('favorites.favorite_button')
               @endif
               <?php
-              '<br>';
+              print '<br>';
                 }
               } 
               ?>
@@ -101,7 +105,7 @@
               @include ('favorites.favorite_button')
               @endif
               <?php
-              '<br>';
+              print '<br>';
                 }
               } 
               ?>
@@ -119,7 +123,7 @@
               @include ('favorites.favorite_button')
               @endif
               <?php
-              '<br>';
+              print '<br>';
                 }
               } 
               ?>
@@ -136,7 +140,7 @@
               @include ('favorites.favorite_button')
               @endif
               <?php
-              '<br>';
+              print '<br>';
                 }
               } 
               ?>
@@ -153,7 +157,7 @@
               @include ('favorites.favorite_button')
               @endif
               <?php
-              '<br>';
+              print '<br>';
                 }
               } 
               ?>
@@ -170,7 +174,7 @@
               @include ('favorites.favorite_button')
               @endif
               <?php
-              '<br>';
+              print '<br>';
                 }
               } 
               ?>
@@ -187,7 +191,7 @@
               @include ('favorites.favorite_button')
               @endif
               <?php
-              '<br>';
+              print '<br>';
                 }
               } 
               ?>
@@ -204,7 +208,7 @@
               @include ('favorites.favorite_button')
               @endif
               <?php
-              '<br>';
+              print '<br>';
                 }
               } 
               ?>
@@ -221,7 +225,7 @@
               @include ('favorites.favorite_button')
               @endif
               <?php
-              '<br>';
+              print '<br>';
                 }
               } 
               ?>
@@ -240,7 +244,7 @@
               @include ('favorites.favorite_button')
               @endif
               <?php
-              '<br>';
+              print '<br>';
                 }
               } 
               ?>
@@ -257,7 +261,7 @@
               @include ('favorites.favorite_button')
               @endif
               <?php
-              '<br>';
+              print '<br>';
                 }
               } 
               ?>
@@ -274,7 +278,7 @@
               @include ('favorites.favorite_button')
               @endif
               <?php
-              '<br>';
+              print '<br>';
                 }
               } 
               ?>
@@ -291,7 +295,7 @@
               @include ('favorites.favorite_button')
               @endif
               <?php
-              '<br>';
+              print '<br>';
                 }
               } 
               ?>
@@ -308,7 +312,7 @@
               @include ('favorites.favorite_button')
               @endif
               <?php
-              '<br>';
+              print '<br>';
                 }
               } 
               ?>
@@ -325,7 +329,7 @@
               @include ('favorites.favorite_button')
               @endif
               <?php
-              '<br>';
+              print '<br>';
                 }
               } 
               ?>
@@ -342,7 +346,7 @@
               @include ('favorites.favorite_button')
               @endif
               <?php
-              '<br>';
+              print '<br>';
                 }
               } 
               ?>
@@ -361,7 +365,7 @@
               @include ('favorites.favorite_button')
               @endif
               <?php
-              '<br>';
+              print '<br>';
                 }
               } 
               ?>
@@ -378,7 +382,7 @@
               @include ('favorites.favorite_button')
               @endif
               <?php
-              '<br>';
+              print '<br>';
                 }
               } 
               ?>
@@ -395,7 +399,7 @@
               @include ('favorites.favorite_button')
               @endif
               <?php
-              '<br>';
+              print '<br>';
                 }
               } 
               ?>
@@ -412,7 +416,7 @@
               @include ('favorites.favorite_button')
               @endif
               <?php
-              '<br>';
+              print '<br>';
                 }
               } 
               ?>
@@ -429,7 +433,7 @@
               @include ('favorites.favorite_button')
               @endif
               <?php
-              '<br>';
+              print '<br>';
                 }
               } 
               ?>
@@ -446,7 +450,7 @@
               @include ('favorites.favorite_button')
               @endif
               <?php
-              '<br>';
+              print '<br>';
                 }
               } 
               ?>
@@ -463,7 +467,7 @@
               @include ('favorites.favorite_button')
               @endif
               <?php
-              '<br>';
+              print '<br>';
                 }
               } 
               ?>
@@ -482,7 +486,7 @@
               @include ('favorites.favorite_button')
               @endif
               <?php
-              '<br>';
+              print '<br>';
                 }
               } 
               ?>
@@ -499,7 +503,7 @@
               @include ('favorites.favorite_button')
               @endif
               <?php
-              '<br>';
+              print '<br>';
                 }
               } 
               ?>
@@ -516,7 +520,7 @@
               @include ('favorites.favorite_button')
               @endif
               <?php
-              '<br>';
+              print '<br>';
                 }
               } 
               ?>
@@ -533,7 +537,7 @@
               @include ('favorites.favorite_button')
               @endif
               <?php
-              '<br>';
+              print '<br>';
                 }
               } 
               ?>
@@ -550,7 +554,7 @@
               @include ('favorites.favorite_button')
               @endif
               <?php
-              '<br>';
+              print '<br>';
                 }
               } 
               ?>

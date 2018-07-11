@@ -10,9 +10,6 @@ use Auth;
 
 class UsersController extends Controller
 {
-    public function mycalendar() {
-        return view('mypage.mycalendar');
-    }
     
   //カレンダーに送るデータをふぁぼったイベントにする。
   //ログインしているユーザーが自分自身のお気に入りしか見えないようにする。
