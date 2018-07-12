@@ -140,7 +140,8 @@
               @if (Auth::user())
               @include ('favorites.favorite_button')
               @endif
-                    echo'('. $event->prefecture .')';
+              <?php
+                    echo '('. $event->prefecture .')';
               ?>
                   {!! link_to_route('events.show', $event->name, ['id' => $event->id]) !!}
               <?php
