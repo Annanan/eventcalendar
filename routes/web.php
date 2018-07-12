@@ -30,6 +30,7 @@ Route::get('geijutsu', 'EventsController@geijutsu')->name('events.geijutsu');
 Route::get('mycalendar', 'UsersController@event_favorites')->name('mypage.mycalendar');
 
 Route::get('/show/{id}', 'EventsController@show')->name('events.show');
+// {}はおそらく変数と同義　{id}は$id
 
 Route::group(['prefix' => 'users/{id}'], function () {
         Route::post('favoru', 'EventFavoriteController@store')->name('user.favoru');

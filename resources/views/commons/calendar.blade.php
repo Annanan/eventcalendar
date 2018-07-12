@@ -544,7 +544,9 @@
               <?php foreach ($events as $event) {  
                   if($event->eventdate ==31){
               ?>
+               <!--↓ここでcommons.show上の$event->nameを特定するためのevent_idを限定してる-->
                   {!! link_to_route('events.show', $event->name, ['id' => $event->id]) !!}
+                 
               <?php    echo'('. $event->prefecture .')' ?>
               @if (Auth::user())
               @include ('favorites.favorite_button')
