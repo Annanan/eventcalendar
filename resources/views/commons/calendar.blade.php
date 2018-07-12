@@ -29,18 +29,15 @@
               <span>
               <?php foreach ($events as $event) {  
                 if($event->eventdate ==1){ 
-
-                  echo'('. $event->prefecture .')';
-              ?>   
-                  {!! link_to_route('events.show', $event->name, ['id' => $event->id]) !!}
-
               ?>
-                {!! link_to_route('events.show', $event->name, ['id' => $event->id]) !!}
-              
-
               @if (Auth::user())
               @include ('favorites.favorite_button')
               @endif
+              <?php
+                  echo'('. $event->prefecture .')';
+              ?>
+                {!! link_to_route('events.show', $event->name, ['id' => $event->id]) !!}
+              
               <?php
               print '<br>';
                 }
@@ -54,12 +51,15 @@
               <span>
               <?php foreach ($events as $event) {  
                   if($event->eventdate ==2){
-                    echo'('. $event->prefecture .')';
               ?>
-                  {!! link_to_route('events.show', $event->name, ['id' => $event->id]) !!}
               @if (Auth::user())
               @include ('favorites.favorite_button')
               @endif
+              <?php
+                    echo'('. $event->prefecture .')';
+              ?>
+                  {!! link_to_route('events.show', $event->name, ['id' => $event->id]) !!}
+              
               <?php
               print '<br>';
                 }
@@ -72,14 +72,14 @@
               <span>
               <?php foreach ($events as $event) {  
                   if($event->eventdate ==3){
-                    echo'('. $event->prefecture .')';
               ?>
-                  {!! link_to_route('events.show', $event->name, ['id' => $event->id]) !!}
-              
-              
               @if (Auth::user())
               @include ('favorites.favorite_button')
               @endif
+              <?php
+                    echo'('. $event->prefecture .')';
+              ?>
+                  {!! link_to_route('events.show', $event->name, ['id' => $event->id]) !!}
               <?php
               print '<br>';
                 }
@@ -93,14 +93,14 @@
               <span>
               <?php foreach ($events as $event) {  
                   if($event->eventdate ==4){
-                    echo'('. $event->prefecture .')';
               ?>
-                  {!! link_to_route('events.show', $event->name, ['id' => $event->id]) !!}
-              
-              
               @if (Auth::user())
               @include ('favorites.favorite_button')
               @endif
+              <?php
+                    echo'('. $event->prefecture .')';
+              ?>
+                  {!! link_to_route('events.show', $event->name, ['id' => $event->id]) !!}
               <?php
               print '<br>';
                 }
@@ -114,14 +114,14 @@
               <span>
               <?php foreach ($events as $event) {  
                   if($event->eventdate ==5){
-                    echo'('. $event->prefecture .')';
               ?>
-                  {!! link_to_route('events.show', $event->name, ['id' => $event->id]) !!}
-              
-              
               @if (Auth::user())
               @include ('favorites.favorite_button')
               @endif
+              <?php
+                    echo'('. $event->prefecture .')';
+              ?>
+                  {!! link_to_route('events.show', $event->name, ['id' => $event->id]) !!}
               <?php
               print '<br>';
                 }
@@ -136,14 +136,13 @@
               <span>
               <?php foreach ($events as $event) {  
                   if($event->eventdate ==6){
-                    echo'('. $event->prefecture .')';
               ?>
-                  {!! link_to_route('events.show', $event->name, ['id' => $event->id]) !!}
-              
-              
               @if (Auth::user())
               @include ('favorites.favorite_button')
               @endif
+                    echo'('. $event->prefecture .')';
+              ?>
+                  {!! link_to_route('events.show', $event->name, ['id' => $event->id]) !!}
               <?php
               print '<br>';
                 }
@@ -157,14 +156,14 @@
               <span>
               <?php foreach ($events as $event) {  
                   if($event->eventdate ==7){
-                    echo'('. $event->prefecture .')';
               ?>
-                  {!! link_to_route('events.show', $event->name, ['id' => $event->id]) !!}
-              
-              
               @if (Auth::user())
               @include ('favorites.favorite_button')
               @endif
+              <?php
+                    echo'('. $event->prefecture .')';
+              ?>
+                  {!! link_to_route('events.show', $event->name, ['id' => $event->id]) !!}
               <?php
               print '<br>';
                 }
@@ -178,14 +177,14 @@
               <span>
               <?php foreach ($events as $event) {  
                   if($event->eventdate ==8){
-                    echo'('. $event->prefecture .')';
               ?>
-                  {!! link_to_route('events.show', $event->name, ['id' => $event->id]) !!}
-              
-              
               @if (Auth::user())
               @include ('favorites.favorite_button')
               @endif
+              <?php
+                    echo'('. $event->prefecture .')';
+              ?>
+                  {!! link_to_route('events.show', $event->name, ['id' => $event->id]) !!}
               <?php
               print '<br>';
                 }
@@ -199,14 +198,14 @@
               <span>
               <?php foreach ($events as $event) {  
                   if($event->eventdate ==9){
-                    echo'('. $event->prefecture .')';
               ?>
-                  {!! link_to_route('events.show', $event->name, ['id' => $event->id]) !!}
-              
-              
               @if (Auth::user())
               @include ('favorites.favorite_button')
               @endif
+              <?php
+                    echo'('. $event->prefecture .')';
+              ?>
+                  {!! link_to_route('events.show', $event->name, ['id' => $event->id]) !!}
               <?php
               print '<br>';
                 }
@@ -218,16 +217,16 @@
             <td class="friday">10
               <br>
               <span>
-              <?php foreach ($events as $event) {  
+              <?php foreach ($events as $event) {
                   if($event->eventdate ==10){
-                    echo'('. $event->prefecture .')';
               ?>
-                  {!! link_to_route('events.show', $event->name, ['id' => $event->id]) !!}
-              
-              
               @if (Auth::user())
               @include ('favorites.favorite_button')
               @endif
+              <?php
+                    echo'('. $event->prefecture .')';
+              ?>
+                  {!! link_to_route('events.show', $event->name, ['id' => $event->id]) !!}
               <?php
               print '<br>';
                 }
@@ -241,14 +240,14 @@
               <span>
               <?php foreach ($events as $event) {  
                   if($event->eventdate ==11){
-                    echo'('. $event->prefecture .')';
               ?>
-                  {!! link_to_route('events.show', $event->name, ['id' => $event->id]) !!}
-              
-              
               @if (Auth::user())
               @include ('favorites.favorite_button')
               @endif
+              <?php
+                    echo'('. $event->prefecture .')';
+              ?>
+                  {!! link_to_route('events.show', $event->name, ['id' => $event->id]) !!}
               <?php
               print '<br>';
                 }
@@ -262,14 +261,14 @@
               <span>
               <?php foreach ($events as $event) {  
                   if($event->eventdate ==12){
-                    echo'('. $event->prefecture .')';
               ?>
-                  {!! link_to_route('events.show', $event->name, ['id' => $event->id]) !!}
-              
-              
               @if (Auth::user())
               @include ('favorites.favorite_button')
               @endif
+              <?php
+                    echo'('. $event->prefecture .')';
+              ?>
+                  {!! link_to_route('events.show', $event->name, ['id' => $event->id]) !!}
               <?php
               print '<br>';
                 }
@@ -285,14 +284,14 @@
               <span>
               <?php foreach ($events as $event) {  
                   if($event->eventdate ==13){
-                    echo'('. $event->prefecture .')';
               ?>
-                  {!! link_to_route('events.show', $event->name, ['id' => $event->id]) !!}
-              
-              
               @if (Auth::user())
               @include ('favorites.favorite_button')
               @endif
+              <?php
+                    echo'('. $event->prefecture .')';
+              ?>
+                  {!! link_to_route('events.show', $event->name, ['id' => $event->id]) !!}
               <?php
               print '<br>';
                 }
@@ -306,14 +305,14 @@
               <span>
               <?php foreach ($events as $event) {  
                   if($event->eventdate ==14){
-                    echo'('. $event->prefecture .')';
               ?>
-                  {!! link_to_route('events.show', $event->name, ['id' => $event->id]) !!}
-              
-              
               @if (Auth::user())
               @include ('favorites.favorite_button')
               @endif
+              <?php
+                    echo'('. $event->prefecture .')';
+              ?>
+                  {!! link_to_route('events.show', $event->name, ['id' => $event->id]) !!}
               <?php
               print '<br>';
                 }
@@ -327,14 +326,14 @@
               <span>
               <?php foreach ($events as $event) {  
                   if($event->eventdate ==15){
-                    echo'('. $event->prefecture .')';
               ?>
-                  {!! link_to_route('events.show', $event->name, ['id' => $event->id]) !!}
-              
-              
               @if (Auth::user())
               @include ('favorites.favorite_button')
               @endif
+              <?php
+                    echo'('. $event->prefecture .')';
+              ?>
+                  {!! link_to_route('events.show', $event->name, ['id' => $event->id]) !!}
               <?php
               print '<br>';
                 }
@@ -348,14 +347,14 @@
               <span>
               <?php foreach ($events as $event) {  
                   if($event->eventdate ==16){
-                    echo'('. $event->prefecture .')';
               ?>
-                  {!! link_to_route('events.show', $event->name, ['id' => $event->id]) !!}
-              
-              
               @if (Auth::user())
               @include ('favorites.favorite_button')
               @endif
+              <?php
+                    echo'('. $event->prefecture .')';
+              ?>
+                  {!! link_to_route('events.show', $event->name, ['id' => $event->id]) !!}
               <?php
               print '<br>';
                 }
@@ -369,14 +368,14 @@
               <span>
               <?php foreach ($events as $event) {  
                   if($event->eventdate ==17){
-                    echo'('. $event->prefecture .')';
               ?>
-                  {!! link_to_route('events.show', $event->name, ['id' => $event->id]) !!}
-              
-              
               @if (Auth::user())
               @include ('favorites.favorite_button')
               @endif
+              <?php
+                    echo'('. $event->prefecture .')';
+              ?>
+                  {!! link_to_route('events.show', $event->name, ['id' => $event->id]) !!}
               <?php
               print '<br>';
                 }
@@ -390,14 +389,14 @@
               <span>
               <?php foreach ($events as $event) {  
                   if($event->eventdate ==18){
-                    echo'('. $event->prefecture .')';
               ?>
-                  {!! link_to_route('events.show', $event->name, ['id' => $event->id]) !!}
-              
-              
               @if (Auth::user())
               @include ('favorites.favorite_button')
               @endif
+              <?php
+                    echo'('. $event->prefecture .')';
+              ?>
+                  {!! link_to_route('events.show', $event->name, ['id' => $event->id]) !!}
               <?php
               print '<br>';
                 }
@@ -411,14 +410,14 @@
               <span>
               <?php foreach ($events as $event) {  
                   if($event->eventdate ==19){
-                    echo'('. $event->prefecture .')';
               ?>
-                  {!! link_to_route('events.show', $event->name, ['id' => $event->id]) !!}
-              
-              
               @if (Auth::user())
               @include ('favorites.favorite_button')
               @endif
+              <?php
+                    echo'('. $event->prefecture .')';
+              ?>
+                  {!! link_to_route('events.show', $event->name, ['id' => $event->id]) !!}
               <?php
               print '<br>';
                 }
@@ -434,14 +433,14 @@
               <span>
               <?php foreach ($events as $event) {  
                   if($event->eventdate ==20){
-                    echo'('. $event->prefecture .')';
               ?>
-                  {!! link_to_route('events.show', $event->name, ['id' => $event->id]) !!}
-              
-              
               @if (Auth::user())
               @include ('favorites.favorite_button')
               @endif
+              <?php
+                    echo'('. $event->prefecture .')';
+              ?>
+                  {!! link_to_route('events.show', $event->name, ['id' => $event->id]) !!}
               <?php
               print '<br>';
                 }
@@ -455,14 +454,14 @@
               <span>
               <?php foreach ($events as $event) {  
                   if($event->eventdate ==21){
-                    echo'('. $event->prefecture .')';
               ?>
-                  {!! link_to_route('events.show', $event->name, ['id' => $event->id]) !!}
-              
-              
               @if (Auth::user())
               @include ('favorites.favorite_button')
               @endif
+              <?php
+                    echo'('. $event->prefecture .')';
+              ?>
+                  {!! link_to_route('events.show', $event->name, ['id' => $event->id]) !!}
               <?php
               print '<br>';
                 }
@@ -476,14 +475,14 @@
               <span>
               <?php foreach ($events as $event) {  
                   if($event->eventdate ==22){
-                    echo'('. $event->prefecture .')';
               ?>
-                  {!! link_to_route('events.show', $event->name, ['id' => $event->id]) !!}
-              
-              
               @if (Auth::user())
               @include ('favorites.favorite_button')
               @endif
+              <?php
+                    echo'('. $event->prefecture .')';
+              ?>
+                  {!! link_to_route('events.show', $event->name, ['id' => $event->id]) !!}
               <?php
               print '<br>';
                 }
@@ -497,14 +496,14 @@
               <span>
               <?php foreach ($events as $event) {  
                   if($event->eventdate ==23){
-                    echo'('. $event->prefecture .')';
               ?>
-                  {!! link_to_route('events.show', $event->name, ['id' => $event->id]) !!}
-              
-              
               @if (Auth::user())
               @include ('favorites.favorite_button')
               @endif
+              <?php
+                    echo'('. $event->prefecture .')';
+              ?>
+                  {!! link_to_route('events.show', $event->name, ['id' => $event->id]) !!}
               <?php
               print '<br>';
                 }
@@ -518,14 +517,14 @@
               <span>
               <?php foreach ($events as $event) {  
                   if($event->eventdate ==24){
-                    echo'('. $event->prefecture .')';
               ?>
-                  {!! link_to_route('events.show', $event->name, ['id' => $event->id]) !!}
-              
-              
               @if (Auth::user())
               @include ('favorites.favorite_button')
               @endif
+              <?php
+                    echo'('. $event->prefecture .')';
+              ?>
+                  {!! link_to_route('events.show', $event->name, ['id' => $event->id]) !!}
               <?php
               print '<br>';
                 }
@@ -539,14 +538,14 @@
               <span>
               <?php foreach ($events as $event) {  
                   if($event->eventdate ==25){
-                    echo'('. $event->prefecture .')';
               ?>
-                  {!! link_to_route('events.show', $event->name, ['id' => $event->id]) !!}
-              
-              
               @if (Auth::user())
               @include ('favorites.favorite_button')
               @endif
+              <?php
+                    echo'('. $event->prefecture .')';
+              ?>
+                  {!! link_to_route('events.show', $event->name, ['id' => $event->id]) !!}
               <?php
               print '<br>';
                 }
@@ -560,14 +559,14 @@
               <span>
               <?php foreach ($events as $event) {  
                   if($event->eventdate ==26){
-                    echo'('. $event->prefecture .')';
               ?>
-                  {!! link_to_route('events.show', $event->name, ['id' => $event->id]) !!}
-              
-              
               @if (Auth::user())
               @include ('favorites.favorite_button')
               @endif
+              <?php
+                    echo'('. $event->prefecture .')';
+              ?>
+                  {!! link_to_route('events.show', $event->name, ['id' => $event->id]) !!}
               <?php
               print '<br>';
                 }
@@ -583,14 +582,14 @@
               <span>
               <?php foreach ($events as $event) {  
                   if($event->eventdate ==27){
-                    echo'('. $event->prefecture .')';
               ?>
-                  {!! link_to_route('events.show', $event->name, ['id' => $event->id]) !!}
-              
-              
               @if (Auth::user())
               @include ('favorites.favorite_button')
               @endif
+              <?php
+                    echo'('. $event->prefecture .')';
+              ?>
+                  {!! link_to_route('events.show', $event->name, ['id' => $event->id]) !!}
               <?php
               print '<br>';
                 }
@@ -604,14 +603,14 @@
               <span>
               <?php foreach ($events as $event) {  
                   if($event->eventdate ==28){
-                    echo'('. $event->prefecture .')';
               ?>
-                  {!! link_to_route('events.show', $event->name, ['id' => $event->id]) !!}
-              
-              
               @if (Auth::user())
               @include ('favorites.favorite_button')
               @endif
+              <?php
+                    echo'('. $event->prefecture .')';
+              ?>
+                  {!! link_to_route('events.show', $event->name, ['id' => $event->id]) !!}
               <?php
               print '<br>';
                 }
@@ -625,14 +624,14 @@
               <span>
               <?php foreach ($events as $event) {  
                   if($event->eventdate ==29){
-                    echo'('. $event->prefecture .')';
               ?>
-                  {!! link_to_route('events.show', $event->name, ['id' => $event->id]) !!}
-              
-               
               @if (Auth::user())
               @include ('favorites.favorite_button')
               @endif
+              <?php
+                    echo'('. $event->prefecture .')';
+              ?>
+                  {!! link_to_route('events.show', $event->name, ['id' => $event->id]) !!}
               <?php
               print '<br>';
                 }
@@ -646,14 +645,14 @@
               <span>
               <?php foreach ($events as $event) {  
                   if($event->eventdate ==30){
-                    echo'('. $event->prefecture .')';
               ?>
-                  {!! link_to_route('events.show', $event->name, ['id' => $event->id]) !!}
-              
-              
               @if (Auth::user())
               @include ('favorites.favorite_button')
               @endif
+              <?php
+                    echo'('. $event->prefecture .')';
+              ?>
+                  {!! link_to_route('events.show', $event->name, ['id' => $event->id]) !!}
               <?php
               print '<br>';
                 }
@@ -667,14 +666,14 @@
               <span>
               <?php foreach ($events as $event) {  
                   if($event->eventdate ==31){
-                    echo'('. $event->prefecture .')';
               ?>
-                  {!! link_to_route('events.show', $event->name, ['id' => $event->id]) !!}
-              
-              
               @if (Auth::user())
               @include ('favorites.favorite_button')
               @endif
+              <?php
+                    echo'('. $event->prefecture .')';
+              ?>
+                  {!! link_to_route('events.show', $event->name, ['id' => $event->id]) !!}
               <?php
               print '<br>';
                 }
