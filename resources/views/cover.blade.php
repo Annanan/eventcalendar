@@ -18,7 +18,7 @@
                 <h1>イベントもうラクん</h1>
                 {!! link_to_route('signup.get', '新規登録して始める', null, ['class' => 'btn btn-lg btn-primary']) !!}
                 {!! link_to_route('login', 'ログイン', null, ['class' => 'btn btn-lg btn-primary']) !!}
-                <!--{!! link_to_route('/', '登録せずに始める', null) !!} 名前は暫定的に'/'にしている-->
+                {!! link_to_route('events.events', '登録せずに始める', null) !!}
             </div>
         </div>
         
