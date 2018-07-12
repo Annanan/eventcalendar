@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 
 use App\Event;
 
+
 class EventsController extends Controller
 {
    
@@ -90,6 +91,16 @@ class EventsController extends Controller
     }
     
     public function search() {
+        //送られてきたデータ（都道府県ごとの数字）＝　SQLのprefectureNUM 的な感じ
+        
+        
+        $checkboxnum　＝　Request::all();  //やや不安　２つ以上の時の表示がどうなるのか
+        
+         $search_events = \DB::table('events')->select('*')->where('prefecturenum', $checkboxnum)->get();
+        
+         return view('events.search', [
+            'search_events' => $search_events,
+        ]);
         
         
     }

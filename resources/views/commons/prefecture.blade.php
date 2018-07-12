@@ -1,4 +1,4 @@
-{{ Form::open(['route' => '']) }}
+{{ Form::open(['route' => 'events.search']) }}
 
 <div class="dropdown">
     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true">都道府県で検索<span class="caret"></span></a>

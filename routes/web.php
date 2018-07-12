@@ -49,3 +49,5 @@ Route::group(['prefix' => 'users/{id}'], function () {
 
 Route::resource('events', 'EventFavoriteController', ['only' => ['store', 'destroy']]);
 
+
+Route::get('search', 'EventsController@search')->name('events.search');
