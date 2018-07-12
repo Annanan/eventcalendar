@@ -88,4 +88,9 @@ class EventsController extends Controller
             ]
         );
     }
+    
+    public function search() {
+        
+        
+    }
 }

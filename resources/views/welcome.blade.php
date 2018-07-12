@@ -3,7 +3,7 @@
 
 @section('content')
 
-
+@include('commons.prefecture')
         
         <div class="col-xs-12">
             <ul class="nav nav-tabs nav-justified">
@@ -18,8 +18,7 @@
 
             </ul>
 
-            @include('commons.calendar', ['events' => $events])
-            @include('commons.prefecture')  
+            @include('commons.calendar', ['events' => $events])  
         </div>
 
 @endsection

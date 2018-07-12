@@ -3,7 +3,7 @@
 
 @section('content')
 
-   
+@include('commons.prefecture')   
         
         <div class="col-xs-12">
             <ul class="nav nav-tabs nav-justified">

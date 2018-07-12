@@ -1,5 +1,7 @@
-<form action="#" method="POST">
+{{ Form::open(['route' => '']) }}
 
+<div class="dropdown">
+    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true">都道府県で検索<span class="caret"></span></a>
 <ul class="dropdown-menu">
     <label for="北海道">北海道</label>
     <input id="hokkaido" type="checkbox" name="search" value="1" >&nbsp;&nbsp;&nbsp;&nbsp;
@@ -25,7 +27,7 @@
     <input id="saitama" type="checkbox" name="search" value="11" >&nbsp;&nbsp;&nbsp;&nbsp;
     <label for="千葉">千葉</label>
     <input id="chiba" type="checkbox" name="search" value="12" >&nbsp;&nbsp;&nbsp;&nbsp;
-    <label for="東京">「東京</label>
+    <label for="東京">東京</label>
     <input id="tokyo" type="checkbox" name="search" value="13" >&nbsp;&nbsp;&nbsp;&nbsp;
     <label for="神奈川">神奈川</label>
     <input id="kanagawa" type="checkbox" name="search" value="14" >&nbsp;&nbsp;&nbsp;&nbsp;
@@ -96,8 +98,10 @@
     <label for='沖縄'>沖縄</label>
     <input id="okinawa" type="checkbox" name="search" value="47" >&nbsp;&nbsp;&nbsp;&nbsp;
     
+    <input type="submit" value="検索">
 </ul>
+</div>
 
- <input type="submit" value="検索">
+ 
  
  </form>
