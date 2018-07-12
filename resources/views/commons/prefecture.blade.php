@@ -1,8 +1,12 @@
-{{ Form::open(['route' => 'events.search']) }}
+
+<form action="search" method="post" accept-charset=utf-8>
+    {{ csrf_field() }}
 
 <div class="dropdown">
     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true">都道府県で検索<span class="caret"></span></a>
 <ul class="dropdown-menu">
+    <label for="全国">全国</label>
+    <input id="zenkoku" type="checkbox" name="search" value="48" >&nbsp;&nbsp;&nbsp;&nbsp;
     <label for="北海道">北海道</label>
     <input id="hokkaido" type="checkbox" name="search" value="1" >&nbsp;&nbsp;&nbsp;&nbsp;
     <label for="青森">青森</label>
