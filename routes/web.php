@@ -53,9 +53,9 @@ Route::post('search', 'SearchController@search')->name('events.search');
 Route::get('search', 'SearchController@search')->name('events.search');
 
 
-Route::get('search', function () {
-    return view('search.search');
-});
+// Route::get('search', function () {
+//     return view('search.search');
+// });
 
 
 // Route::get('search', function () { 
