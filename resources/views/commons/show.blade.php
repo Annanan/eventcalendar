@@ -30,4 +30,8 @@
   
 </div>
 
+@if(Auth::check())
+@include('favorites.favorite_button', ['event' => $event])
+@endif
+
 @endsection
