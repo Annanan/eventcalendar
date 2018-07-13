@@ -15,7 +15,9 @@
     <body>
         <div class="center jumbotron">
             <div class="text-center">
+                <h3>行きたいイベントこの夏こそは！</h3>
                 <h1>８月イベントもうラクん</h1>
+                  
                 {!! link_to_route('signup.get', '新規登録して始める', null, ['class' => 'btn btn-lg btn-primary']) !!}
                 {!! link_to_route('login', 'ログイン', null, ['class' => 'btn btn-lg btn-primary']) !!}
                 {!! link_to_route('events.events', '登録せずに始める', null) !!}
