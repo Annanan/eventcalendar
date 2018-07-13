@@ -22,6 +22,14 @@
                 {!! link_to_route('login', 'ログイン', null, ['class' => 'btn btn-lg btn-info']) !!}
                 {!! link_to_route('events.events', '登録せずに始める', null) !!}
             </div>
+        
         </div>
+
+            <div class="text-center">
+                <h4>8月のイベント情報掲載サイト</h4>
+                <h4>新規登録でお気に入りのイベントを一括管理♪ マイカレンダーが作れちゃうよ！</h4>
+            </div>
+  
+    
         
     </body>    
