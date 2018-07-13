@@ -45,9 +45,25 @@ Route::group(['prefix' => 'users/{id}'], function () {
         Route::post('favoru', 'EventFavoriteController@store')->name('user.favoru');
         Route::delete('unfavoru', 'EventFavoriteController@destroy')->name('user.unfavoru');
         Route::get('favorites', 'UsersController@event_favorites')->name('users.favorites');
+       
+        Route::post('bosyu', 'BosyuController@store')->name('user.bosyu');
+        Route::delete('unbosyu', 'BosyuController@destroy')->name('user.unbosyu');
+        Route::get('bosyuchu', 'UsersController@bosyu')->name('users.bosyuchu');
 });
 
 Route::resource('events', 'EventFavoriteController', ['only' => ['store', 'destroy']]);
 
+Route::resource('events', 'BosyuController', ['only' => ['store', 'destroy']]);
+
 Route::post('search', 'SearchController@search')->name('events.search');
 Route::get('search', 'SearchController@search')->name('events.search');
+
+
+// Route::get('search', function () {
+//     return view('search.search');
+// });
+
+
+// Route::get('search', function () { 
+//                                   if(isset ( $_POST['search'])){'SearchController@search'};
+//                                   else{return view('search')})

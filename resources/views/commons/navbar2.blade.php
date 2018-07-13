@@ -13,6 +13,9 @@
             <div class="collapse navbar-collapse">
                 <ul class="nav navbar-nav navbar-center">
                                 <li>
+                                    <a href="{{ route('events.events') }}">全ジャンル</a>
+                                </li>
+                                <li>
                                     <a href="{{ route('events.omatsuri') }}">お祭り・花火大会</a>
                                 </li>
                                 <li>
