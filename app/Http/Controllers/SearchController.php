@@ -20,11 +20,11 @@ class SearchController extends Controller
         foreach((array)$checkboxnums as $checkboxnum) {    
             //どうやって一個ずつ渡そう、今番号後ろのやつが上書きしてる
             
-            $search_event = \DB::table('events')->select('*')->where('prefecturenum', $checkboxnum)->get();
+            $search_events = \DB::table('events')->select('*')->where('prefecturenum', $checkboxnum)->get();
         
         }
         
-        $search_events = [$search_event];
+        // $search_events = [$search_event];
         
         return view('search.search', [
             'search_events' => $search_events,
