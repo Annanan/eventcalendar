@@ -16,7 +16,8 @@
                 <li role="presentation" class="{{ Request::is('gurume') ? 'active' : '' }}"><a href="{{ route('events.gurume') }}">グルメ</a></li>
                 <li role="presentation" class="{{ Request::is('geijutsu') ? 'active' : '' }}"><a href="{{ route('events.geijutsu') }}">芸術</a></li>           
                 <li role="presentation" class="{{ Request::is('leisure') ? 'active' : '' }}"><a href="{{ route('events.leisure') }}">その他</a></li>  
-            </ul>
+           </ul>
+
              @include('commons.calendar',['events' => $geijutsu_events])
              
         </div>
