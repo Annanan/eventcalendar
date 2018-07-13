@@ -24,7 +24,7 @@
             <td class="tuesday"></td>
             
             
-            <td class="wednesday">1 
+            <td class="wednesday"><span style="font-weight:bold">1</span> 
               <br>
               <span>
               <?php foreach ($events as $event) {  
@@ -46,7 +46,7 @@
               </span>
             </td>
             
-            <td class="thursday">2
+            <td class="thursday"><span style="font-weight:bold">2</span>
               <br>
               <span>
               <?php foreach ($events as $event) {  
@@ -67,7 +67,7 @@
                 </span>
               </td>
             
-            <td class="friday">3
+            <td class="friday"><span style="font-weight:bold">3</span>
               <br>
               <span>
               <?php foreach ($events as $event) {  
@@ -88,7 +88,7 @@
                 </span>
               </td>
             
-            <td class="saturday">4
+            <td class="saturday"><span style="font-weight:bold">4</span>
               <br>
               <span>
               <?php foreach ($events as $event) {  
@@ -109,7 +109,7 @@
               </span>
             </td>
             
-            <td class="sunday">5
+            <td class="sunday"><span style="font-weight:bold">5</span>
               <br>
               <span>
               <?php foreach ($events as $event) {  
@@ -131,7 +131,7 @@
             </td>
         </tr>
         <tr class="week2">
-            <td class="monday">6
+            <td class="monday"><span style="font-weight:bold">6</span>
               <br>
               <span>
               <?php foreach ($events as $event) {  
@@ -152,7 +152,7 @@
               </span>
             </td>
             
-            <td class="tuesday">7
+            <td class="tuesday"><span style="font-weight:bold">7</span>
               <br>
               <span>
               <?php foreach ($events as $event) {  
@@ -173,7 +173,7 @@
               </span>
             </td>
             
-            <td class="wednesday">8
+            <td class="wednesday"><span style="font-weight:bold">8</span>
               <br>
               <span>
               <?php foreach ($events as $event) {  
@@ -194,7 +194,7 @@
               </span>
             </td>
            
-            <td class="thursday">9
+            <td class="thursday"><span style="font-weight:bold">9</span>
               <br>
               <span>
               <?php foreach ($events as $event) {  
@@ -215,7 +215,7 @@
               </span>
             </td>
            
-            <td class="friday">10
+            <td class="friday"><span style="font-weight:bold">10</span>
               <br>
               <span>
               <?php foreach ($events as $event) {
@@ -236,7 +236,7 @@
               </span>
             </td>
            
-            <td class="saturday">11
+            <td class="saturday"><span style="font-weight:bold">11</span>
               <br>
               <span>
               <?php foreach ($events as $event) {  
@@ -257,7 +257,7 @@
               </span>
             </td>
               
-            <td class="sunday">12
+            <td class="sunday"><span style="font-weight:bold">12</span>
               <br>
               <span>
               <?php foreach ($events as $event) {  
@@ -280,7 +280,7 @@
         </tr>
         
         <tr class="week3">
-            <td class="monday">13
+            <td class="monday"><span style="font-weight:bold">13</span>
               <br>
               <span>
               <?php foreach ($events as $event) {  
@@ -301,7 +301,7 @@
               </span>
             </td>
             
-            <td class="tuesday">14
+            <td class="tuesday"><span style="font-weight:bold">14</span>
               <br>
               <span>
               <?php foreach ($events as $event) {  
@@ -322,7 +322,7 @@
               </span>
             </td>
             
-            <td class="wednesday">15
+            <td class="wednesday"><span style="font-weight:bold">15</span>
               <br>
               <span>
               <?php foreach ($events as $event) {  
@@ -343,7 +343,7 @@
               </span>
             </td>
             
-            <td class="thursday">16
+            <td class="thursday"><span style="font-weight:bold">16</span>
               <br>
               <span>
               <?php foreach ($events as $event) {  
@@ -364,7 +364,7 @@
               </span>
             </td>
             
-            <td class="friday">17
+            <td class="friday"><span style="font-weight:bold">17</span>
               <br>
               <span>
               <?php foreach ($events as $event) {  
@@ -385,7 +385,7 @@
               </span>
             </td>
             
-            <td class="saturday">18
+            <td class="saturday"><span style="font-weight:bold">18</span>
               <br>
               <span>
               <?php foreach ($events as $event) {  
@@ -406,7 +406,7 @@
               </span>
             </td>
             
-            <td class="sunday">19
+            <td class="sunday"><span style="font-weight:bold">19</span>
               <br>
               <span>
               <?php foreach ($events as $event) {  
@@ -429,7 +429,7 @@
         </tr>
         
         <tr class="week4">
-            <td class="monday">20
+            <td class="monday"><span style="font-weight:bold">20</span>
               <br>
               <span>
               <?php foreach ($events as $event) {  
@@ -450,7 +450,7 @@
               </span>
             </td>
             
-            <td class="tuesday">21
+            <td class="tuesday"><span style="font-weight:bold">21</span>
               <br>
               <span>
               <?php foreach ($events as $event) {  
@@ -471,7 +471,7 @@
               </span>
             </td>
             
-            <td class="wednesday">22
+            <td class="wednesday"><span style="font-weight:bold">22</span>
               <br>
               <span>
               <?php foreach ($events as $event) {  
@@ -492,7 +492,7 @@
               </span>
             </td>
             
-            <td class="thursday">23
+            <td class="thursday"><span style="font-weight:bold">23</span>
               <br>
               <span>
               <?php foreach ($events as $event) {  
@@ -513,7 +513,7 @@
               </span>
             </td>
             
-            <td class="friday">24
+            <td class="friday"><span style="font-weight:bold">24</span>
               <br>
               <span>
               <?php foreach ($events as $event) {  
@@ -534,7 +534,7 @@
               </span>
             </td>
             
-            <td class="saturday">25
+            <td class="saturday"><span style="font-weight:bold">25</span>
               <br>
               <span>
               <?php foreach ($events as $event) {  
@@ -555,7 +555,7 @@
               </span>
             </td>
             
-            <td class="sunday">26
+            <td class="sunday"><span style="font-weight:bold">26</span>
               <br>
               <span>
               <?php foreach ($events as $event) {  
@@ -578,7 +578,7 @@
         </tr>
         
         <tr class="week5">
-            <td class="monday">27
+            <td class="monday"><span style="font-weight:bold">27</span>
               <br>
               <span>
               <?php foreach ($events as $event) {  
@@ -599,7 +599,7 @@
               </span>
             </td>
             
-            <td class="tuesday">28
+            <td class="tuesday"><span style="font-weight:bold">28</span>
               <br>
               <span>
               <?php foreach ($events as $event) {  
@@ -620,7 +620,7 @@
               </span>
             </td>
             
-            <td class="wednesday">29
+            <td class="wednesday"><span style="font-weight:bold">29</span>
               <br>
               <span>
               <?php foreach ($events as $event) {  
@@ -641,7 +641,7 @@
               </span>
             </td>
             
-            <td class="thursday">30
+            <td class="thursday"><span style="font-weight:bold">30</span>
               <br>
               <span>
               <?php foreach ($events as $event) {  
@@ -662,7 +662,7 @@
               </span>
             </td>
             
-            <td class="friday">31
+            <td class="friday"><span style="font-weight:bold">31</span>
               <br>
               <span>
               <?php foreach ($events as $event) {  
