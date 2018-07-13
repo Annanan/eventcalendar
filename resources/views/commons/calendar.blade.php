@@ -14,8 +14,8 @@
             <th>水</th>
             <th>木</th>
             <th>金</th>
-            <th>土</th>
-            <th>日</th>
+            <th><font color="blue">土</font></th>
+            <th><font color="red">日</font></th>
         </tr>
     </thead>
     <tbody>
@@ -88,7 +88,7 @@
                 </span>
               </td>
             
-            <td class="saturday"><span style="font-weight:bold">4</span>
+            <td class="saturday"><span style="font-weight:bold"><font color="blue">4</font></span>
               <br>
               <span>
               <?php foreach ($events as $event) {  
@@ -109,7 +109,7 @@
               </span>
             </td>
             
-            <td class="sunday"><span style="font-weight:bold">5</span>
+            <td class="sunday"><span style="font-weight:bold"><font color="red">5</font></span>
               <br>
               <span>
               <?php foreach ($events as $event) {  
@@ -236,7 +236,7 @@
               </span>
             </td>
            
-            <td class="saturday"><span style="font-weight:bold">11</span>
+            <td class="saturday"><span style="font-weight:bold"><font color="blue">11</font></span>
               <br>
               <span>
               <?php foreach ($events as $event) {  
@@ -257,7 +257,7 @@
               </span>
             </td>
               
-            <td class="sunday"><span style="font-weight:bold">12</span>
+            <td class="sunday"><span style="font-weight:bold"><font color="red">12</font></span>
               <br>
               <span>
               <?php foreach ($events as $event) {  
@@ -385,7 +385,7 @@
               </span>
             </td>
             
-            <td class="saturday"><span style="font-weight:bold">18</span>
+            <td class="saturday"><span style="font-weight:bold"><font color="blue">18</font></span>
               <br>
               <span>
               <?php foreach ($events as $event) {  
@@ -406,7 +406,7 @@
               </span>
             </td>
             
-            <td class="sunday"><span style="font-weight:bold">19</span>
+            <td class="sunday"><span style="font-weight:bold"><font color="red">19</font></span>
               <br>
               <span>
               <?php foreach ($events as $event) {  
@@ -534,7 +534,7 @@
               </span>
             </td>
             
-            <td class="saturday"><span style="font-weight:bold">25</span>
+            <td class="saturday"><span style="font-weight:bold"><font color="blue">25</font></span>
               <br>
               <span>
               <?php foreach ($events as $event) {  
@@ -555,7 +555,7 @@
               </span>
             </td>
             
-            <td class="sunday"><span style="font-weight:bold">26</span>
+            <td class="sunday"><span style="font-weight:bold"><font color="red">26</font></span>
               <br>
               <span>
               <?php foreach ($events as $event) {  
