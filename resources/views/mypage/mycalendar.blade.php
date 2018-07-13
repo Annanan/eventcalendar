@@ -3,6 +3,8 @@
 
 @section('content')
 
+<div class="alert alert-info" role="alert">{{ Auth::user()->name }}さんのマイカレンダー</div>
+
 @include('commons.prefecture')
  
         <div class="col-xs-12">
