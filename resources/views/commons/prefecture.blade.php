@@ -9,6 +9,7 @@
     <input id="zenkoku" type="checkbox" name="search" value="48" >&nbsp;&nbsp;&nbsp;&nbsp;
     <label for="北海道">北海道</label>
     <input id="hokkaido" type="checkbox" name="search" value="1" >&nbsp;&nbsp;&nbsp;&nbsp;
+    <br>
     <label for="青森">青森</label>
     <input id="aomori" type="checkbox" name="search" value="2" >&nbsp;&nbsp;&nbsp;&nbsp;
     <label for="岩手">岩手</label>
@@ -21,6 +22,7 @@
     <input id="yamagata" type="checkbox" name="search" value="6" >&nbsp;&nbsp;&nbsp;&nbsp;
     <label for="福島">福島</label>
     <input id="fukushima" type="checkbox" name="search" value="7" >&nbsp;&nbsp;&nbsp;&nbsp;
+    <br>
     <label for="茨城">茨城</label>
     <input id="ibaraki" type="checkbox" name="search" value="8" >&nbsp;&nbsp;&nbsp;&nbsp;
     <label for="栃木">栃木</label>
@@ -35,6 +37,7 @@
     <input id="tokyo" type="checkbox" name="search" value="13" >&nbsp;&nbsp;&nbsp;&nbsp;
     <label for="神奈川">神奈川</label>
     <input id="kanagawa" type="checkbox" name="search" value="14" >&nbsp;&nbsp;&nbsp;&nbsp;
+    <br>
     <label for="新潟">新潟</label>
     <input id="niigata" type="checkbox" name="search" value="15" >&nbsp;&nbsp;&nbsp;&nbsp;
     <label for="富山">富山</label>
@@ -53,6 +56,7 @@
     <input id="shizuoka" type="checkbox" name="search" value="22" >&nbsp;&nbsp;&nbsp;&nbsp;
     <label for="愛知">愛知</label>
     <input id="aichi" type="checkbox" name="search" value="23" >&nbsp;&nbsp;&nbsp;&nbsp;
+    <br>
     <label for="三重">三重</label>
     <input id="mie" type="checkbox" name="search" value="24" >&nbsp;&nbsp;&nbsp;&nbsp;
     <label for="滋賀">滋賀</label>
@@ -67,6 +71,7 @@
     <input id="nara" type="checkbox" name="search" value="29" >&nbsp;&nbsp;&nbsp;&nbsp;
     <label for="和歌山">和歌山</label>
     <input id="wakayama" type="checkbox" name="search" value="30" >&nbsp;&nbsp;&nbsp;&nbsp;
+    <br>
     <label for="鳥取">鳥取</label>
     <input id="tottori" type="checkbox" name="search" value="31" >&nbsp;&nbsp;&nbsp;&nbsp;
     <label for="島根">島根</label>
@@ -77,6 +82,7 @@
     <input id="hiroshima" type="checkbox" name="search" value="34" >&nbsp;&nbsp;&nbsp;&nbsp;
     <label for="山口">山口</label>
     <input id="yamaguchi" type="checkbox" name="search" value="35" >&nbsp;&nbsp;&nbsp;&nbsp;
+    <br>
     <label for='徳島'>徳島</label>
     <input id="tokushima" type="checkbox" name="search" value="36" >&nbsp;&nbsp;&nbsp;&nbsp;
     <label for="香川">香川</label>
@@ -85,6 +91,7 @@
     <input id="ehime" type="checkbox" name="search" value="38" >&nbsp;&nbsp;&nbsp;&nbsp;
     <label for="高知">高知</label>
     <input id="kouchi" type="checkbox" name="search" value="39" >&nbsp;&nbsp;&nbsp;&nbsp;
+    <br>
     <label for="福岡">福岡</label>
     <input id="fukuoka" type="checkbox" name="search" value="40" >&nbsp;&nbsp;&nbsp;&nbsp;
     <label for="佐賀">佐賀</label>
