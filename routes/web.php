@@ -51,3 +51,13 @@ Route::resource('events', 'EventFavoriteController', ['only' => ['store', 'destr
 
 Route::post('search', 'SearchController@search')->name('events.search');
 Route::get('search', 'SearchController@search')->name('events.search');
+
+
+Route::get('search', function () {
+    return view('search.search');
+});
+
+
+// Route::get('search', function () { 
+//                                   if(isset ( $_POST['search'])){'SearchController@search'};
+//                                   else{return view('search')})
