@@ -4,6 +4,8 @@
 @section('content')
 
 <p>検索結果　全ジャンル表示しているよ</p>
+
+
         
         <div class="col-xs-12">
             
