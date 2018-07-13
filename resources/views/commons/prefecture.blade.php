@@ -123,7 +123,7 @@
     <label for='沖縄'>沖縄</label>
     <input id="okinawa" type="checkbox" name="search[]" value="47" >&nbsp;&nbsp;&nbsp;&nbsp;
     
-    <input type="submit" value="検索">
+    <input type="submit" value="検索">&nbsp;&nbsp;
 </ul>
 </div>
 
