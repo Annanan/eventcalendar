@@ -24,6 +24,8 @@ class SearchController extends Controller
         
         }
         
+        // $search_events = [$search_event];
+        
         return view('search.search', [
             'search_events' => $search_events,
         ]);
