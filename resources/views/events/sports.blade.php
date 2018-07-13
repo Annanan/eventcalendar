@@ -8,6 +8,7 @@
         <div class="col-xs-12">
             <ul class="nav nav-tabs nav-justified">
                
+                <li role="presentation" class="{{ Request::is('zenbu') ? 'active' : '' }}"><a href="{{ route('events.events') }}">全ジャンル</a></li>
                 <li role="presentation" class="{{ Request::is('omatsuri') ? 'active' : '' }}"><a href="{{ route('events.omatsuri') }}">　お祭り・花火大会 </a></li>
                 <li role="presentation" class="{{ Request::is('eiga') ? 'active' : '' }}"><a href="{{ route('events.eiga') }}">映画 </a></li>
                 <li role="presentation" class="{{ Request::is('sports') ? 'active' : '' }}"><a href="{{ route('events.sports') }}">スポーツ</a></li>
