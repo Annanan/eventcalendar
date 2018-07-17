@@ -31,8 +31,6 @@ class UsersController extends Controller
     {
         $event = Event::find($id);
         
-        // $users = \DB::table('boshu')->select('*')->where('event_id', $id)->get();
-        
         $users = \DB::table('users')->select('*')->JOIN('boshu', 'users.id', '=', 'boshu.user_id')->where('event_id', $id)->get();
         
     //     $leagues = DB::table('leagues')
