@@ -29,12 +29,9 @@
               <span>
               <?php foreach ($events as $event) {  
                 if($event->eventdate ==1){ 
-             ?>
-        
-                 <span class="glyphicon glyphicon-film"></span> 
-                
-             
-            <?php
+            ?>
+              <span class="glyphicon glyphicon-film">映画 <li role="presentation" <a href="{{ route('events.events', ['id' => $event->id]) }}">aaa <span class="badge">{{ $count_eiga }}</span></a></li></span>
+              <?php
               print '<br>';
                 }
               } 
@@ -47,13 +44,10 @@
               <span>
               <?php foreach ($events as $event) {  
                   if($event->eventdate ==2){
+                echo'('. $event->prefecture .')';
               ?>
+                  {!! link_to_route('events.show', $event->name, ['id' => $event->id]) !!}
               
-               <span class="glyphicon glyphicon-film"></span> 
-                  
-                 <span class="glyphicon glyphicon-baseball"></span>
-   
-           
               <?php
               print '<br>';
                 }
