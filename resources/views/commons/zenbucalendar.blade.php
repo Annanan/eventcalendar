@@ -27,17 +27,21 @@
             <td class="wednesday"><span style="font-weight:bold">1</span> 
               <br>
               <span>
-              <?php foreach ($events as $event) {  
-                if($event->eventdate ==1){ 
-            ?>
-               <span class="glyphicon glyphicon-film">映画 
-              
-             
-               <?php
-              print '<br>';
-                }
-              } 
+              <?php
+               
+              $omatsuri_1 = \DB::table('events')->where([['genre', '=','お祭り・花火大会'], ['eventdate', '=', '1']])->count();
+          　　$eiga_1 = \DB::table('events')->where([['genre', '=','映画'], ['eventdate', '=', '1']])->count();
+          　　$sports_1 = \DB::table('events')->where([['genre', '=','スポーツ'], ['eventdate', '=', '1']])->count();
+          　　$ongaku_1 = \DB::table('events')->where([['genre', '=','音楽フェス'], ['eventdate', '=', '1']])->count();
+          　　$gurume_1 = \DB::table('events')->where([['genre', '=','グルメ'], ['eventdate', '=', '1']])->count();
+          　　$geijutsu_1 = \DB::table('events')->where([['genre', '=','芸術'], ['eventdate', '=', '1']])->count();
+          　　$leisure_1 = \DB::table('events')->where([['genre', '=','レジャー'], ['eventdate', '=', '1']])->count();
               ?>
+               
+               {{ $count_omatsuris }} 
+               
+               
+              
               </span>
             </td>
             
@@ -46,14 +50,17 @@
               <span>
               <?php foreach ($events as $event) {  
                   if($event->eventdate ==2){
-                echo'('. $event->prefecture .')';
               ?>
-                  {!! link_to_route('events.show', $event->name, ['id' => $event->id]) !!}
               
+                <span class="glyphicon glyphicon-film">映画 </span>
+                 
+                 
               <?php
               print '<br>';
                 }
               }?>
+              {{ $count_eigas }} 
+             {{ $count_omatsuris }} 
                 </span>
               </td>
             

@@ -19,7 +19,7 @@
 
             </ul>
 
-            @include('commons.zenbucalendar', ['events' => $events])  
+            @include('commons.zenbucalendar')  
         </div>
 
 @endsection

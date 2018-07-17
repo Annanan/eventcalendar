@@ -12,29 +12,7 @@ use App\Event;
 class EventsController extends Controller
 {
    
-    public function zenbu() {
-        $events = \DB::table('events')->select('*')->get();
-        // $event = \DB::table('events')->select('genrenum')->get();
-        
-        // $omatsuri_events = \DB::table('events')->select('*')->where('genre', 'お祭り・花火大会')->get();
-        // $eiga_events = \DB::table('events')->select('*')->where('genre', '映画')->get();
-        // $leisure_events = \DB::table('events')->select('*')->where('genre', 'レジャー')->get();
-        // $sports_events = \DB::table('events')->select('*')->where('genre', 'スポーツ')->get();
-        // $ongaku_events = \DB::table('events')->select('*')->where('genre', '音楽フェス')->get();
-        // $gurume_events = \DB::table('events')->select('*')->where('genre', 'グルメ')->get();
-        // $geijutsu_events = \DB::table('events')->select('*')->where('genre', '芸術')->get();
-        
-        // $data = [ 
-        //     'omatsuri_event' => $omatsuri_events,
-        //     'eiga_events' => $eiga_events,
-        //     ];
-       
-        
-        return view('welcome', [
-            'events' => $events,
-            
-        ]);
-    }
+   
     
     public function omatsuri() {
         

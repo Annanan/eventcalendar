@@ -25,5 +25,7 @@ class Event extends Model
     //     return User::whereIn('user_id', $boshuchu_users);
     // }
     
+    
+    
 }
 

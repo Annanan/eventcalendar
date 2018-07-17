@@ -16,7 +16,7 @@ Route::get('/', function () {
     return view('cover');
 });
 
-Route::get('zenbu', 'EventsController@zenbu')->name('events.events');
+Route::get('zenbu', 'ZenbuController@zenbu')->name('events.events');
 
 
 Route::get('signup', 'Auth\RegisterController@showRegistrationForm')->name('signup.get');
