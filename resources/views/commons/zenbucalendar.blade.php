@@ -30,8 +30,10 @@
               <?php foreach ($events as $event) {  
                 if($event->eventdate ==1){ 
             ?>
-              <span class="glyphicon glyphicon-film">映画 <li role="presentation" <a href="{{ route('events.events', ['id' => $event->id]) }}">aaa <span class="badge">{{ $count_eiga }}</span></a></li></span>
-              <?php
+               <span class="glyphicon glyphicon-film">映画 
+              
+             
+               <?php
               print '<br>';
                 }
               } 

@@ -11,14 +11,14 @@ class Controller extends BaseController
 {
     use AuthorizesRequests, DispatchesJobs, ValidatesRequests;
     
-    public function counts($event){
-    $count_eiga = $event->eiga()->count();
-    $count_geijutsu = $event->geijutsu()->count();
-    $count_gurume = $event->gurume()->count();
-    $count_leisure = $event->leisure()->count();
-    $count_omatsuri = $event->omatsuri()->count();
-    $count_ongaku = $event->ongaku()->count();
-    $count_sports = $event->sports()->count();
+    public function counts($user){
+    $count_eiga = $user->eiga()->count();
+    $count_geijutsu = $user->geijutsu()->count();
+    $count_gurume = $user->gurume()->count();
+    $count_leisure = $user->leisure()->count();
+    $count_omatsuri = $user->omatsuri()->count();
+    $count_ongaku = $user->ongaku()->count();
+    $count_sports = $user->sports()->count();
     
     return [
             'count_eiga' => $count_eiga,
