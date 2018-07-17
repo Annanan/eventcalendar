@@ -42,3 +42,7 @@ span{
     letter-spacing: 1px;
     text-transform: uppercase;
 }
+
+.alert{
+    width:20%;
+}

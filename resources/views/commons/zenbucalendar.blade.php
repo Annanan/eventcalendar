@@ -7,7 +7,7 @@
 
 
 
-<table border="1" class="kotei" >
+<table border="1" class="kotei">
     <thead>
             <th>月</th>
             <th>火</th>
@@ -29,11 +29,12 @@
               <span>
               <?php foreach ($events as $event) {  
                 if($event->eventdate ==1){ 
-              echo'('. $event->prefecture .')';
-              ?>
-                {!! link_to_route('events.show', $event->name, ['id' => $event->id]) !!}
-              
-              <?php
+             ?>
+        
+                 <span class="glyphicon glyphicon-film"></span> 
+                
+             
+            <?php
               print '<br>';
                 }
               } 
@@ -46,10 +47,13 @@
               <span>
               <?php foreach ($events as $event) {  
                   if($event->eventdate ==2){
-                echo'('. $event->prefecture .')';
               ?>
-                  {!! link_to_route('events.show', $event->name, ['id' => $event->id]) !!}
               
+               <span class="glyphicon glyphicon-film"></span> 
+                  
+                 <span class="glyphicon glyphicon-baseball"></span>
+   
+           
               <?php
               print '<br>';
                 }

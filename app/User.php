@@ -32,11 +32,6 @@ class User extends Authenticatable
         return $this->belongsToMany(Event::class, 'event_favorites', 'user_id', 'event_id')->withTimestamps();
     }
     
-    // 自分自身が何を募集しているか見れる
-    public function bosyus() {
-        return $this->belongsToMany(Event::class, 'bosyu', 'user_id', 'event_id')->withTimestamps();
-    }
-    
    
    //ユーザーがイベントを追加しないので消し 
     // public function events()
@@ -79,34 +74,5 @@ public function event_unfavo($eventId)
 
 public function event_favotteru($eventId) {
     return $this->event_favorites()->where('event_id', $eventId)->exists();
-}
-
-    // thisはユーザーモデルのこと
-    public function bosyu($eventId)
-{
-    $exist = $this->bosyuchu($eventId);
-
-    if ($exist) {
-        return false;
-    } else {
-        $this->bosyus()->attach($eventId);
-        return true;
-    }
-}
-
-public function unbosyu($eventId)
-{
-    $exist = $this->bosyuchu($eventId);
-
-    if ($exist) {
-        $this->bosyus()->detach($eventId);
-        return true;
-    } else {
-        return false;
-    }
-}
-
-public function bosyuchu($eventId) {
-    return $this->bosyus()->where('event_id', $eventId)->exists();
 }
 }

@@ -38,7 +38,7 @@
             {!! Form::submit('Log in', ['class' => 'btn btn-info btn-block']) !!}
             {!! Form::close() !!}
 
-            <p>未登録の場合 → {!! link_to_route('signup.get', '新規登録') !!}</p>
+            <p>{!! link_to_route('signup.get', '新規登録はこちら') !!}</p>
         </div>
     </div>
 @endsection

@@ -14,9 +14,7 @@ class Event extends Model
     //     // よくわかっていない
     // }
     
-    public function user() {
-        return $this->belongsToMany(User::class, 'bosyu', 'event_id', 'user_id')->withTimestamps();
-    }
+    
     
 }
 
