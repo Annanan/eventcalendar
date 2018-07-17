@@ -26,4 +26,25 @@ class UsersController extends Controller
         return view('mypage.mycalendar',  ['event_favorites' => $event_favorites, ]);
     }
     }
+    
+    public function show($id)
+    {
+        $event = Event::find($id);
+        
+        // $users = \DB::table('boshu')->select('*')->where('event_id', $id)->get();
+        
+        $users = \DB::table('users')->select('*')->JOIN('boshu', 'users.id', '=', 'boshu.user_id')->where('event_id', $id)->get();
+        
+    //     $leagues = DB::table('leagues')
+    // ->select('league_name')
+    // ->join('countries', 'countries.country_id', '=', 'leagues.country_id')
+    // ->where('countries.country_name', $country)
+    // ->get();
+
+        
+        return view('commons.show', [
+          'event' => $event,
+          'users' => $users,
+        ]);
+    }
 }

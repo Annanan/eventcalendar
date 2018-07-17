@@ -32,6 +32,15 @@
 
 @if(Auth::check())
 @include('favorites.favorite_button', ['event' => $event])
+
+//改行したい
+
+<h3>募集しているユーザー一覧</h3>
+@foreach($users as $user)
+<p>{{$user->name}}</p>
+@endforeach
+
+
 @endif
 
 @endsection

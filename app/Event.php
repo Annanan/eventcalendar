@@ -15,8 +15,15 @@ class Event extends Model
     // }
     
     public function user() {
-        return $this->belongsToMany(User::class, 'boshu', 'event_id', 'User_id')->withTimestamps();
+        return $this->belongsToMany(User::class, 'boshu', 'event_id', 'user_id')->withTimestamps();
     }
+    
+    // public function feed_users()
+    // {
+    //     $boshuchu_users = $this->user()->pluck('users.id')->toArray();
+    //     $boshuchu_users[] = $this->id;
+    //     return User::whereIn('user_id', $boshuchu_users);
+    // }
     
 }
 
