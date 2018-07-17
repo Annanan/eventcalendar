@@ -70,9 +70,45 @@ public function event_unfavo($eventId)
     }
 }
 
-//ふぁぼってあるよ
-
-public function event_favotteru($eventId) {
+public function event_favotteru($eventId)
+{
     return $this->event_favorites()->where('event_id', $eventId)->exists();
+
 }
+
+public function boshu($eventId){
+    
+    $exist = $this->boshuchu($eventId);
+    
+    if($exist) {
+        return false;
+    }
+    else {
+        $this->boshus()->attach($eventId);
+        return true;
+    }
+}
+
+public function unboshu($eventId) {
+    
+    $exist = $this->boshuchu($eventId);
+    
+    if($exist) {
+        $this->boshus()->detach($eventId);
+        return true;
+    }
+    else {
+        return false;
+    }
+}
+
+public function boshuchu($eventId) {
+    return $this->boshus()->where('event_id', $eventId)->exists();
+}
+
+public function boshus() {
+    return $this->belongsToMany(Event::class, 'boshu', 'user_id', 'event_id')->withTimestamps();
+
+}
+
 }
