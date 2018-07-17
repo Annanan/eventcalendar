@@ -8,14 +8,14 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-left" href="/zenbu"><img alt="イベントもうラクん" src="{{ asset('/images/ushi.jpg') }}" ></a>
+                <a class="navbar-left" href="/zenbu"><img src="{{ secure_asset("images/logo.png") }}" alt="イベントもうラクん"></a>
             </div>
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     @if (Auth::check())
-                    <a href="{{ route('mypage.mycalendar', Auth::id()) }}">{{Auth::user()->name}}さんのマイカレンダーへ</a>
-                    <br>
-                    <a href="{{ route('logout.get') }}">&nbsp;ログアウト</a>
+                    
+                    <a href="{{ route('mypage.mycalendar', Auth::id()) }}">マイカレンダー</a>
+                    <a href="{{ route('logout.get') }}">ログアウト</a>
                     @else
                         <li><a href="{{ route('signup.get') }}">新規登録</a></li>
                         <li><a href="{{ route('login') }}">ログイン</a></li>
