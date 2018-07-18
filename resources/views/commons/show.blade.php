@@ -26,6 +26,7 @@
 <h3>募集しているユーザー一覧</h3>
 @foreach($users as $user)
 <p>{{$user->name}}</p>
+<p>(team{{$user->group}})</p>
 @endforeach
 
 
