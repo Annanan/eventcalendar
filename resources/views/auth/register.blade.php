@@ -24,6 +24,12 @@
                 
             
                   <div class="input-group">
+                    <span class="input-group-addon">ホームグループ</span>
+                    <input type="text" name="group" class="form-control" placeholder="ex) 1A">
+                  </div>
+                <br>
+                  
+                  <div class="input-group">
                     <span class="input-group-addon">パスワード</span>
                     <input type="password" name="password" class="form-control" placeholder="6文字以上">
                   </div>
