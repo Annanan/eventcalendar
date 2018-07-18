@@ -65,7 +65,9 @@
               
             </td>
             
-             <td class="thursday"><span style="font-weight:bold">2</span> 
+             <td class="thursday"><span style="font-weight:bold">
+                  {!! link_to_route('events.day', 2, ['id' => '2']) !!}
+             </span> 
               <br>
               
               <?php
@@ -105,7 +107,9 @@
             </td>
             
             
-             <td class="friday"><span style="font-weight:bold">3</span> 
+             <td class="friday"><span style="font-weight:bold">
+                  {!! link_to_route('events.day', 3, ['id' => '3']) !!}
+             </span> 
               <br>
               
               <?php
@@ -151,7 +155,9 @@
             
             
             
-             <td class="saturday"><span style="font-weight:bold">4</span> 
+             <td class="saturday"><span style="font-weight:bold">
+                  {!! link_to_route('events.day', 4, ['id' => '4']) !!}
+             </span> 
               <br>
               
               <?php
@@ -190,7 +196,9 @@
               
             </td>
             
-             <td class="sunday"><span style="font-weight:bold">5</span> 
+             <td class="sunday"><span style="font-weight:bold">
+                  {!! link_to_route('events.day', 5, ['id' => '5']) !!}
+             </span> 
               <br>
               
               <?php
@@ -228,7 +236,9 @@
             </td>
            </tr>
         <tr class="week2">  
-            <td class="monday"><span style="font-weight:bold">6</span> 
+            <td class="monday"><span style="font-weight:bold">
+                 {!! link_to_route('events.day', 6, ['id' => '6']) !!}
+            </span> 
           <br>
               
      <?php
@@ -269,7 +279,9 @@
               
 </td>
 
-<td class="tuesday"><span style="font-weight:bold">7</span> 
+<td class="tuesday"><span style="font-weight:bold">
+     {!! link_to_route('events.day', 7, ['id' => '7']) !!}
+</span> 
     <br>
               
     <?php
@@ -308,7 +320,9 @@
               
 </td>
 
-<td class="wednesday"><span style="font-weight:bold">8</span> 
+<td class="wednesday"><span style="font-weight:bold">
+     {!! link_to_route('events.day', 8, ['id' => '8']) !!}
+</span> 
     <br>
               
     <?php
@@ -347,7 +361,9 @@
               
 </td>
 
-<td class="thursday"><span style="font-weight:bold">9</span> 
+<td class="thursday"><span style="font-weight:bold">
+     {!! link_to_route('events.day', 9, ['id' => '9']) !!}
+</span> 
     <br>
               
     <?php
@@ -387,7 +403,9 @@
               
 </td>
 
-<td class="friday"><span style="font-weight:bold">10</span> 
+<td class="friday"><span style="font-weight:bold">
+     {!! link_to_route('events.day', 10, ['id' => '10']) !!}
+</span> 
     <br>
               
     <?php
@@ -424,7 +442,9 @@
               
 </td>
 
-<td class="saturday"><span style="font-weight:bold">11</span> 
+<td class="saturday"><span style="font-weight:bold">
+     {!! link_to_route('events.day', 11, ['id' => '11']) !!}
+</span> 
               <br>
               
               <?php
@@ -464,7 +484,9 @@
            
               
             </td>
-<td class="sunday"><span style="font-weight:bold">12</span> 
+<td class="sunday"><span style="font-weight:bold">
+     {!! link_to_route('events.day', 12, ['id' => '12']) !!}
+</span> 
               <br>
               
               <?php
@@ -509,7 +531,9 @@
         
         <tr class="week3">
 
-<td class="monday"><span style="font-weight:bold">13</span> 
+<td class="monday"><span style="font-weight:bold">
+     {!! link_to_route('events.day', 13, ['id' => '13']) !!}
+</span> 
               <br>
               
               <?php
@@ -548,7 +572,9 @@
               
               
             </td>
-<td class="tuesday"><span style="font-weight:bold">14</span> 
+<td class="tuesday"><span style="font-weight:bold">
+     {!! link_to_route('events.day', 14, ['id' => '14']) !!}
+</span> 
               <br>
               
               <?php
@@ -589,7 +615,9 @@
             
               
             </td>
-<td class="wednesday"><span style="font-weight:bold">15</span> 
+<td class="wednesday"><span style="font-weight:bold">
+     {!! link_to_route('events.day', 15, ['id' => '15']) !!}
+</span> 
               <br>
               
               <?php
@@ -631,7 +659,9 @@
             
 
 
-<td class="thursday"><span style="font-weight:bold">16</span> 
+<td class="thursday"><span style="font-weight:bold">
+     {!! link_to_route('events.day', 16, ['id' => '16']) !!}
+</span> 
               <br>
               
               <?php
@@ -671,7 +701,9 @@
               
             </td>
             
-<td class="friday"><span style="font-weight:bold">17</span> 
+<td class="friday"><span style="font-weight:bold">
+     {!! link_to_route('events.day', 17, ['id' => '17']) !!}
+</span> 
               <br>
               
               <?php
@@ -713,7 +745,9 @@
               
             </td>
             
-<td class="saturday"><span style="font-weight:bold">18</span> 
+<td class="saturday"><span style="font-weight:bold">
+     {!! link_to_route('events.day', 18, ['id' => '18']) !!}
+</span> 
               <br>
               
               <?php
@@ -753,7 +787,9 @@
               
             </td>
             
-<td class="wednesday"><span style="font-weight:bold">19</span> 
+<td class="wednesday"><span style="font-weight:bold">
+     {!! link_to_route('events.day', 19, ['id' => '19']) !!}
+</span> 
               <br>
               
               <?php
@@ -796,7 +832,9 @@
         
         <tr class="week4">
             
-<td class="sunday"><span style="font-weight:bold">20</span> 
+<td class="sunday"><span style="font-weight:bold">
+     {!! link_to_route('events.day', 20, ['id' => '20']) !!}
+</span> 
               <br>
               
               <?php
@@ -835,7 +873,9 @@
            
             </td>
             
-            <td class="saturday"><span style="font-weight:bold">21</span> 
+            <td class="saturday"><span style="font-weight:bold">
+                 {!! link_to_route('events.day', 21, ['id' => '21']) !!}
+            </span> 
               <br>
               
               <?php
@@ -874,7 +914,9 @@
             
               
             </td>
-<td class="sunday"><span style="font-weight:bold">22</span> 
+<td class="sunday"><span style="font-weight:bold">
+     {!! link_to_route('events.day', 22, ['id' => '22']) !!}
+</span> 
               <br>
               
               <?php
@@ -914,7 +956,9 @@
               
             </td>
             
-<td class="monday"><span style="font-weight:bold">23</span> 
+<td class="monday"><span style="font-weight:bold">
+     {!! link_to_route('events.day', 23, ['id' => '23']) !!}
+</span> 
               <br>
               
               <?php
@@ -954,7 +998,9 @@
               
             </td>
 
-<td class="tuesday"><span style="font-weight:bold">24</span> 
+<td class="tuesday"><span style="font-weight:bold">
+     {!! link_to_route('events.day', 24, ['id' => '24']) !!}
+</span> 
               <br>
               
               <?php
@@ -993,7 +1039,9 @@
             
               
             </td>
-<td class="wednesday"><span style="font-weight:bold">25</span> 
+<td class="wednesday"><span style="font-weight:bold">
+     {!! link_to_route('events.day', 25, ['id' => '25']) !!}
+</span> 
               <br>
               
               <?php
@@ -1033,7 +1081,9 @@
               
             </td>
 
-<td class="sunday"><span style="font-weight:bold">26</span> 
+<td class="sunday"><span style="font-weight:bold">
+     {!! link_to_route('events.day', 26, ['id' => '26']) !!}
+</span> 
               <br>
               
               <?php
@@ -1077,7 +1127,9 @@
         
         <tr class="week5">
             
-<td class="monday"><span style="font-weight:bold">27</span> 
+<td class="monday"><span style="font-weight:bold">
+     {!! link_to_route('events.day', 27, ['id' => '27']) !!}
+</span> 
               <br>
               
               <?php
@@ -1117,7 +1169,9 @@
               
             </td>
             
-<td class="tuesday"><span style="font-weight:bold">28</span> 
+<td class="tuesday"><span style="font-weight:bold">
+     {!! link_to_route('events.day', 28, ['id' => '28']) !!}
+</span> 
               <br>
               
               <?php
@@ -1156,7 +1210,9 @@
               
             </td>
 
-<td class="wednesday"><span style="font-weight:bold">29</span> 
+<td class="wednesday"><span style="font-weight:bold">
+     {!! link_to_route('events.day', 29, ['id' => '29']) !!}
+</span> 
               <br>
               
               <?php
@@ -1195,7 +1251,9 @@
               
             </td>
 
-<td class="thursday"><span style="font-weight:bold">30</span> 
+<td class="thursday"><span style="font-weight:bold">
+     {!! link_to_route('events.day', 30, ['id' => '30']) !!}
+</span> 
               <br>
               
               <?php
@@ -1236,7 +1294,9 @@
             
               
             </td>
-<td class="friday"><span style="font-weight:bold">31</span> 
+<td class="friday"><span style="font-weight:bold">
+     {!! link_to_route('events.day', 31, ['id' => '31']) !!}
+</span> 
               <br>
               
               <?php

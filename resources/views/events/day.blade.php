@@ -2,6 +2,8 @@
 
 @section('content')
 
+
+<h1>8月{{ $date }}日のイベント一覧☆</h1>
 <?php
 $omatsuris= DB::table('events')->select('*')->where([['genre', '=','お祭り・花火大会'],['eventdate', '=', $date]])->get();
 $eigas= DB::table('events')->select('*')->where([['genre', '=','映画'],['eventdate', '=', $date]])->get();
