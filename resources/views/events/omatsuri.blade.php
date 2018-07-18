@@ -3,6 +3,10 @@
 
 @section('content')
 
+
+  @foreach($moyadas as $moyada)
+    {{ $moyada->content }}
+@endforeach
 @include('commons.prefecture')   
         
         <div class="col-xs-12">
