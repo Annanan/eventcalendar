@@ -40,7 +40,13 @@
                 <ul class="nav navbar-nav navbar-right">
                     @if (Auth::check())
                         <li><a href="{{ route('events.events')}}">TOPへ</a></li>
-                        <li><a href="{{ route('logout.get') }}">ログアウト</a></li>
+                        <li classs="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{{ Auth::user()->name }}さん <span class="caret"></span></a>
+                            <ul class="dropdown-menu">   
+                                <li><a href="{{ route('mypage.mycalendar', Auth::id()) }}">マイカレンダー</a></li>
+                                <li><a href="{{ route('logout.get') }}">ログアウト</a></li>
+                            </ul>
+                        </li>
                     @else
                         <li><a href="{{ route('signup.get') }}">新規登録</a></li>
                         <li><a href="{{ route('login') }}">ログイン</a></li>
