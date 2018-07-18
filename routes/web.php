@@ -55,6 +55,7 @@ Route::resource('events', 'EventFavoriteController', ['only' => ['store', 'destr
 Route::post('search', 'SearchController@search')->name('events.search');
 Route::get('search', 'SearchController@search')->name('events.search');
 
+Route::get('/day/{id}', 'DayController@day')->name('events.day');
 
 
 // Route::get('search', function () {
