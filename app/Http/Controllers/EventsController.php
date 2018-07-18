@@ -17,7 +17,6 @@ class EventsController extends Controller
     public function omatsuri() {
         
         $omatsuri_events = \DB::table('events')->select('*')->where('genre', 'お祭り・花火大会')->get();
-        $moyadas = \DB::table('moyada')->select('*')->get();
         
         return view('events.omatsuri', [
             'omatsuri_events' => $omatsuri_events,
