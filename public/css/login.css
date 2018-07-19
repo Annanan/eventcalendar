@@ -1,5 +1,5 @@
 .haikei{
-  width: 1000px;
+  width: 1500px;
   height: 250px;
 }
 
@@ -33,19 +33,27 @@
 }
 
 .setsumei{
-          position:absolute;
-          left:20px;
-          top: 450px;
-}
-.image{width:300px;
-    height:300px;
-    margin: 50px 25px;
-     
+          
+          margin-left:20px;
+          float: left;
+         
 }
 
-.picture1{float:left;}
-.picture2{float:left;}
-.picture3{float:left;}
+/*.setsumei.a{}*/
+
+
+.picture{float:left;
+    margin-left:20px;
+    padding-top: 260px;
+    padding-left: 20px;
+    width: 300px;
+    height: 300px;
+    background-image: url("../loginimage.jpg");
+    background-size: 300px 300px;
+    
+}
+
+
 
 html { 
   background: url('../loginimage.jpg') no-repeat center center fixed; 
