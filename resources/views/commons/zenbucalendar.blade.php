@@ -7,7 +7,7 @@
 
 
 
-<table border="1" class="kotei">
+<table border="3" class="kotei">
     <thead>
             <th>月</th>
             <th>火</th>

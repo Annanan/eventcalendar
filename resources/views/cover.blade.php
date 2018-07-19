@@ -20,7 +20,7 @@
         </div>
 
     
-        <div class=''>
+        <div class='picture'>
             <div id='wrapper1' class='clearfix'>
                 <div class='left'>
                     <img src='suika.jpg' alt='スイカと水うちわ' >

@@ -55,12 +55,20 @@ img{
 
 .touroku{
     float: right;
-    padding-right: 300px;
+    padding-right: 200px;
     position: relative;
     top:0px;
-    left:100px;
+    right:100px;
 }
 
 h1{
     padding-left: 300px;
+}
+
+.picture{
+    position: relative;
+    top:0px;
+    left:0px;
+    bottom:0px;
+    right: 0px;
 }
