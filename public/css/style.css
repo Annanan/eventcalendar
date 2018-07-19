@@ -3,7 +3,7 @@
 table {
     width: 100%;
     height: 530px;
-    font-size: 13px;
+    font-size: 11px;
 }
 
 .week{
@@ -24,12 +24,12 @@ td {
 }
 
 a {
-    font-size: 13px;
+    font-size: 10px;
 }
 
 span{
 
-  width: 150px;
+  width: 160px;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
