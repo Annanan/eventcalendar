@@ -20,7 +20,6 @@ class EventsController extends Controller
         
         return view('events.omatsuri', [
             'omatsuri_events' => $omatsuri_events,
-            'moyadas' => $moyadas,
         ]);
     }
     
