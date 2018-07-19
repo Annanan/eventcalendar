@@ -21,11 +21,13 @@
 
 
     
-        <h1 class=copy >８がつ！！( キャッチコピー書くところ)</h1>
+        <h1 class=copy >８がつ！！( キャッチコピー書くところ) <br> あなたののどに狙いを決めて<br>　ベンザブロック</h1>
       <div class=setsumei>
-       <div class=picture1><img class=image src="./images_kitchen/main_visual.jpg"> </div>
-       <div class=picture2><img class=image src="./images_kitchen/main_visual.jpg"></div>
-       <div class=picture3><img class=image src="./images_kitchen/main_visual.jpg"></div>
+         <h3 class= bun>このアプリの使い方</h3>
+       <div class=picture><p>ｌｌｌ</p>
+       </div>
+       <div class=picture><p>お疲れ様です。</p></div>
+       <div class=picture><p>お疲れ様です。</p></div>
       </div>
       
       
@@ -35,11 +37,11 @@
 
     <div class="panel" id="register">
     <div class="text-center">
-        <h1>Sign up</h1>
+        <h1>Sign up</h1><br>
     </div>
     
     <div class="row">
-        <div class="col-md-6 col-md-offset-3">
+        <div class="col-md-10 col-md-offset-1">
             
             {!! Form::open(['route' => 'signup.post']) !!}
                 
