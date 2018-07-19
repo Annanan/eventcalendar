@@ -3,6 +3,8 @@
 
 @section('content')
 
+
+
 @include('commons.prefecture')   
         
         <div class="col-xs-13">
