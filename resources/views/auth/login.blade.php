@@ -15,6 +15,9 @@
     <body>
       @include('commons.navbar')
         @include('commons.error_messages')
+        
+        <h1 class=copy >８がつ！！( キャッチコピー書くところ)</h1>
+        
   <div class="panel" id="login">      
     <div class="text-center">
         <h1>Log in</h1>

@@ -20,7 +20,7 @@
         
 
 
-    <div class=haikei>
+    
         <h1 class=copy >８がつ！！( キャッチコピー書くところ)</h1>
       <div class=setsumei>
        <div class=picture1><img class=image src="./images_kitchen/main_visual.jpg"> </div>
@@ -92,7 +92,6 @@
         </div>
     </div>
  </div>
- </div>  
 
 
 </body>
