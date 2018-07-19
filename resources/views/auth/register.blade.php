@@ -23,6 +23,7 @@
     
         <h1 class=copy >８がつ！！( キャッチコピー書くところ) <br> あなたののどに狙いを決めて<br>　ベンザブロック</h1>
       <div class=setsumei>
+         <h3 class= bun>このアプリの使い方</h3>
        <div class=picture><p>ｌｌｌ</p>
        </div>
        <div class=picture><p>お疲れ様です。</p></div>
