@@ -6,6 +6,10 @@ table {
     font-size: 11px;
 }
 
+table, td, th {
+    border: 3px solid skyblue;
+}
+
 .week{
     height: 100px;
     margin: 0 0 0 0;
@@ -43,3 +47,10 @@ span{
     text-transform: uppercase;
 }
 
+/*html { */
+/*  background: url('../umi2.jpg') no-repeat center center fixed; */
+/*  -webkit-background-size: cover;*/
+/*  -moz-background-size: cover;*/
+/*  -o-background-size: cover;*/
+/*  background-size: cover;*/
+/*}*/
