@@ -2,6 +2,7 @@
 
 body{
     width: 100%;
+    
 }
 
 .clearfix::after {
@@ -52,10 +53,14 @@ img{
     display: inline-block;
 }
 
-.tourkou{
+.touroku{
     float: right;
+    padding-right: 300px;
+    position: relative;
+    top:0px;
+    left:100px;
 }
 
 h1{
-    padding-left: 400px;
+    padding-left: 300px;
 }
