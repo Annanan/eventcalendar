@@ -13,23 +13,40 @@
     </head>        
     
     <body>
-        <div class="center jumbotron">
-            <div class="text-center">
-                <h3>行きたいイベントこの夏こそは！</h3>
-                <h1>８月イベントもうラクん</h1>
-                  
-                {!! link_to_route('signup.get', '新規登録して始める', null, ['class' => 'btn btn-lg btn-primary']) !!}
-                {!! link_to_route('login', 'ログイン', null, ['class' => 'btn btn-lg btn-info']) !!}
-                {!! link_to_route('events.events', '登録せずに始める', null) !!}
-            </div>
-        
+        <div class='title'>
+            <h1>EVENTMOURAKUN</h1>
         </div>
-
-            <div class="text-center">
-                <h4>8月のイベント情報掲載サイト</h4>
-                <h4>新規登録でお気に入りのイベントを一括管理♪ マイカレンダーが作れちゃうよ！</h4>
-            </div>
-  
     
+        <div class='写真たち'>
+            <figure>
+                <img src='イメージURL' alt='スイカと水うちわ'>
+            </figure>
+            
+            <figure>
+                <img src='イメージURL' alt='貝殻'>
+            </figure>
+            
+            <figure>
+                <img src='イメージURL' alt='海'>
+            </figure>
+            
+            <figure>
+                <img src='イメージURL' alt='お祭り'>
+            </figure>
+            
+            <figure>
+                <img src='イメージURL' alt='ファッション'>
+            </figure>
+            
+            <figure>
+                <img src='イメージURL' alt='ひまわり'>
+            </figure>
+            
+        </div>
+        
+        <div class='登録のところ'>
+            {!! link_to_route('signup.get',  'Sign up', null) !!}
+            {!! link_to_route('login',  'Login', null) !!}
+        </div>
         
     </body>    
