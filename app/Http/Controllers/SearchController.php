@@ -19,9 +19,11 @@ class SearchController extends Controller
         $checkboxnums = $_POST['search'];  
 
         $search_events = Event:: whereIn('prefecturenum' ,$checkboxnums)->get(); 
+        
+        
 
         return view('search.search', [
-            'search_events' => $search_events,
+            'search_events' => $search_events],['prefectures' => $checkboxnums
         ]);
         
     }
