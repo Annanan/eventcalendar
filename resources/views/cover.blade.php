@@ -14,6 +14,7 @@
     </head>        
     
     <body>
+        <div class='col-xs-12'>
         <div class='title'>
             <h1>EVENTMOURAKUN</h1>
         </div>
@@ -57,6 +58,6 @@
                 <li class='sign'>{!! link_to_route('signup.get',  'Sign up', null, ['class'=>'sign']) !!}</li>
             </ul>
         </div>
-
+    </div>
         
     </body>    
