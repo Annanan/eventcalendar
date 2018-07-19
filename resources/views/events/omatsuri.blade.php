@@ -7,7 +7,7 @@
 
 @include('commons.prefecture')   
         
-        <div class="col-xs-12">
+        <div class="col-xs-13">
             <ul class="nav nav-tabs nav-justified">
                 
                 <li role="presentation" class="{{ Request::is('zenbu') ? 'active' : '' }}"><a href="{{ route('events.events') }}">全ジャンル</a></li>
