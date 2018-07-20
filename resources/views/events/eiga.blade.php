@@ -5,8 +5,7 @@
 
 @include('commons.navbar3')      
         
-<link rel="stylesheet" href="{{ secure_asset('css/navbar1.css') }}">
-        
+
         
         <div class="col-xs-12">
             <ul class="tab">

@@ -20,7 +20,6 @@
                 <ul class="nav navbar-nav navbar-right">
                     @if (Auth::check())
                     
-                    <li><a href="{{ route('mypage.mycalendar', Auth::id()) }}">MY CALENDAR</a></li>   
                     <li class="w3-black w3-button w3-wide"><a href="{{ route('mypage.mycalendar', Auth::id()) }}">MY CALENDAR</a></li>   
                     
                     <li class="w3-blue-grey w3-button w3-wide"><a href="{{ route('logout.get') }}">LOGOUT</a></li>
