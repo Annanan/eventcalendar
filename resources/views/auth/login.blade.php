@@ -20,7 +20,7 @@
         <h1 class=copy >君がくれた夏</h1>
         
        <div class="panel" id="login"> 
-       @include('commons.error_messages')
+       
           <div class="text-center">
             <h1>Log in</h1>
           </div>
@@ -59,6 +59,8 @@
             {!! Form::close() !!}
 
             <p>未登録の場合 → {!! link_to_route('signup.get', '新規登録') !!}</p>
+            
+            @include('commons.error_messages')
             </div>
          </div>
    </div>

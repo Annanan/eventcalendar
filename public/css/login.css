@@ -5,12 +5,12 @@
 
 #login{
     margin-left: 550px ;
-    height: 370px;
+    height: 470px;
 }
 
 #register{
     margin-left: 40px;
-    height:500px;     
+    height:610px;     
 }
 
 
@@ -54,7 +54,7 @@
 }
 
 .panel{
-       padding-top: 50px;
+       padding-top: 30px;
        margin-top:20px; 
       background: #fff;
       border-radius:5px;
