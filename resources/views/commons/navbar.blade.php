@@ -1,3 +1,6 @@
+<link rel="stylesheet" href="{{ secure_asset('css/navbar1.css') }}">
+
+
 <header>
     <!--<nav class="navbar navbar-default navbar-static-top">-->
         <div class="container">
@@ -14,9 +17,9 @@
                 <ul class="nav navbar-nav navbar-right">
                     @if (Auth::check())
                     
-                    <a href="{{ route('mypage.mycalendar', Auth::id()) }}">MY CARENDAR</a>   
+                    <li><a href="{{ route('mypage.mycalendar', Auth::id()) }}">MY CARENDAR</a></li>   
                     
-                    <a href="{{ route('logout.get') }}">LOGOUT</a>
+                    <li><a href="{{ route('logout.get') }}">LOGOUT</a></li>
                     @else
                         <li><a href="{{ route('signup.get') }}">新規登録</a></li>
                         <li><a href="{{ route('login') }}">ログイン</a></li>
