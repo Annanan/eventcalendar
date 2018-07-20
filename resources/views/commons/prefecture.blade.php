@@ -1,6 +1,9 @@
 
 <form action="search" method="post" accept-charset=utf-8>
     {{ csrf_field() }}
+<link rel="stylesheet" href="{{ secure_asset('css/navbar3.css') }}">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link href="https://fonts.googleapis.com/earlyaccess/mplus1p.css" rel="stylesheet" />
 
 <div class="dropdown">
     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true">その他の都道府県で検索<span class="caret"></span></a>
