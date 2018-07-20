@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+ <html lang = ja>
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -17,7 +17,7 @@
         
         
    <div class='largebox'>
-        <h1 class=copy >８がつ！！( キャッチコピー書くところ)</h1>
+        <h1 class=copy >君がくれた夏</h1>
         
        <div class="panel" id="login"> 
        @include('commons.error_messages')
