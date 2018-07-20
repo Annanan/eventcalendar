@@ -8,7 +8,18 @@
 
 
 <table border="3" class="kotei">
+    
+   <thead>
+     
+         <tr class="year">
+             <h1>2018年 8月</h1>
+        </tr>
+          
+    </thead>
+  
+    
     <thead>
+        <tr class="youbi">
             <th>月</th>
             <th>火</th>
             <th>水</th>
@@ -16,7 +27,9 @@
             <th>金</th>
             <th><font color="blue">土</font></th>
             <th><font color="red">日</font></th>
+            
         </tr>
+        
     </thead>
     <tbody>
         <tr class="week1">

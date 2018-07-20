@@ -8,6 +8,10 @@
 
 <table border="3" class="kotei">
     <thead>
+      
+      <br>
+      <br>
+       <tr class="youbi">
             <th>月</th>
             <th>火</th>
             <th>水</th>

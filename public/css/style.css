@@ -17,8 +17,11 @@ table, td, th {
     padding: 0 0 0 0;
 }
 
-.youbi th{
-    height: 30px;
+.youbi th {
+    height: 50px;
+   font-size: 20px;
+   text-align: center;
+   
 }
 
 td {
@@ -48,8 +51,11 @@ span{
     text-transform: uppercase;
 }
 
-body { 
-     font-family: "Rounded Mplus 1c";
+.year tr{
+    color: red;
+    font-weight: bold;
+  
+    font-size: 40px;
 }
 
 /*html { */
@@ -59,3 +65,4 @@ body {
 /*  -o-background-size: cover;*/
 /*  background-size: cover;*/
 /*}*/
+
