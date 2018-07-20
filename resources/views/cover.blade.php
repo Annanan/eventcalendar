@@ -53,8 +53,9 @@
         
         <div class='touroku'>
             <ul>
-                <li class='sign'><button type="button" class="btn btn-default">{!! link_to_route('login',  '> Login', null, ['class'=>'sign']) !!}</button></li>
                 <li class='sign'><button type="button" class="btn btn-default">{!! link_to_route('signup.get',  '> Sign up', null, ['class'=>'sign']) !!}</button></li>
+                <li class='sign'><button type="button" class="btn btn-default">{!! link_to_route('login',  '> Login', null, ['class'=>'sign']) !!}</button></li>
+        
             </ul>
         </div>
     </div>
