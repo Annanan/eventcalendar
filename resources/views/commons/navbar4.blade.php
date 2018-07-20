@@ -16,28 +16,28 @@
             </div>
             <div class="collapse navbar-collapse">
                 <ul class="nav navbar-nav navbar-center">
-                                <li class="w3-pale-red w3-button w3-thin">
+                                <li class="w3-light-grey w3-button w3-thin">
                                     <a href="{{ route('events.events') }}">全ジャンル</a>
                                 </li>
-                                <li class="w3-pink w3-button w3-thin">
+                                <li class="w3-light-grey w3-button w3-thin">
                                     <a href="{{ route('events.omatsuri') }}">お祭り・花火</a>
                                 </li>
-                                <li class="w3-deep-purple w3-button w3-thin">
+                                <li class="w3-light-grey w3-button w3-thin">
                                     <a href="{{ route('events.eiga') }}">映画</a>
                                 </li>
-                                <li class="w3-cyan w3-button w3-thin">
+                                <li class="w3-light-grey w3-button w3-thin">
                                     <a href="{{ route('events.sports') }}">スポーツ</a>
                                 </li>
-                                <li class="w3-lime w3-button w3-thin">
+                                <li class="w3-light-grey w3-button w3-thin">
                                     <a href="{{ route('events.ongaku') }}">音楽</a>
                                 </li>
-                                <li class="w3-orange w3-button w3-thin">
+                                <li class="w3-light-grey w3-button w3-thin">
                                     <a href="{{ route('events.gurume') }}">グルメ</a>
                                 </li>
-                                <li class="w3-deep-orange w3-button w3-thin">
+                                <li class="w3-light-grey w3-button w3-thin">
                                     <a href="{{ route('events.geijutsu') }}">芸術</a>
                                 </li>
-                                <li class="w3-brown w3-button w3-thin">
+                                <li class="w3-light-grey w3-button w3-thin">
                                     <a href="{{ route('events.leisure') }}">その他</a>
                                 </li>
                 </ul>

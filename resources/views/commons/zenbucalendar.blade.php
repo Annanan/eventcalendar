@@ -3,28 +3,44 @@
 
 <link rel="stylesheet" href="{{ secure_asset('css/style.css') }}">
 
-
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
 
 
 <table border="3" class="kotei">
-    <thead>
-            <th>月</th>
-            <th>火</th>
-            <th>水</th>
-            <th>木</th>
-            <th>金</th>
-            <th><font color="blue">土</font></th>
-            <th><font color="red">日</font></th>
+    
+   <thead>
+     
+         <tr class="year">
+             <h1>2018年 8月</h1>
         </tr>
+          
     </thead>
+  
+    
+        <tr class="youbi, w3-background w3-pale-red">
+            <th>MON</th>
+            <th>TUE</th>
+            <th>WED</th>
+            <th>THU</th>
+            <th>FRI</th>
+            <th><font color="blue">SAT</font></th>
+            <th><font color="red">SUN</font></th>
+        </tr>
+        
     <tbody>
         <tr class="week1">
             <td class="monday"></td>
             <td class="tuesday"></td>
             
             
+<<<<<<< HEAD
             <td class="wednesday"><span style="font-weight:bold","font-size:12px">
+=======
+            <td class="wednesday">
+            <button type='button'>
+            <span style="font-weight:bold">
+>>>>>>> f5f26a4ac895d6e0b1b315111ffaf43e28e7d089
             {!! link_to_route('events.day', 1, ['id' => '1']) !!}
             </span> 
             <br>
@@ -62,7 +78,7 @@
              <span class="glyphicon glyphicon-leaf">  その他  ({{$leisure_1 }})</span>
              @endif
               
-              
+            </button>
             </td>
             
              <td class="thursday"><span style="font-weight:bold">

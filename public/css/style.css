@@ -1,5 +1,6 @@
 @charset "utf-8";
 @import URL(https://fonts.googleapis.com/earlyaccess/roundedmplus1c.css);
+@import URL(https://www.w3schools.com/w3css/4/w3.css);
 
 table {
     width: 100%;
@@ -8,7 +9,7 @@ table {
 }
 
 table, td, th {
-    border: 3px solid skyblue;
+    border: 3px solid black;
 }
 
 .week{
@@ -16,9 +17,52 @@ table, td, th {
     margin: 0 0 0 0;
     padding: 0 0 0 0;
 }
+.w3-deep-purple  th{
+   height: 50px;
+   font-size: 20px;
+   text-align: center;
+}
 
-.youbi th{
-    height: 30px;
+.w3-deep-orange th{
+   height: 50px;
+   font-size: 20px;
+   text-align: center;
+}
+
+.w3-orange th{
+   height: 50px;
+   font-size: 20px;
+   text-align: center;
+}
+
+.w3-brown th{
+   height: 50px;
+   font-size: 20px;
+   text-align: center;
+}
+
+.w3-pink th{
+   height: 50px;
+   font-size: 20px;
+   text-align: center;
+}
+
+.w3-lime th{
+   height: 50px;
+   font-size: 20px;
+   text-align: center;
+}
+
+.w3-cyan th{
+   height: 50px;
+   font-size: 20px;
+   text-align: center;
+}
+
+.w3-pale-red th{
+    height: 50px;
+   font-size: 20px;
+   text-align: center;
 }
 
 td {
@@ -49,8 +93,11 @@ span{
     text-transform: uppercase;
 }
 
-body { 
-     font-family: "Rounded Mplus 1c";
+.year tr{
+    color: red;
+    font-weight: bold;
+  
+    font-size: 40px;
 }
 
 /*html { */
@@ -60,3 +107,4 @@ body {
 /*  -o-background-size: cover;*/
 /*  background-size: cover;*/
 /*}*/
+

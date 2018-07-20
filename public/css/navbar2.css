@@ -1,0 +1,27 @@
+
+.navbar-center li {
+    width: 90px;
+    height: 65px;
+    padding: 0 0 0 0;
+    border-right: 1px solid white;
+}
+
+.navbar-center li a{
+    font-size: 10px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 25px;
+}
+
+.navbar-collapse .navbar-right li {
+    width: 85px;
+    height: 65px;
+    padding: 0 0 0 0;
+}
+
+.navbar-collapse .navbar-right li a {
+    font-size: 8.5px;
+    padding-top: 20px;
+    padding-bottom: 25px;
+    text-align: center;
+}

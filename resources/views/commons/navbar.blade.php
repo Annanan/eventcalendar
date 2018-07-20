@@ -14,16 +14,15 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-left" href="/zenbu"><img src=url ("../../../public/logo.jpg") alt="EVENTMOURAKUN"></a>
+                <a class="navbar-left" href="/zenbu"><img src="idea15.jpg" alt="EVENTMOURAKUN" width="390" height="60"></a>
             </div>
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     @if (Auth::check())
                     
-                    <li><a href="{{ route('mypage.mycalendar', Auth::id()) }}">MY CALENDAR</a></li>   
                     <li class="w3-black w3-button w3-wide"><a href="{{ route('mypage.mycalendar', Auth::id()) }}">MY CALENDAR</a></li>   
                     
-                    <li class="w3-blue-grey w3-button w3-wide"><a href="{{ route('logout.get') }}">LOGOUT</a></li>
+                    <li class="w3-grey w3-button w3-wide"><a href="{{ route('logout.get') }}">LOGOUT</a></li>
                     @else
                         <li><a href="{{ route('signup.get') }}">SIGNUP</a></li>
                         <li><a href="{{ route('login') }}">LOGIN</a></li>

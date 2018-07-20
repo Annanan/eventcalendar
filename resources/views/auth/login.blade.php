@@ -18,10 +18,21 @@
         
         <h1 class=copy >８がつ！！( キャッチコピー書くところ)</h1>
         
+<<<<<<< HEAD
   <div class="panel" id="login">      
     <div class="text-center">
         <h1>Log in</h1>
     </div>
+=======
+   <div class='largebox'>
+        <h1 class=copy >君がくれた夏</h1>
+        
+       <div class="panel" id="login"> 
+       
+          <div class="text-center">
+            <h1>Log in</h1>
+          </div>
+>>>>>>> f5f26a4ac895d6e0b1b315111ffaf43e28e7d089
 
     <div class="row">
         <div class="col-md-6 col-md-offset-3">
@@ -57,6 +68,13 @@
             {!! Form::close() !!}
 
             <p>未登録の場合 → {!! link_to_route('signup.get', '新規登録') !!}</p>
+<<<<<<< HEAD
         </div>
     </div>
+=======
+            
+            @include('commons.error_messages')
+            </div>
+         </div>
+>>>>>>> f5f26a4ac895d6e0b1b315111ffaf43e28e7d089
    </div>

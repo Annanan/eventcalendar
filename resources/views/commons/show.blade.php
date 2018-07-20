@@ -23,7 +23,6 @@
 
 @if(Auth::check())
 @include('favorites.favorite_button', ['event' => $event])
-&nbsp;  
 <li class="w3-gray w3-button w3-wide"><a href="{{ route('mypage.mycalendar', Auth::id()) }}">マイカレンダーを見る</a></li> 
 </div>
 
