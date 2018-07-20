@@ -1,3 +1,6 @@
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+
 <header>
     <!--<nav class="navbar navbar-default navbar-static-top">-->
         <div class="container">
@@ -12,44 +15,44 @@
             </div>
             <div class="collapse navbar-collapse">
                 <ul class="nav navbar-nav navbar-center">
-                                <li>
+                                <li class="w3-pale-red w3-button w3-thin">
                                     <a href="{{ route('events.events') }}">全ジャンル</a>
                                 </li>
-                                <li>
+                                <li class="w3-pink w3-button w3-thin">
                                     <a href="{{ route('events.omatsuri') }}">お祭り・花火大会</a>
                                 </li>
-                                <li>
+                                <li class="w3-deep-purple w3-button w3-thin">
                                     <a href="{{ route('events.eiga') }}">映画</a>
                                 </li>
-                                <li>
+                                <li class="w3-cyan w3-button w3-thin">
                                     <a href="{{ route('events.sports') }}">スポーツ</a>
                                 </li>
-                                <li>
+                                <li class="w3-lime w3-button w3-thin">
                                     <a href="{{ route('events.ongaku') }}">音楽</a>
                                 </li>
-                                <li>
+                                <li class="w3-orange w3-button w3-thin">
                                     <a href="{{ route('events.gurume') }}">グルメ</a>
                                 </li>
-                                <li>
+                                <li class="w3-deep-orange w3-button w3-thin">
                                     <a href="{{ route('events.geijutsu') }}">芸術</a>
                                 </li>
-                                <li>
+                                <li class="w3-brown w3-button w3-thin">
                                     <a href="{{ route('events.leisure') }}">その他</a>
                                 </li>
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
                     @if (Auth::check())
-                        <li><a href="{{ route('events.events')}}">TOPへ</a></li>
-                        <li classs="dropdown">
+                        <li class="w3-light-grey w3-button w3-thin"><a href="{{ route('events.events')}}">TOPへ</a></li>
+                        <li class="dropdown w3-dark-gray w3-button w3-thin">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{{ Auth::user()->name }}さん <span class="caret"></span></a>
                             <ul class="dropdown-menu">   
-                                <li><a href="{{ route('mypage.mycalendar', Auth::id()) }}">MYCALENDAR</a></li>
-                                <li><a href="{{ route('logout.get') }}">LOGOUT</a></li>
+                                <li class="w3-black w3-button w3-wide"><a href="{{ route('mypage.mycalendar', Auth::id()) }}">MYCALENDAR</a></li>
+                                <li class="w3-blue-grey w3-button w3-wide"><a href="{{ route('logout.get') }}">LOGOUT</a></li>
                             </ul>
                         </li>
                     @else
-                        <li><a href="{{ route('signup.get') }}">SIGNUP</a></li>
-                        <li><a href="{{ route('login') }}">LOGIN</a></li>
+                        <li class="w3-grey w3-button w3-wide"><a href="{{ route('signup.get') }}">SIGNUP</a></li>
+                        <li class="w3-light-grey w3-button w3-wide"><a href="{{ route('login') }}">LOGIN</a></li>
                     @endif
                 </ul>
             </div>
