@@ -22,7 +22,7 @@
                
 </ul>
 　　　　　　　
-            @include('commons.calendar',['events' => $omatsuri_events])
+            @include('calendar.omatsuricalendar',['events' => $omatsuri_events])
            
         </div>
 

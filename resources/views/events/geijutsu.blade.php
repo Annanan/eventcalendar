@@ -20,7 +20,7 @@
                 
            </ul>
 
-             @include('commons.calendar',['events' => $geijutsu_events])
+             @include('calendar.geijutsucalendar',['events' => $geijutsu_events])
              
         </div>
     

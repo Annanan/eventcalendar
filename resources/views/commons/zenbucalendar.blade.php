@@ -3,7 +3,7 @@
 
 <link rel="stylesheet" href="{{ secure_asset('css/style.css') }}">
 
-
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
 
 
@@ -18,19 +18,16 @@
     </thead>
   
     
-    <thead>
-        <tr class="youbi">
-            <th>月</th>
-            <th>火</th>
-            <th>水</th>
-            <th>木</th>
-            <th>金</th>
-            <th><font color="blue">土</font></th>
-            <th><font color="red">日</font></th>
-            
+        <tr class="youbi, w3-background w3-pale-red">
+            <th>MON</th>
+            <th>TUE</th>
+            <th>WED</th>
+            <th>THU</th>
+            <th>FRI</th>
+            <th><font color="blue">SAT</font></th>
+            <th><font color="red">SUN</font></th>
         </tr>
         
-    </thead>
     <tbody>
         <tr class="week1">
             <td class="monday"></td>

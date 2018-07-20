@@ -21,7 +21,7 @@
                 
             </ul>
 
-            @include('commons.calendar',['events' => $leisure_events])
+            @include('calendar.leisurecalendar',['events' => $leisure_events])
            
         </div>
     

@@ -20,7 +20,7 @@
 
             </ul>
 
-            @include('commons.calendar',['events' => $ongaku_events])
+            @include('calendar.ongakucalendar',['events' => $ongaku_events])
         </div>
 
 @endsection
