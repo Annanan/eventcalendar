@@ -7,7 +7,11 @@ table {
 }
 
 table, td, th {
-    border: 3px solid skyblue;
+    border: 3px solid black;
+}
+
+th .year{
+    width: 300px;
 }
 
 .week{
@@ -16,8 +20,11 @@ table, td, th {
     padding: 0 0 0 0;
 }
 
-.youbi th{
-    height: 30px;
+.youbi th {
+    height: 50px;
+   font-size: 20px;
+   text-align: center;
+   
 }
 
 td {
@@ -47,6 +54,8 @@ span{
     text-transform: uppercase;
 }
 
+
+
 /*html { */
 /*  background: url('../umi2.jpg') no-repeat center center fixed; */
 /*  -webkit-background-size: cover;*/
@@ -54,3 +63,4 @@ span{
 /*  -o-background-size: cover;*/
 /*  background-size: cover;*/
 /*}*/
+
