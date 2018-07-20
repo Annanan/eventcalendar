@@ -1,11 +1,8 @@
 <link rel="stylesheet" href="{{ secure_asset('css/navbar1.css') }}">
-<<<<<<< HEAD
 <link href="https://fonts.googleapis.com/earlyaccess/mplus1p.css" rel="stylesheet" />
-=======
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
 
->>>>>>> 8fb86e75654543320a77af7be5e301e2a65440d5
 
 <header>
     <!--<nav class="navbar navbar-default navbar-static-top">-->
@@ -23,11 +20,8 @@
                 <ul class="nav navbar-nav navbar-right">
                     @if (Auth::check())
                     
-<<<<<<< HEAD
                     <li><a href="{{ route('mypage.mycalendar', Auth::id()) }}">MY CALENDAR</a></li>   
-=======
                     <li class="w3-black w3-button w3-wide"><a href="{{ route('mypage.mycalendar', Auth::id()) }}">MY CALENDAR</a></li>   
->>>>>>> 8fb86e75654543320a77af7be5e301e2a65440d5
                     
                     <li class="w3-blue-grey w3-button w3-wide"><a href="{{ route('logout.get') }}">LOGOUT</a></li>
                     @else
