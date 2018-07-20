@@ -14,7 +14,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-left" href="/zenbu"><img src=".jpg" alt="EVENTMOURAKUN"></a>
+                <a class="navbar-left" href="/zenbu"><img src="idea15.jpg" alt="EVENTMOURAKUN" width="390" height="60"></a>
             </div>
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
