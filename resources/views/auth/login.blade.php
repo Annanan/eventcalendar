@@ -1,5 +1,5 @@
 <!DOCTYPE html>
- <html lang = ja>
+<html>
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -14,19 +14,17 @@
     </head>
     <body>
       @include('commons.navbar')
+        @include('commons.error_messages')
         
+        <h1 class=copy >８がつ！！( キャッチコピー書くところ)</h1>
         
-   <div class='largebox'>
-        <h1 class=copy >君がくれた夏</h1>
-        
-       <div class="panel" id="login"> 
-       @include('commons.error_messages')
-          <div class="text-center">
-            <h1>Log in</h1>
-          </div>
+  <div class="panel" id="login">      
+    <div class="text-center">
+        <h1>Log in</h1>
+    </div>
 
-         <div class="row">
-             <div class="col-md-10 col-md-offset-1">
+    <div class="row">
+        <div class="col-md-6 col-md-offset-3">
 
             {!! Form::open(['route' => 'login.post']) !!}
                 <br>
@@ -59,6 +57,6 @@
             {!! Form::close() !!}
 
             <p>未登録の場合 → {!! link_to_route('signup.get', '新規登録') !!}</p>
-            </div>
-         </div>
+        </div>
+    </div>
    </div>

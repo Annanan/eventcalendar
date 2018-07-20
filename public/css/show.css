@@ -1,6 +1,33 @@
-@charset "utf-8";
-@import URL(https://fonts.googleapis.com/earlyaccess/roundedmplus1c.css);
+body {
+     width :100%;
+     height:80%;
+     
+}
 
-body { 
-     font-family: "Rounded Mplus 1c";
+/*.clearfix::after {*/
+/*    content: '';*/
+/*    display: block;*/
+/*    clear: both; */
+/*    }
+*/
+
+    
+.eventkuwashiku{
+    float:left;
+    width:65%;
+    height: 90%
+}
+
+.boshuchu{
+    float:left;
+    padding-top: 20px;
+    padding-left: 50px;
+    width: 35%;
+    height: 90%;
+    box-shadow:0 0 0 1px rgba(89,105,128,0.1), 0 3px 20px 0 rgba(89,105,128,0.3), 0 1px 2px 0 rgba(0,0,0,0.05);
+    font-weight: bold;
+}
+
+span.glyphicon{
+    font-weight: bold;
 }
