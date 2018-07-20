@@ -1,5 +1,6 @@
 @charset "utf-8";
 @import URL(https://fonts.googleapis.com/earlyaccess/roundedmplus1c.css);
+@import URL(https://www.w3schools.com/w3css/4/w3.css);
 
 table {
     width: 100%;
@@ -18,9 +19,11 @@ table, td, th {
 }
 
 .youbi th {
-    height: 50px;
+   height: 50px;
    font-size: 20px;
    text-align: center;
+   
+  
    
 }
 

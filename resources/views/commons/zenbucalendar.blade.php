@@ -18,7 +18,6 @@
     </thead>
   
     
-    <thead>
         <tr class="youbi">
             <th>月</th>
             <th>火</th>
@@ -30,7 +29,6 @@
             
         </tr>
         
-    </thead>
     <tbody>
         <tr class="week1">
             <td class="monday"></td>

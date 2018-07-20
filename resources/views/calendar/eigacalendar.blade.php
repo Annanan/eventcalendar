@@ -1,7 +1,7 @@
 
 
 <link rel="stylesheet" href="{{ secure_asset('css/style.css') }}">
-
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
 
 
@@ -11,7 +11,7 @@
       
       <br>
       <br>
-       <tr class="youbi">
+       <tr class="youbi, w3-background w3-deep-purple">
             <th>MON</th>
             <th>TUE</th>
             <th>WED</th>
