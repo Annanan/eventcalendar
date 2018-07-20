@@ -3,9 +3,15 @@
 }
 
 
-#login{margin-left: 550px ;}
+#login{
+    margin-left: 550px ;
+    height: 370px;
+}
 
-#register{margin-left: 40px;}
+#register{
+    margin-left: 40px;
+    height:500px;     
+}
 
 
 
@@ -53,7 +59,6 @@
       background: #fff;
       border-radius:5px;
       width: 500px;
-      height:500px;
       float:left;
       box-shadow:0 0 0 1px rgba(89,105,128,0.1), 0 3px 20px 0 rgba(89,105,128,0.3), 0 1px 2px 0 rgba(0,0,0,0.05);;
       

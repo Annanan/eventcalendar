@@ -14,12 +14,13 @@
     </head>
     <body>
       @include('commons.navbar')
-        @include('commons.error_messages')
+        
         
    <div class='largebox'>
         <h1 class=copy >８がつ！！( キャッチコピー書くところ)</h1>
         
-       <div class="panel" id="login">      
+       <div class="panel" id="login"> 
+       @include('commons.error_messages')
           <div class="text-center">
             <h1>Log in</h1>
           </div>

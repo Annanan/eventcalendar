@@ -16,7 +16,7 @@
     </head>
     <body>
       @include('commons.navbar')
-        @include('commons.error_messages')
+        
         
     <div class='header'> </div>
     <div class="clearfix">
@@ -39,6 +39,8 @@
 
 
           <div class="panel" id="register">
+            
+            @include('commons.error_messages')
             <div class="text-center">
                <h1>Sign up</h1><br>
             </div>
