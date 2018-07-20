@@ -22,7 +22,7 @@
                     
                     <li class="w3-black w3-button w3-wide"><a href="{{ route('mypage.mycalendar', Auth::id()) }}">MY CALENDAR</a></li>   
                     
-                    <li class="w3-blue-grey w3-button w3-wide"><a href="{{ route('logout.get') }}">LOGOUT</a></li>
+                    <li class="w3-grey w3-button w3-wide"><a href="{{ route('logout.get') }}">LOGOUT</a></li>
                     @else
                         <li><a href="{{ route('signup.get') }}">SIGNUP</a></li>
                         <li><a href="{{ route('login') }}">LOGIN</a></li>
