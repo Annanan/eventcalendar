@@ -19,7 +19,7 @@
 
             </ul>
 
-            @include('commons.calendar',['events' => $sports_events])
+            @include('calendar.sportscalendar',['events' => $sports_events])
         </div>
 
 @endsection

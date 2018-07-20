@@ -17,14 +17,52 @@ table, td, th {
     margin: 0 0 0 0;
     padding: 0 0 0 0;
 }
-
-.youbi th {
+.w3-deep-purple  th{
    height: 50px;
    font-size: 20px;
    text-align: center;
-   
-  
-   
+}
+
+.w3-deep-orange th{
+   height: 50px;
+   font-size: 20px;
+   text-align: center;
+}
+
+.w3-orange th{
+   height: 50px;
+   font-size: 20px;
+   text-align: center;
+}
+
+.w3-brown th{
+   height: 50px;
+   font-size: 20px;
+   text-align: center;
+}
+
+.w3-pink th{
+   height: 50px;
+   font-size: 20px;
+   text-align: center;
+}
+
+.w3-lime th{
+   height: 50px;
+   font-size: 20px;
+   text-align: center;
+}
+
+.w3-cyan th{
+   height: 50px;
+   font-size: 20px;
+   text-align: center;
+}
+
+.w3-pale-red th{
+    height: 50px;
+   font-size: 20px;
+   text-align: center;
 }
 
 td {
