@@ -1,4 +1,6 @@
 <link rel="stylesheet" href="{{ secure_asset('css/navbar1.css') }}">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
 
 
 <header>
@@ -17,9 +19,9 @@
                 <ul class="nav navbar-nav navbar-right">
                     @if (Auth::check())
                     
-                    <li><a href="{{ route('mypage.mycalendar', Auth::id()) }}">MY CARENDAR</a></li>   
+                    <li class="w3-black w3-button w3-wide"><a href="{{ route('mypage.mycalendar', Auth::id()) }}">MY CALENDAR</a></li>   
                     
-                    <li><a href="{{ route('logout.get') }}">LOGOUT</a></li>
+                    <li class="w3-blue-grey w3-button w3-wide"><a href="{{ route('logout.get') }}">LOGOUT</a></li>
                     @else
                         <li><a href="{{ route('signup.get') }}">SIGNUP</a></li>
                         <li><a href="{{ route('login') }}">LOGIN</a></li>
