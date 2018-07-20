@@ -48,7 +48,7 @@
 
 .bun{margin-top:10px;
     padding-left: 280px;
-    padding-bottom:20px;
+    padding-top:200px;
     color: red;
     
 }
@@ -73,15 +73,23 @@
     padding-left: 20px;
     width: 230px;
     height: 230px;
-    background-image: url("../loginimage.jpg");
     background-size: 300px 300px;
+    }
     
+#setsumei1{ background-image: url("../loginimage.jpg");}
+#setsumei2{ background-image: url("../suika.jpg");}
+#setsumei3{ background-image: url("../hanabi.jpg");}
+
+.bunbun{
+    text-align:left;
+    color: white;
+    padding-top: 150px;
 }
 
 
-
 body { 
-  background: url('../loginimage.jpg') no-repeat center center fixed; 
+  background: url('../wood.jpg') no-repeat center center fixed;
+  
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;

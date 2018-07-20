@@ -17,7 +17,7 @@
         
         
    <div class='largebox'>
-        <h1 class=copy >８がつ！！( キャッチコピー書くところ)</h1>
+        <h1 class=copy >君がくれた夏</h1>
         
        <div class="panel" id="login"> 
        @include('commons.error_messages')

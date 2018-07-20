@@ -24,13 +24,13 @@
       
       
       <div class=setsumei>
-        <h1 class=copy >８がつ！！( キャッチコピー書くところ) <br> あなたののどに狙いを決めて<br>　ベンザブロック</h1>
+        <h1 class=copy >君がくれた夏</h1>
      
-         <h3 class= bun>このアプリの使い方</h3>
-       <div class=picture><p>①カレンダーからイベントを検索</p>
+         <h3 class= bun>このアプリの使い方<br> How to use this app</h3>
+       <div class=picture id=setsumei1><p class=bunbun id=bunbun1>①:カレンダーからイベントを検索</p>
        </div>
-       <div class=picture><p>②興味を持ったイベントを<br>    マイカレンダーに追加</p></div>
-       <div class=picture><p>③一緒に行く仲間を<br> 募集することもできる！</p></div>
+       <div class=picture id=setsumei2><p class=bunbun id=bunbun2>②:興味を持ったイベントを<br>    マイカレンダーに追加</p></div>
+       <div class=picture id= setsumei3><p class=bunbun id=bunbun3>③:一緒に行く仲間を<br> 募集することもできる！</p></div>
       </div>
       
       
