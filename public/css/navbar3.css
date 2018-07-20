@@ -17,12 +17,15 @@
     text-align: left;
 }
 
-hr {
-  border-top: 1px double #bbb;
+.haikei{background-color: #ffffee;}
 
-  
-}
+
 .borderline {
     width:100%;
 border-top:solid 1px black;
+}
+
+.ichiran{width:600px;
+
+   
 }

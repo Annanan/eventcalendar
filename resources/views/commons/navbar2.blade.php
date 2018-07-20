@@ -1,4 +1,5 @@
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="{{ secure_asset('css/navbar2.css') }}">
 
 
 <header>
@@ -19,7 +20,7 @@
                                     <a href="{{ route('events.events') }}">全ジャンル</a>
                                 </li>
                                 <li class="w3-pink w3-button w3-thin">
-                                    <a href="{{ route('events.omatsuri') }}">お祭り・花火大会</a>
+                                    <a href="{{ route('events.omatsuri') }}">お祭り・花火</a>
                                 </li>
                                 <li class="w3-deep-purple w3-button w3-thin">
                                     <a href="{{ route('events.eiga') }}">映画</a>
@@ -43,13 +44,8 @@
                 <ul class="nav navbar-nav navbar-right">
                     @if (Auth::check())
                         <li class="w3-light-grey w3-button w3-thin"><a href="{{ route('events.events')}}">TOPへ</a></li>
-                        <li class="dropdown w3-dark-gray w3-button w3-thin">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{{ Auth::user()->name }}さん <span class="caret"></span></a>
-                            <ul class="dropdown-menu">   
-                                <li class="w3-black w3-button w3-wide"><a href="{{ route('mypage.mycalendar', Auth::id()) }}">MYCALENDAR</a></li>
-                                <li class="w3-blue-grey w3-button w3-wide"><a href="{{ route('logout.get') }}">LOGOUT</a></li>
-                            </ul>
-                        </li>
+                        <li class="w3-black w3-button w3-thin"><a href="{{ route('mypage.mycalendar'), Auth::id() }}">MYCALENDAR</a>
+                        <li class="w3-grey w3-button w3-thin"><a href="{{ route('logout.get') }}">LOGOUT</a>
                     @else
                         <li class="w3-grey w3-button w3-wide"><a href="{{ route('signup.get') }}">SIGNUP</a></li>
                         <li class="w3-light-grey w3-button w3-wide"><a href="{{ route('login') }}">LOGIN</a></li>

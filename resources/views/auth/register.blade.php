@@ -40,7 +40,7 @@
 
           <div class="panel" id="register">
             
-            @include('commons.error_messages')
+            
             <div class="text-center">
                <h1>Sign up</h1><br>
             </div>
@@ -96,6 +96,9 @@
                 
                 {!! Form::submit('Sign up', ['class' => 'btn btn-primary btn-block']) !!}
             {!! Form::close() !!}
+            
+            
+            @include('commons.error_messages')
              </div>
             </div>
            </div>

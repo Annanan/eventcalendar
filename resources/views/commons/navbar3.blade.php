@@ -7,7 +7,7 @@
 <header>
     <div class=borderline></div>
     <!--<nav class="navbar navbar-default navbar-static-top">-->
-   
+     <div class= haikei>
         <div class="container">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -22,6 +22,7 @@
             
                 
             </div>
+        
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-center">
                    
@@ -39,7 +40,7 @@
                 </ul>
                   
             </div>
-           
+    </div>   
         </div>
     <div class=borderline></div>
 </header>
