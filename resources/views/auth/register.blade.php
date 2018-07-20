@@ -1,7 +1,7 @@
 
 
 <!DOCTYPE html>
-<html>
+ <html lang = ja>
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -16,18 +16,21 @@
     </head>
     <body>
       @include('commons.navbar')
-        @include('commons.error_messages')
         
-
-
-    
-        <h1 class=copy >８がつ！！( キャッチコピー書くところ) <br> あなたののどに狙いを決めて<br>　ベンザブロック</h1>
+        
+    <div class='header'> </div>
+    <div class="clearfix">
+    <div class='largebox'>
+      
+      
       <div class=setsumei>
-         <h3 class= bun>このアプリの使い方</h3>
-       <div class=picture><p>ｌｌｌ</p>
+        <h1 class=copy >君がくれた夏</h1>
+     
+         <h3 class= bun>このアプリの使い方<br> How to use this app</h3>
+       <div class=picture id=setsumei1><p class=bunbun id=bunbun1>①:カレンダーからイベントを検索</p>
        </div>
-       <div class=picture><p>お疲れ様です。</p></div>
-       <div class=picture><p>お疲れ様です。</p></div>
+       <div class=picture id=setsumei2><p class=bunbun id=bunbun2>②:興味を持ったイベントを<br>    マイカレンダーに追加</p></div>
+       <div class=picture id= setsumei3><p class=bunbun id=bunbun3>③:一緒に行く仲間を<br> 募集することもできる！</p></div>
       </div>
       
       
@@ -35,13 +38,15 @@
 
 
 
-    <div class="panel" id="register">
-    <div class="text-center">
-        <h1>Sign up</h1><br>
-    </div>
+          <div class="panel" id="register">
+            
+            @include('commons.error_messages')
+            <div class="text-center">
+               <h1>Sign up</h1><br>
+            </div>
     
-    <div class="row">
-        <div class="col-md-10 col-md-offset-1">
+            <div class="row">
+              <div class="col-md-10 col-md-offset-1">
             
             {!! Form::open(['route' => 'signup.post']) !!}
                 
@@ -91,10 +96,11 @@
                 
                 {!! Form::submit('Sign up', ['class' => 'btn btn-primary btn-block']) !!}
             {!! Form::close() !!}
-        </div>
-    </div>
- </div>
-
+             </div>
+            </div>
+           </div>
+      </div>
+      </div>
 
 </body>
 </html>
