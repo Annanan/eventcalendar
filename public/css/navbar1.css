@@ -14,13 +14,20 @@
 .tab li{
     display: inline-block;
     width: 128px;
-    padding: 10px 0 15px 0;
+    height: 40px;
+    padding: 0 0 0 0;
+}
+
+.tab li a {
+    width: 120px;
+    font-size: 12px;
+    text-align: center;
 }
 
 .tab li a span {
     width: 120px;
     font-size: 12px;
-    padding: 0 0 0 0;
+    padding: 10px 0 25px 0;
     text-align: center;
 }
 
