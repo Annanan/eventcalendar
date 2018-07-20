@@ -48,8 +48,8 @@
                             </ul>
                         </li>
                     @else
-                        <li><a href="{{ route('signup.get') }}">新規登録</a></li>
-                        <li><a href="{{ route('login') }}">ログイン</a></li>
+                        <li><a href="{{ route('signup.get') }}">SIGNUP</a></li>
+                        <li><a href="{{ route('login') }}">LOGIN</a></li>
                     @endif
                 </ul>
             </div>

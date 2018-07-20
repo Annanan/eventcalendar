@@ -16,13 +16,16 @@
     </head>
     <body>
       @include('commons.navbar')
-        @include('commons.error_messages')
         
-
-
-    
-        <h1 class=copy >８がつ！！( キャッチコピー書くところ) <br> あなたののどに狙いを決めて<br>　ベンザブロック</h1>
+        
+    <div class='header'> </div>
+    <div class="clearfix">
+    <div class='largebox'>
+      
+      
       <div class=setsumei>
+        <h1 class=copy >８がつ！！( キャッチコピー書くところ) <br> あなたののどに狙いを決めて<br>　ベンザブロック</h1>
+     
          <h3 class= bun>このアプリの使い方</h3>
        <div class=picture><p>ｌｌｌ</p>
        </div>
@@ -35,13 +38,15 @@
 
 
 
-    <div class="panel" id="register">
-    <div class="text-center">
-        <h1>Sign up</h1><br>
-    </div>
+          <div class="panel" id="register">
+            
+            @include('commons.error_messages')
+            <div class="text-center">
+               <h1>Sign up</h1><br>
+            </div>
     
-    <div class="row">
-        <div class="col-md-10 col-md-offset-1">
+            <div class="row">
+              <div class="col-md-10 col-md-offset-1">
             
             {!! Form::open(['route' => 'signup.post']) !!}
                 
@@ -91,10 +96,11 @@
                 
                 {!! Form::submit('Sign up', ['class' => 'btn btn-primary btn-block']) !!}
             {!! Form::close() !!}
-        </div>
-    </div>
- </div>
-
+             </div>
+            </div>
+           </div>
+      </div>
+      </div>
 
 </body>
 </html>
