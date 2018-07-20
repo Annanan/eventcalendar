@@ -3,7 +3,7 @@
 
 @section('content')
 
-@include('commons.prefecture')   
+@include('commons.navbar3')      
         
 <link rel="stylesheet" href="{{ secure_asset('css/navbar1.css') }}">
         
