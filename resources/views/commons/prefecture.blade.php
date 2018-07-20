@@ -3,8 +3,9 @@
     {{ csrf_field() }}
 
 <div class="dropdown">
-    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true">都道府県で検索<span class="caret"></span></a>
+    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true">その他の都道府県で検索<span class="caret"></span></a>
 <ul class="dropdown-menu">
+  <div class=ichiran>
     <label for="全国">全国</label>
     <input id="zenkoku" type="checkbox" name="search[]" value="48" >&nbsp;&nbsp;&nbsp;&nbsp;
     <br>
@@ -123,7 +124,9 @@
     <label for='沖縄'>沖縄</label>
     <input id="okinawa" type="checkbox" name="search[]" value="47" >&nbsp;&nbsp;&nbsp;&nbsp;
     
+    
     <input type="submit" value="検索">
+  </div>
 </ul>
 </div>
 

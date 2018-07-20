@@ -1,0 +1,28 @@
+.navbar-right li a {
+    font-size: 15px;
+}
+
+
+
+.tab li{
+    display: inline-block;
+    width: 128px;
+}
+
+.tab li a {
+    font-size: 13px;
+}
+
+.tab li span {
+    text-align: left;
+}
+
+hr {
+  border-top: 1px double #bbb;
+
+  
+}
+.borderline {
+    width:100%;
+border-top:solid 1px black;
+}

@@ -1,4 +1,5 @@
 <link rel="stylesheet" href="{{ secure_asset('css/navbar1.css') }}">
+<link href="https://fonts.googleapis.com/earlyaccess/mplus1p.css" rel="stylesheet" />
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
 
@@ -19,6 +20,7 @@
                 <ul class="nav navbar-nav navbar-right">
                     @if (Auth::check())
                     
+                    <li><a href="{{ route('mypage.mycalendar', Auth::id()) }}">MY CALENDAR</a></li>   
                     <li class="w3-black w3-button w3-wide"><a href="{{ route('mypage.mycalendar', Auth::id()) }}">MY CALENDAR</a></li>   
                     
                     <li class="w3-blue-grey w3-button w3-wide"><a href="{{ route('logout.get') }}">LOGOUT</a></li>

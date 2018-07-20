@@ -5,7 +5,7 @@
 
 
 
-@include('commons.prefecture')   
+@include('commons.navbar3')    
         
         <div class="col-xs-12">
             <ul class="tab">
@@ -21,7 +21,7 @@
 
                
 </ul>
-
+　　　　　　　
             @include('commons.calendar',['events' => $omatsuri_events])
            
         </div>
