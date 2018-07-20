@@ -2,16 +2,18 @@
     font-size: 15px;
 }
 
-/*ul {*/
-/*     text-align: center;*/
-/*}*/
 
-/*.nav-fill{*/
-/*    text-align: center;*/
-/*}*/
 
-.nav-fill li{
+.tab li{
     display: inline-block;
-    width: 137px;
+    width: 128px;
+}
+
+.tab li a {
+    font-size: 13px;
+}
+
+.tab li span {
+    text-align: left;
 }
 
