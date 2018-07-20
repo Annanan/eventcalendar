@@ -2,37 +2,79 @@
 
 body{
     width: 100%;
+    position: relative;
     
 }
 
-.clearfix::after {
-  content: '';
-  display: block;
-  clear: both;
+/*.clearfix::after {*/
+/*  content: '';*/
+/*  display: block;*/
+/*  clear: both;*/
+/*}*/
+
+#wrapper1{
+    display: inline-block;
 }
 
-/*#wrapper1{*/
-/*    display: inline-block;*/
-/*}*/
-
-/*#wrapper2{*/
-/*    display: inline-block;*/
-/*}*/
+#wrapper2{
+    display: inline-block;
+}
 
 
 .left{
-    margin:50px 25px 25px 400px;
-    float: left;
+    /*margin:50px 25px 25px 400px;*/
+    /*float: left;*/
+    position: absolute;
+    top:0px;
+    left:0px;
+    box-shadow: 10px 10px 15px -10px;
+    
 }
 
 .center{
-    margin:50px 25px 25px 70px;
-    float: left;
+    /*margin:50px 25px 25px 70px;*/
+    /*float: left;*/
+    position: absolute;
+    top:0px;
+    left:300px;
+    box-shadow: 10px 10px 15px -10px;
 }
 
 .right{
-    margin:50px 200px 25px 60px;
-    float: left;
+    /*margin:50px 200px 25px 60px;*/
+    /*float: left;*/
+    position: absolute;
+    top:0px;
+    left:600px;
+    box-shadow: 10px 10px 15px -10px;
+}
+
+.under-left{
+    /*margin:50px 25px 25px 400px;*/
+    /*float: left;*/
+    position: absolute;
+    top:250px;
+    left:0px;
+    box-shadow: 10px 10px 15px -10px;
+    
+}
+
+.under-center{
+    /*margin:50px 25px 25px 70px;*/
+    /*float: left;*/
+    position: absolute;
+    top:250px;
+    left:300px;
+    box-shadow: 10px 10px 15px -10px;
+}
+
+.under-right{
+    /*margin:50px 200px 25px 60px;*/
+    /*float: left;*/
+    position: absolute;
+    top:250px;
+    left:600px;
+    box-shadow: 10px 10px 15px -10px;
 }
 
 img{
@@ -46,29 +88,26 @@ img{
     font-size: 20px;
     display: inline-block;
     padding: 10px;
-    float: right;
+     color: #000;
 }
 
 .title{
-    display: inline-block;
+    /*display: inline-block;*/
+    position: absolute;
+    top:0px;
+    left:200px;
 }
 
 .touroku{
-    float: right;
-    padding-right: 200px;
-    position: relative;
-    top:0px;
-    right:100px;
+    position: absolute;
+    top:580px;
+    left:530px;
 }
 
-h1{
-    padding-left: 300px;
-}
+
 
 .picture{
-    position: relative;
-    top:0px;
-    left:0px;
-    bottom:0px;
-    right: 0px;
+    position: absolute;
+    top:100px;
+    left:325px;
 }
