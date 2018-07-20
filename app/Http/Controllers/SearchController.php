@@ -29,4 +29,15 @@ class SearchController extends Controller
     }
     else{echo "都道府県を選択してください";}
     }
+    
+    
+    public function tabsearch($num) {
+        
+         $search_events = Event:: where('prefecturenum' ,$num)->get(); 
+      
+       return view('search.tabsearch', 
+       ['search_events' => $search_events]
+        );
+       }
+    
 }

@@ -3,7 +3,7 @@
     {{ csrf_field() }}
 
 <div class="dropdown">
-    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true">都道府県で検索<span class="caret"></span></a>
+    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true">その他の都道府県で検索<span class="caret"></span></a>
 <ul class="dropdown-menu">
     <label for="全国">全国</label>
     <input id="zenkoku" type="checkbox" name="search[]" value="48" >&nbsp;&nbsp;&nbsp;&nbsp;
