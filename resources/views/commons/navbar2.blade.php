@@ -1,4 +1,5 @@
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link href="https://fonts.googleapis.com/earlyaccess/mplus1p.css" rel="stylesheet" />
 <link rel="stylesheet" href="{{ secure_asset('css/navbar2.css') }}">
 
 
@@ -12,7 +13,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-left" href="/zenbu"><img src="" alt="EVENTMOURAKUN"></a>
+                <a class="navbar-left" href="/zenbu"><img src="/idea15.jpg" alt="EVENTMOURAKUN" width="390" height="60"></a>
             </div>
             <div class="collapse navbar-collapse">
                 <ul class="nav navbar-nav navbar-center">

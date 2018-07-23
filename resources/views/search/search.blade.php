@@ -1,7 +1,8 @@
-@extends('layouts.app')
- 
+@extends('layouts.app2')
 
 @section('content')
+
+
 
 <p>検索結果　</p>
 
@@ -9,7 +10,7 @@
 
 print "検索条件:";
 foreach ($prefectures as $num){
-    $number=\DB::table('events')->select('prefecture')->where('prefecturenum',13)->get()->first();
+    $number=\DB::table('events')->select('prefecture')->where('prefecturenum',$num)->get()->first();
     
     print_r ($number)  .PHP_EOL  ;} ?>
 

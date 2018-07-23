@@ -1,5 +1,5 @@
 .header {
-  height: 50px;
+  height: 20px;
 }
 
 
@@ -25,6 +25,7 @@
      float: left;
      width: 800px;
      height: 100px;
+     font-family: Meiryo;
      }
     
 .clearfix::after {
@@ -56,11 +57,11 @@
 .panel{
        padding-top: 30px;
        margin-top:1px; 
-      background: #fff;
-      border-radius:5px;
-      width: 500px;
-      float:left;
-      box-shadow:0 0 0 1px rgba(89,105,128,0.1), 0 3px 20px 0 rgba(89,105,128,0.3), 0 1px 2px 0 rgba(0,0,0,0.05);;
+       background: #fff;
+       border-radius:5px;
+       width: 500px;
+       float:left;
+       box-shadow:0 0 0 1px rgba(89,105,128,0.1), 0 3px 20px 0 rgba(89,105,128,0.3), 0 1px 2px 0 rgba(0,0,0,0.05);;
       
       text-align: center;
 }
@@ -97,3 +98,7 @@ body {
   -o-background-size: cover;
   background-size: cover;
 }
+
+p{
+ font-family: Meiryo;
+     }

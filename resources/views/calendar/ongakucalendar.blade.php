@@ -10,7 +10,6 @@
     <thead>
       
       <br>
-      <br>
        <tr class="youbi, w3-background w3-lime">
             <th>MON</th>
             <th>TUE</th>
@@ -535,3 +534,6 @@
         </tr>
     </tbody>
 </table> 
+<br>
+<br>
+<br>

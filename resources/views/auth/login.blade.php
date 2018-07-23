@@ -19,10 +19,9 @@
         <h1 class=copy >８がつ！！( キャッチコピー書くところ)</h1>
         
    <div class='largebox'>
-        <h1 class=copy >君がくれた夏</h1>
         
        <div class="panel" id="login"> 
-       
+       <br>
           <div class="text-center">
             <h1>Log in</h1>
           </div>
@@ -31,6 +30,7 @@
         <div class="col-md-6 col-md-offset-3">
 
             {!! Form::open(['route' => 'login.post']) !!}
+                <br>
                 <br>
                   <div class="input-group">
                     <span class="input-group-addon">ニックネーム</span>
@@ -44,13 +44,14 @@
                     <input type="password" name='password' class="form-control" placeholder="6文字以上">
                   </div>
                 <br>
+                <br>
                 
                
 
             {!! Form::submit('Log in', ['class' => 'btn btn-info btn-block']) !!}
             {!! Form::close() !!}
 
-            <p>未登録の場合 → {!! link_to_route('signup.get', '新規登録') !!}</p>
+            <p></p><p>未登録の場合 → {!! link_to_route('signup.get', '新規登録') !!}</p>
         </div>
     </div>
    </div>
