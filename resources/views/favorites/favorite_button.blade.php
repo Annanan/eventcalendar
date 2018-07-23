@@ -1,5 +1,4 @@
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link href="https://fonts.googleapis.com/earlyaccess/mplus1p.css" rel="stylesheet" >
+<link rel="stylesheet" href="{{ secure_asset('css/show.css') }}">
 
 @if (Auth::user()->event_favotteru($event->id))
         {!! Form::open(['route' => ['user.unfavoru', $event->id], 'method' => 'delete']) !!}
