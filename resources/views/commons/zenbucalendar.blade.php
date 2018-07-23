@@ -1211,7 +1211,7 @@
              <span class="glyphicon glyphicon-music">　音楽 ({{ $ongaku_28 }})</span>
              @endif
              @if($gurume_28 !== 0)
-             <span class="glyphicon glyphicon-glass"> �����ルメ  ({{ $gurume_28 }})</span>
+             <span class="glyphicon glyphicon-glass"> グルメ  ({{ $gurume_28 }})</span>
              @endif
              @if($geijutsu_28 !== 0)
              <span class="glyphicon glyphicon-picture">　芸術 ({{$geijutsu_28 }}) </span>
