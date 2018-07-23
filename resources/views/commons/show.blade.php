@@ -5,10 +5,12 @@
 
 @section('content')
 
+<br>
 <body>
 
 <div class=eventkuwashiku>
- <div class="col-xs-12">
+ <div class=description>
+  <div class="col-xs-12">
 
     
   <h2>{{$event->name}}</h2><br>
@@ -19,7 +21,7 @@
   <span class="glyphicon glyphicon-list-alt">：{{$event->description}}</span><br><br><br>
   <span class="glyphicon glyphicon-usd">：{{$event->price}}</span><br><br><br>
   <span class="glyphicon glyphicon-book">：{{$event->genre}}</span><br><br><br>
-  
+ </div> 
 </div>
 
 @if(Auth::check())
