@@ -70,7 +70,6 @@
              <span class="glyphicon glyphicon-leaf">  その他  ({{$leisure_1 }})</span>
              @endif
               
-            </button>
             </td>
             
              <td class="thursday"><span style="font-weight:bold">
