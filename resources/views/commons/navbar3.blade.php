@@ -24,11 +24,10 @@
             </div>
         
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-center">
+                <ul class="nav navbar-nav navbar-center"  class=ken>
                    
                     <li>都道府県別でイベントを探す:</li>
-                    
-                     <a class=ken href="{{ action ('SearchController@tabsearch', 13)  }}">東京都</a>
+                                         <a class=ken href="{{ action ('SearchController@tabsearch', 13)  }}">東京都</a>
                      <a class=ken href="{{ action ('SearchController@tabsearch', 14)  }}">神奈川県</a>
                      <a class=ken href="{{ action ('SearchController@tabsearch', 11)  }}">埼玉県</a>
                      <a class=ken href="{{ action ('SearchController@tabsearch', 12)  }}">千葉県</a>
@@ -36,7 +35,7 @@
                      <a class=ken href="{{ action ('SearchController@tabsearch', 23)  }}">愛知県</a>
                      <a class=ken href="{{ action ('SearchController@tabsearch', 40)  }}"> 福岡県</a>
                      <a class=ken href="{{ action ('SearchController@tabsearch', 1)   }}">北海道</a>
-                     @include('commons.prefecture') 
+                     @include('commons.prefecture' ) 
                 </ul>
                   
             </div>

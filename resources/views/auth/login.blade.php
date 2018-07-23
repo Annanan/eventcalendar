@@ -14,7 +14,7 @@
     </head>
     <body>
       @include('commons.navbar')
-        @include('commons.error_messages')
+       
         
         <h1 class=copy >８がつ！！( キャッチコピー書くところ)</h1>
         
@@ -27,7 +27,7 @@
           </div>
 
     <div class="row">
-        <div class="col-md-6 col-md-offset-3">
+        <div class="col-md-10 col-md-offset-1">
 
             {!! Form::open(['route' => 'login.post']) !!}
                 <br>
@@ -44,7 +44,6 @@
                     <input type="password" name='password' class="form-control" placeholder="6文字以上">
                   </div>
                 <br>
-                <br>
                 
                
 
@@ -52,6 +51,9 @@
             {!! Form::close() !!}
 
             <p></p><p>未登録の場合 → {!! link_to_route('signup.get', '新規登録') !!}</p>
+            
+            
+             @include('commons.error_messages')
         </div>
     </div>
    </div>

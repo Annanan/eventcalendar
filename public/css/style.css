@@ -108,12 +108,23 @@ span{
 /*  background-size: cover;*/
 /*}*/
 
-.boshu{font-weight: bold;
-background-color: pink;
-
+.boshu{
+       font-weight: bold;
+       background-color: pink;
 }
+
+.boshu1{
+       font-weight: bold;
+       background-color: pink;
+       width: 280px;
+       text-align: center;
+}
+.daylink:hover {background-color: lightgreen;}
 
 .daylink{font-size: 20px;
-    background-color: pink;
+    
     cursor: pointer
-}
+    }
+
+.saturday .daylink{color: blue;}
+.sunday .daylink{color: red;}
