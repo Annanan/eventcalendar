@@ -12,7 +12,7 @@
    <thead>
      
          <tr class="year">
-             <h1>2018年 8月</h1>
+             <h1>2018年 8月</h1> <p>日付をクリックで　その日のイベント一覧ページへ</p>
         </tr>
           
     </thead>
@@ -33,7 +33,7 @@
             <td class="monday">
              <!--&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;例-->
             </td>
-            <td class="tuesday"><span style="font-weight:bold" class=daylink>&nbsp;日付 (click!!)</span><br>
+            <td class="tuesday"><br>
         🐮イベント名 (イベント数)
         
             </td>
@@ -456,7 +456,7 @@
               
 </td>
 
-<td class="saturday"><span style="font-weight:bold">
+<td class="sunday"><span style="font-weight:bold">
   <a class=daylink href="{{ action ('DayController@day', 11)  }}">11</a>
 </span> 
               <br>
@@ -801,7 +801,7 @@
               
             </td>
             
-<td class="wednesday"><span style="font-weight:bold">
+<td class="sunday"><span style="font-weight:bold">
       <a class=daylink href="{{ action ('DayController@day', 19)  }}">19</a>
 </span> 
               <br>
@@ -846,7 +846,7 @@
         
         <tr class="week4">
             
-<td class="sunday"><span style="font-weight:bold">
+<td class="monday"><span style="font-weight:bold">
      <a class=daylink href="{{ action ('DayController@day', 20)  }}">20</a>
 </span> 
               <br>
@@ -887,7 +887,7 @@
            
             </td>
             
-            <td class="saturday"><span style="font-weight:bold">
+            <td class="tuesday"><span style="font-weight:bold">
                <a class=daylink href="{{ action ('DayController@day', 21)  }}">21</a>
             </span>
               <br>
@@ -928,7 +928,7 @@
             
               
             </td>
-<td class="sunday"><span style="font-weight:bold">
+<td class="wednesday"><span style="font-weight:bold">
      <a class=daylink href="{{ action ('DayController@day', 22)  }}">22</a>
 </span> 
               <br>
@@ -970,7 +970,7 @@
               
             </td>
             
-<td class="monday"><span style="font-weight:bold">
+<td class="thursday"><span style="font-weight:bold">
       <a class=daylink href="{{ action ('DayController@day', 23)  }}">23</a>
 </span> 
               <br>
@@ -1012,7 +1012,7 @@
               
             </td>
 
-<td class="tuesday"><span style="font-weight:bold">
+<td class="friday"><span style="font-weight:bold">
      <a class=daylink href="{{ action ('DayController@day', 24)  }}">24</a>
 </span> 
               <br>
@@ -1053,7 +1053,7 @@
             
               
             </td>
-<td class="wednesday"><span style="font-weight:bold">
+<td class="saturday"><span style="font-weight:bold">
       <a class=daylink href="{{ action ('DayController@day', 25)  }}">25</a>
 </span> 
               <br>

@@ -113,7 +113,12 @@ background-color: pink;
 
 }
 
+.daylink:hover {background-color: lightgreen;}
+
 .daylink{font-size: 20px;
-    background-color: pink;
+    
     cursor: pointer
-}
+    }
+
+.saturday .daylink{color: blue;}
+.sunday .daylink{color: red;}

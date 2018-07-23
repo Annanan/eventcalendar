@@ -189,7 +189,7 @@
               </span>
             </td>
            
-            <td class="saturday"><span style="font-weight:bold"><font color="blue">11</font></span>
+            <td class="saturday"><span style="font-weight:bold"><font color="red">11</font></span>
               <br>
               <span>
               <?php foreach ($events as $event) {  
