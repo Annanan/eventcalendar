@@ -20,10 +20,9 @@ class UsersController extends Controller
         
         $user = Auth::user(); //ログインしている人間
         $event_favorites = $user->event_favorites; //やや不安
-
         // $data += $this->counts($user);
 
-        return view('mypage.mycalendar',  ['event_favorites' => $event_favorites, ]);
+        return view('mypage.mycalendar',  ['event_favorites' => $event_favorites, 'user' => $user  ]);
     }
     }
     
