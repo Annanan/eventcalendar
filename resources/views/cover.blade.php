@@ -16,7 +16,7 @@
     <body>
         <div class='col-xs-12'>
             <div class='title'>
-                <h1><img class=logo src="idea15.jpg" alt="EVENTMOURAKUN" width="390" height="60"></h1>
+                <h1>EVENT-MOURA-KUN</h1>
             </div>
 
     
@@ -53,9 +53,8 @@
         
         <div class='touroku'>
             <ul>
-                <li class='sign'><button type="button" class="btn btn-default">{!! link_to_route('signup.get',  '> Sign up', null, ['class'=>'sign']) !!}</button></li>
                 <li class='sign'><button type="button" class="btn btn-default">{!! link_to_route('login',  '> Login', null, ['class'=>'sign']) !!}</button></li>
-        
+                <li class='sign'><button type="button" class="btn btn-default">{!! link_to_route('signup.get',  '> Sign up', null, ['class'=>'sign']) !!}</button></li>
             </ul>
         </div>
     </div>
