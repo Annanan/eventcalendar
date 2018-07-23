@@ -111,11 +111,14 @@ span{
 .boshu{
        font-weight: bold;
        background-color: pink;
-       width: 25%;;
-       text-align: center
-
 }
 
+.boshu1{
+       font-weight: bold;
+       background-color: pink;
+       width: 25%;;
+       text-align: center
+}
 .daylink:hover {background-color: lightgreen;}
 
 .daylink{font-size: 20px;
