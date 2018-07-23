@@ -40,13 +40,13 @@
               echo'('. $event->prefecture .')';
               ?>
                 {!! link_to_route('events.show', $event->name, ['id' => $event->id]) !!}
-              
+              </span>
               <?php
               print '<br>';
                 }
               } 
               ?>
-              </span>
+             
             </td>
             
             <td class="thursday"><span style="font-weight:bold">2</span>
@@ -59,13 +59,13 @@
               echo'('. $event->prefecture .')';
               ?>
                 {!! link_to_route('events.show', $event->name, ['id' => $event->id]) !!}
-              
+              </span>
               <?php
               print '<br>';
                 }
               } 
               ?>
-              </span>
+              
               </td>
             
             <td class="friday"><span style="font-weight:bold">3</span>
@@ -78,13 +78,13 @@
               echo'('. $event->prefecture .')';
               ?>
                 {!! link_to_route('events.show', $event->name, ['id' => $event->id]) !!}
-              
+              </span>
               <?php
               print '<br>';
                 }
               } 
               ?>
-              </span>
+              
               </td>
             
             <td class="saturday"><span style="font-weight:bold"><font color="blue">4</font></span>
@@ -97,13 +97,13 @@
               echo'('. $event->prefecture .')';
               ?>
                 {!! link_to_route('events.show', $event->name, ['id' => $event->id]) !!}
-              
+              </span>
               <?php
               print '<br>';
                 }
               } 
               ?>
-              </span>
+              
             </td>
             
             <td class="sunday"><span style="font-weight:bold"><font color="red">5</font></span>
@@ -116,13 +116,13 @@
               echo'('. $event->prefecture .')';
               ?>
                 {!! link_to_route('events.show', $event->name, ['id' => $event->id]) !!}
-              
+              </span>
               <?php
               print '<br>';
                 }
               } 
               ?>
-              </span>
+              
             </td>
         </tr>
         <tr class="week2">
@@ -136,13 +136,13 @@
               echo'('. $event->prefecture .')';
               ?>
                 {!! link_to_route('events.show', $event->name, ['id' => $event->id]) !!}
-              
+              </span>
               <?php
               print '<br>';
                 }
               } 
               ?>
-              </span>
+              
             </td>
             
             <td class="tuesday"><span style="font-weight:bold">7</span>
@@ -155,13 +155,13 @@
               echo'('. $event->prefecture .')';
               ?>
                 {!! link_to_route('events.show', $event->name, ['id' => $event->id]) !!}
-              
+              </span>
               <?php
               print '<br>';
                 }
               } 
               ?>
-              </span>
+              
             </td>
             
             <td class="wednesday"><span style="font-weight:bold">8</span>
@@ -174,13 +174,13 @@
               echo'('. $event->prefecture .')';
               ?>
                 {!! link_to_route('events.show', $event->name, ['id' => $event->id]) !!}
-              
+              </span>
               <?php
               print '<br>';
                 }
               } 
               ?>
-              </span>
+              
             </td>
            
             <td class="thursday"><span style="font-weight:bold">9</span>
@@ -193,13 +193,13 @@
               echo'('. $event->prefecture .')';
               ?>
                 {!! link_to_route('events.show', $event->name, ['id' => $event->id]) !!}
-              
+              </span>
               <?php
               print '<br>';
                 }
               } 
               ?>
-              </span>
+              
             </td>
            
             <td class="friday"><span style="font-weight:bold">10</span>
@@ -212,13 +212,13 @@
               echo'('. $event->prefecture .')';
               ?>
                 {!! link_to_route('events.show', $event->name, ['id' => $event->id]) !!}
-              
+              </span>
               <?php
               print '<br>';
                 }
               } 
               ?>
-              </span>
+              
             </td>
            
             <td class="saturday"><span style="font-weight:bold"><font color="blue">11</font></span>
@@ -231,13 +231,13 @@
               echo'('. $event->prefecture .')';
               ?>
                 {!! link_to_route('events.show', $event->name, ['id' => $event->id]) !!}
-              
+              </span>
               <?php
               print '<br>';
                 }
               } 
               ?>
-              </span>
+              
             </td>
               
             <td class="sunday"><span style="font-weight:bold"><font color="red">12</font></span>
@@ -250,13 +250,13 @@
               echo'('. $event->prefecture .')';
               ?>
                 {!! link_to_route('events.show', $event->name, ['id' => $event->id]) !!}
-              
+              </span>
               <?php
               print '<br>';
                 }
               } 
               ?>
-              </span>
+              
             </td>
         </tr>
         
@@ -271,13 +271,13 @@
               echo'('. $event->prefecture .')';
               ?>
                 {!! link_to_route('events.show', $event->name, ['id' => $event->id]) !!}
-              
+              </span>
               <?php
               print '<br>';
                 }
               } 
               ?>
-              </span>
+              
             </td>
             
             <td class="tuesday"><span style="font-weight:bold">14</span>
@@ -290,13 +290,13 @@
               echo'('. $event->prefecture .')';
               ?>
                 {!! link_to_route('events.show', $event->name, ['id' => $event->id]) !!}
-              
+              </span>
               <?php
               print '<br>';
                 }
               } 
               ?>
-              </span>
+              
             </td>
             
             <td class="wednesday"><span style="font-weight:bold">15</span>
@@ -309,13 +309,13 @@
               echo'('. $event->prefecture .')';
               ?>
                 {!! link_to_route('events.show', $event->name, ['id' => $event->id]) !!}
-              
+              </span>
               <?php
               print '<br>';
                 }
               } 
               ?>
-              </span>
+              
             </td>
             
             <td class="thursday"><span style="font-weight:bold">16</span>
@@ -328,13 +328,13 @@
               echo'('. $event->prefecture .')';
               ?>
                 {!! link_to_route('events.show', $event->name, ['id' => $event->id]) !!}
-              
+              </span>
               <?php
               print '<br>';
                 }
               } 
               ?>
-              </span>
+              
             </td>
             
             <td class="friday"><span style="font-weight:bold">17</span>
@@ -347,13 +347,13 @@
               echo'('. $event->prefecture .')';
               ?>
                 {!! link_to_route('events.show', $event->name, ['id' => $event->id]) !!}
-              
+              </span>
               <?php
               print '<br>';
                 }
               } 
               ?>
-              </span>
+              
             </td>
             
             <td class="saturday"><span style="font-weight:bold"><font color="blue">18</font></span>
@@ -366,13 +366,13 @@
               echo'('. $event->prefecture .')';
               ?>
                 {!! link_to_route('events.show', $event->name, ['id' => $event->id]) !!}
-              
+              </span>
               <?php
               print '<br>';
                 }
               } 
               ?>
-              </span>
+              
             </td>
             
             <td class="sunday"><span style="font-weight:bold"><font color="red">19</font></span>
@@ -385,13 +385,13 @@
               echo'('. $event->prefecture .')';
               ?>
                 {!! link_to_route('events.show', $event->name, ['id' => $event->id]) !!}
-              
+              </span>
               <?php
               print '<br>';
                 }
               } 
               ?>
-              </span>
+              
             </td>
         </tr>
         
@@ -406,13 +406,13 @@
               echo'('. $event->prefecture .')';
               ?>
                 {!! link_to_route('events.show', $event->name, ['id' => $event->id]) !!}
-              
+              </span>
               <?php
               print '<br>';
                 }
               } 
               ?>
-              </span>
+              
             </td>
             
             <td class="tuesday"><span style="font-weight:bold">21</span>
@@ -423,12 +423,13 @@
                 echo'('. $event->prefecture .')';
               ?>
                   {!! link_to_route('events.show', $event->name, ['id' => $event->id]) !!}
+              </span>
               <?php
               print '<br>';
                 }
               } 
               ?>
-              </span>
+              
             </td>
             
             <td class="wednesday"><span style="font-weight:bold">22</span>
@@ -441,13 +442,13 @@
               echo'('. $event->prefecture .')';
               ?>
                 {!! link_to_route('events.show', $event->name, ['id' => $event->id]) !!}
-              
+              </span>
               <?php
               print '<br>';
                 }
               } 
               ?>
-              </span>
+              
             </td>
             
             <td class="thursday"><span style="font-weight:bold">23</span>
@@ -460,13 +461,13 @@
               echo'('. $event->prefecture .')';
               ?>
                 {!! link_to_route('events.show', $event->name, ['id' => $event->id]) !!}
-              
+              </span>
               <?php
               print '<br>';
                 }
               } 
               ?>
-              </span>
+              
             </td>
             
             <td class="friday"><span style="font-weight:bold">24</span>
@@ -479,13 +480,13 @@
               echo'('. $event->prefecture .')';
               ?>
                 {!! link_to_route('events.show', $event->name, ['id' => $event->id]) !!}
-              
+              </span>
               <?php
               print '<br>';
                 }
               } 
               ?>
-              </span>
+              
             </td>
             
             <td class="saturday"><span style="font-weight:bold"><font color="blue">25</font></span>
@@ -498,13 +499,13 @@
               echo'('. $event->prefecture .')';
               ?>
                 {!! link_to_route('events.show', $event->name, ['id' => $event->id]) !!}
-              
+              </span>
               <?php
               print '<br>';
                 }
               } 
               ?>
-              </span>
+              
             </td>
             
             <td class="sunday"><span style="font-weight:bold"><font color="red">26</font></span>
@@ -517,13 +518,13 @@
               echo'('. $event->prefecture .')';
               ?>
                 {!! link_to_route('events.show', $event->name, ['id' => $event->id]) !!}
-              
+              </span>
               <?php
               print '<br>';
                 }
               } 
               ?>
-              </span>
+              
             </td>
         </tr>
         
@@ -538,13 +539,13 @@
               echo'('. $event->prefecture .')';
               ?>
                 {!! link_to_route('events.show', $event->name, ['id' => $event->id]) !!}
-              
+              </span>
               <?php
               print '<br>';
                 }
               } 
               ?>
-              </span>
+              
             </td>
             
             <td class="tuesday"><span style="font-weight:bold">28</span>
@@ -557,13 +558,13 @@
               echo'('. $event->prefecture .')';
               ?>
                 {!! link_to_route('events.show', $event->name, ['id' => $event->id]) !!}
-              
+              </span>
               <?php
               print '<br>';
                 }
               } 
               ?>
-              </span>
+              
             </td>
             
             <td class="wednesday"><span style="font-weight:bold">29</span>
@@ -576,13 +577,13 @@
               echo'('. $event->prefecture .')';
               ?>
                 {!! link_to_route('events.show', $event->name, ['id' => $event->id]) !!}
-              
+              </span>
               <?php
               print '<br>';
                 }
               } 
               ?>
-              </span>
+              
             </td>
             
             <td class="thursday"><span style="font-weight:bold">30</span>
@@ -595,13 +596,13 @@
               echo'('. $event->prefecture .')';
               ?>
                 {!! link_to_route('events.show', $event->name, ['id' => $event->id]) !!}
-              
+              </span>
               <?php
               print '<br>';
                 }
               } 
               ?>
-              </span>
+              
             </td>
             
             <td class="friday"><span style="font-weight:bold">31</span>
@@ -614,13 +615,13 @@
               echo'('. $event->prefecture .')';
               ?>
                 {!! link_to_route('events.show', $event->name, ['id' => $event->id]) !!}
-              
+              </span>
               <?php
               print '<br>';
                 }
               } 
               ?>
-              </span>
+              
             </td>
             <td class="saturday"></td>
             <td class="sunday"></td>

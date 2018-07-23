@@ -4,7 +4,7 @@
 @section('content')
 <br>
 
-<p style="font-size:25px"  class='boshu'>[{{ $user->name }}さんのマイカレンダー]</p>
+<p style="font-size:25px">[{{ $user->name }}さんのマイカレンダー]</p>
 
 
  
