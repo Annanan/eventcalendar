@@ -20,7 +20,7 @@
 
 
 　　　　　　</ul>            
-            @include('commons.calendar',['events' => $gurume_events])
+            @include('calendar.gurumecalendar',['events' => $gurume_events])
            
         </div>
     

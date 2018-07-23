@@ -11,7 +11,7 @@
             <ul class="tab">
                 
                
-                <li class="{{ Request::is('zenbu') ? 'active' : '' }} w3-pale-red w3-button w3-thin"><a href="{{ route('events.events') }}">全ジャンル</a></li>
+                <li class="{{ Request::is('zenbu') ? 'active' : '' }} w3-pale-red w3-button w3-thin"><a href="{{ route('events.events') }}"><span class="">全ジャンル</span></a></li>
                 <li class="{{ Request::is('omatsuri') ? 'active' : '' }} w3-pink w3-button w3-thin"><a href="{{ route('events.omatsuri') }}"><span class="glyphicon glyphicon-asterisk"> お祭り・花火大会</span></a></li>
                 <li class="{{ Request::is('eiga') ? 'active' : '' }} w3-deep-purple w3-button w3-thin"><a href="{{ route('events.eiga') }}"><span class="glyphicon glyphicon-film">　映画</span> </a></li>
                 <li class="{{ Request::is('sports') ? 'active' : '' }} w3-cyan w3-button w3-thin"><a href="{{ route('events.sports') }}"><span class="glyphicon glyphicon-bullhorn"> スポーツ</span></a></li>
@@ -22,7 +22,7 @@
 
             </ul>
             
-            @include('commons.calendar', ['events' => $eiga_events])
+            @include('calendar.eigacalendar', ['events' => $eiga_events])
         </div>
     
 @endsection

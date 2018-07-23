@@ -9,7 +9,7 @@
     width: 128px;
 }
 
-.tab li a {
+.tab li  {
     font-size: 13px;
 }
 
@@ -26,6 +26,9 @@ border-top:solid 1px black;
 }
 
 .ichiran{width:600px;
+      background-color: #ddffdd;
+      
 
-   
 }
+
+label,input[type='checkbox']{cursor: pointer;}

@@ -3,7 +3,7 @@
 
 <link rel="stylesheet" href="{{ secure_asset('css/style.css') }}">
 
-
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
 
 
@@ -18,19 +18,16 @@
     </thead>
   
     
-    <thead>
-        <tr class="youbi">
-            <th>月</th>
-            <th>火</th>
-            <th>水</th>
-            <th>木</th>
-            <th>金</th>
-            <th><font color="blue">土</font></th>
-            <th><font color="red">日</font></th>
-            
+        <tr class="youbi, w3-background w3-pale-red">
+            <th>MON</th>
+            <th>TUE</th>
+            <th>WED</th>
+            <th>THU</th>
+            <th>FRI</th>
+            <th><font color="blue">SAT</font></th>
+            <th><font color="red">SUN</font></th>
         </tr>
         
-    </thead>
     <tbody>
         <tr class="week1">
             <td class="monday"></td>
@@ -38,6 +35,8 @@
             
             <td class="wednesday">
             <span style="font-weight:bold">
+            
+            <td class="wednesday"><span style="font-weight:bold","font-size:12px">
             {!! link_to_route('events.day', 1, ['id' => '1']) !!}
             </span> 
             <br>
@@ -1209,7 +1208,7 @@
              <span class="glyphicon glyphicon-music">　音楽 ({{ $ongaku_28 }})</span>
              @endif
              @if($gurume_28 !== 0)
-             <span class="glyphicon glyphicon-glass"> グルメ  ({{ $gurume_28 }})</span>
+             <span class="glyphicon glyphicon-glass"> �����ルメ  ({{ $gurume_28 }})</span>
              @endif
              @if($geijutsu_28 !== 0)
              <span class="glyphicon glyphicon-picture">　芸術 ({{$geijutsu_28 }}) </span>
