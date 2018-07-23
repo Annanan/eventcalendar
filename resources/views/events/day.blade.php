@@ -5,11 +5,9 @@
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <div class=zenbu>
 <!--<link rel="stylesheet" href="{{ secure_asset('css/day.css') }}">-->
-
-<h1>8月{{ $date }}日のイベント一覧だお☆</h1>
 <br>
 <br>
-<br>
+<h1>8月{{ $date }}日のイベント一覧🐮</h1>
 <br>
 
 <?php
