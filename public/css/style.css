@@ -108,8 +108,11 @@ span{
 /*  background-size: cover;*/
 /*}*/
 
-.boshu{font-weight: bold;
-background-color: pink;
+.boshu{
+       font-weight: bold;
+       background-color: pink;
+       width: 25%;;
+       text-align: center
 
 }
 
