@@ -34,13 +34,7 @@
             <td class="tuesday"></td>
             
             
-<<<<<<< HEAD
             <td class="wednesday"><span style="font-weight:bold","font-size:12px">
-=======
-            <td class="wednesday">
-            <button type='button'>
-            <span style="font-weight:bold">
->>>>>>> f5f26a4ac895d6e0b1b315111ffaf43e28e7d089
             {!! link_to_route('events.day', 1, ['id' => '1']) !!}
             </span> 
             <br>
