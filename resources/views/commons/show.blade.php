@@ -10,7 +10,7 @@
 <div class="col-xs-12">
 
     
-  <h1>{{$event->name}}</h1><br>
+  <h2>{{$event->name}}</h2><br>
   
   <span class="glyphicon glyphicon-calendar">：{{$event->eventdate}}日</span><br><br><br>
   <span class="glyphicon glyphicon-time">：{{$event->time}}</span><br><br><br>
