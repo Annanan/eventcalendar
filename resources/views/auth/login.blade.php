@@ -16,7 +16,7 @@
       @include('commons.navbar')
        
         
-        <h1 class=copy >作ろう、自分だけのイベントカレンダー。</h1>
+        <h1 class=copy ></h1>
         
    <div class='largebox'>
         
