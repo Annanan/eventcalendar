@@ -34,9 +34,14 @@ class SearchController extends Controller
     public function tabsearch($num) {
         
          $search_events = Event:: where('prefecturenum' ,$num)->get(); 
+         
+         $search_event = Event:: where('prefecturenum' ,$num)->first();
+         
+         $count_event = Event:: where('prefecturenum' ,$num)->count();
       
        return view('search.tabsearch', 
-       ['search_events' => $search_events]
+       ['search_events' => $search_events , 'search_event' => $search_event ,
+       ]
         );
        }
     

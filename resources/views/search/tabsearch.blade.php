@@ -7,7 +7,9 @@
 
 <?php
 
-print "検索条件:"  {{$num}};
+print "検索条件: 　{$search_event->prefecture}　 ";
+
+
 ?>
 
         
