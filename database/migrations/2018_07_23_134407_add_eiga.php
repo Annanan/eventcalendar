@@ -1,0 +1,279 @@
+<?php
+
+use Illuminate\Support\Facades\Schema;
+use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Database\Migrations\Migration;
+
+class AddEiga extends Migration
+{
+    /**
+     * Run the migrations.
+     *
+     * @return void
+     */
+    public function up()
+    {
+        Schema::table('events', function (Blueprint $table) {
+            //
+        });
+        
+        DB::table('events')->insert([
+        [
+          'name' => 'インクレディブル・ファミリー',
+          'eventdate' => '1',
+          'time' => '各映画館のスケジュールを参照ください。',
+          'prefecture' => '全国',
+          'place' => '全国の映画館',
+          'genre' => '映画',
+          'description' => '第77回アカデミー長編アニメ映画賞を受賞したディズニー／ピクサーの大ヒット作「Mr.インクレディブル」の14年ぶりとなる続編。',
+          'price' => '1800円',
+          'genrenum' => '1',
+          'prefecturenum' => '48',
+        ],
+        [
+          'name' => 'センセイ君主',
+          'eventdate' => '1',
+          'time' => '各映画館のスケジュールを参照ください。',
+          'prefecture' => '全国',
+          'place' => '全国の映画館',
+          'genre' => '映画',
+          'description' => '幸田もも子による人気少女漫画を、竹内涼真と浜辺美波という注目若手俳優共演で実写映画化した学園ラブコメディ。',
+          'price' => '1800円',
+          'genrenum' => '1',
+          'prefecturenum' => '48',
+        ],
+        [
+          'name' => '青夏　きみに恋した３０日',
+          'eventdate' => '1',
+          'time' => '各映画館のスケジュールを参照ください。',
+          'prefecture' => '全国',
+          'place' => '全国の映画館',
+          'genre' => '映画',
+          'description' => '講談社「別冊フレンド」で2013年から17年にかけて連載された南波あつこの人気コミックを、NHK連続テレビ小説「わろてんか」の葵わかなと「ちはやふる　結び」の佐野勇斗の主演で実写映画化した青春ラブストーリー。',
+          'price' => '1800円',
+          'genrenum' => '1',
+          'prefecturenum' => '48',
+        ],
+        [
+          'name' => 'ミッション：インポッシブル　フォールアウト',
+          'eventdate' => '3',
+          'time' => '各映画館のスケジュールを参照ください。',
+          'prefecture' => '全国',
+          'place' => '全国の映画館',
+          'genre' => '映画',
+          'description' => 'トム・クルーズ主演の人気スパイアクション「ミッション：インポッシブル」シリーズ第6作。',
+          'price' => '1800円',
+          'genrenum' => '1',
+          'prefecturenum' => '48',
+        ],
+        [
+          'name' => '劇場版　仮面ライダービルド　Be The One',
+          'eventdate' => '4',
+          'time' => '各映画館のスケジュールを参照ください。',
+          'prefecture' => '全国',
+          'place' => '全国の映画館',
+          'genre' => '映画',
+          'description' => '平成仮面ライダーシリーズの19作目として2018年9月からテレビ放送開始の「仮面ライダービルド」の劇場版。',
+          'price' => '1800円',
+          'genrenum' => '1',
+          'prefecturenum' => '48',
+        ],
+        [
+          'name' => 'アローン',
+          'eventdate' => '6',
+          'time' => '各映画館のスケジュールを参照ください。',
+          'prefecture' => '全国',
+          'place' => '全国の映画館',
+          'genre' => '映画',
+          'description' => 'ヨーロッパの人気コミックシリーズを実写映画化したフランス製SFファンタジースリラー。',
+          'price' => '1800円',
+          'genrenum' => '1',
+          'prefecturenum' => '48',
+        ],
+        [
+          'name' => 'オーシャンズ８',
+          'eventdate' => '10',
+          'time' => '各映画館のスケジュールを参照ください。',
+          'prefecture' => '全国',
+          'place' => '全国の映画館',
+          'genre' => '映画',
+          'description' => 'スティーブン・ソダーバーグ監督が手がけ、主演のジョージ・クルーニーほかオールスターキャスト共演で話題を集めた「オーシャンズ」シリーズを、新たにオール女性キャストで描くクライムエンタテインメント。',
+          'price' => '1800円',
+          'genrenum' => '1',
+          'prefecturenum' => '48',
+        ],
+        [
+          'name' => '英国総督　最後の家',
+          'eventdate' => '11',
+          'time' => '各映画館のスケジュールを参照ください。',
+          'prefecture' => '全国',
+          'place' => '全国の映画館',
+          'genre' => '映画',
+          'description' => '1947年、独立前夜のインドを舞台に、激動する歴史に翻弄された人々の姿を描いたヒューマンドラマ。',
+          'price' => '1800円',
+          'genrenum' => '1',
+          'prefecturenum' => '48',
+        ],
+        [
+          'name' => 'ゾンからのメッセージ',
+          'eventdate' => '11',
+          'time' => '各映画館のスケジュールを参照ください。',
+          'prefecture' => '全国',
+          'place' => '全国の映画館',
+          'genre' => '映画',
+          'description' => '「ゾン」と呼ばれる謎の現象によって囲まれ、時が止まったかのような不思議な懐かしい町を舞台に、町の住人たちが織り成す人間模様を描いたSF群像劇。',
+          'price' => '1800円',
+          'genrenum' => '1',
+          'prefecturenum' => '48',
+        ],
+        [
+          'name' => 'タナー・ホール　胸騒ぎの誘惑',
+          'eventdate' => '12',
+          'time' => '各映画館のスケジュールを参照ください。',
+          'prefecture' => '全国',
+          'place' => '全国の映画館',
+          'genre' => '映画',
+          'description' => '「キャロル」「ドラゴン・タトゥーの女」のルーニー・マーラ、「ルーム」でアカデミー賞を受賞したブリー・ラーソンら、後に頭角を現すブレイク前の若手女優たちが共演し、2009年に製作された青春ガールズムービー。',
+          'price' => '1800円',
+          'genrenum' => '1',
+          'prefecturenum' => '48',
+        ],
+        [
+          'name' => '銀魂２　掟は破るためにこそある',
+          'eventdate' => '17',
+          'time' => '各映画館のスケジュールを参照ください。',
+          'prefecture' => '全国',
+          'place' => '全国の映画館',
+          'genre' => '映画',
+          'description' => '空知英秋による人気コミックを小栗旬主演＆福田雄一監督のタッグで実写映画化し、2017年の邦画実写でナンバーワンの大ヒットを記録した「銀魂」の続編。',
+          'price' => '1800円',
+          'genrenum' => '1',
+          'prefecturenum' => '48',
+        ],
+        [
+          'name' => '劇場版　七つの大罪　天空の囚われ人',
+          'eventdate' => '18',
+          'time' => '各映画館のスケジュールを参照ください。',
+          'prefecture' => '全国',
+          'place' => '全国の映画館',
+          'genre' => '映画',
+          'description' => '「週刊少年マガジン」の看板コミックとして人気を集める「七つの大罪」を、原作者・鈴木央の描き下ろしネームをもとにした完全オリジナルストーリーでアニメ映画化。',
+          'price' => '1800円',
+          'genrenum' => '1',
+          'prefecturenum' => '48',
+        ],
+        [
+          'name' => 'チャーチル　ノルマンディーの決断',
+          'eventdate' => '18',
+          'time' => '各映画館のスケジュールを参照ください。',
+          'prefecture' => '全国',
+          'place' => '全国の映画館',
+          'genre' => '映画',
+          'description' => '英国首相チャーチルのノルマンディー上陸作戦決行までの96時間を描いたヒューマンドラマ。',
+          'price' => '1800円',
+          'genrenum' => '1',
+          'prefecturenum' => '48',
+        ],
+        [
+          'name' => 'ミューズ',
+          'eventdate' => '19',
+          'time' => '各映画館のスケジュールを参照ください。',
+          'prefecture' => '全国',
+          'place' => '全国の映画館',
+          'genre' => '映画',
+          'description' => '「REC レック」シリーズのジャウマ・バラゲロ監督がメガホンをとり、大学教授が殺人事件の予知夢を見たことから恐ろしい事態に巻き込まれていく様子を描いたサスペンススリラー。',
+          'price' => '1800円',
+          'genrenum' => '1',
+          'prefecturenum' => '48',
+        ],
+        [
+          'name' => 'マンマ・ミーア！　ヒア・ウィーゴー',
+          'eventdate' => '24',
+          'time' => '各映画館のスケジュールを参照ください。',
+          'prefecture' => '全国',
+          'place' => '全国の映画館',
+          'genre' => '映画',
+          'description' => '同名のミュージカルを映画化した2008年の映画『マンマ・ミーア!』から10年後の現在と、過去の青春時代を描く続編。',
+          'price' => '1800円',
+          'genrenum' => '1',
+          'prefecturenum' => '48',
+        ],
+        [
+          'name' => '検察側の罪人',
+          'eventdate' => '24',
+          'time' => '各映画館のスケジュールを参照ください。',
+          'prefecture' => '全国',
+          'place' => '全国の映画館',
+          'genre' => '映画',
+          'description' => '木村拓哉と二宮和也の初共演で、「犯人に告ぐ」などで知られる雫井脩介の同名ミステリー小説を映画化。',
+          'price' => '1800円',
+          'genrenum' => '1',
+          'prefecturenum' => '48',
+        ],
+        [
+          'name' => '若い女',
+          'eventdate' => '25',
+          'time' => '各映画館のスケジュールを参照ください。',
+          'prefecture' => '全国',
+          'place' => '全国の映画館',
+          'genre' => '映画',
+          'description' => 'フランスの若手女性監督レオノール・セライユがフランス国立映画学校の卒業制作として書いた脚本をもとにメガホンをとり、2017年・第70回カンヌ国際映画祭で新人監督賞にあたるカメラドールを受賞した人間ドラマ。',
+          'price' => '1800円',
+          'genrenum' => '1',
+          'prefecturenum' => '48',
+        ],
+        [
+          'name' => 'アントマン＆ワスプ',
+          'eventdate' => '31',
+          'time' => '各映画館のスケジュールを参照ください。',
+          'prefecture' => '全国',
+          'place' => '全国の映画館',
+          'genre' => '映画',
+          'description' => 'マーベルコミック原作で「マーベル・シネマティック・ユニバース」に属する映画「アントマン」のシリーズ第2弾。',
+          'price' => '1800円',
+          'genrenum' => '1',
+          'prefecturenum' => '48',
+        ],
+        [
+          'name' => 'アルカディア',
+          'eventdate' => '8',
+          'time' => '各映画館のスケジュールを参照ください。',
+          'prefecture' => '東京',
+          'place' => '新宿シネマカリテ',
+          'genre' => '映画',
+          'description' => '映画", "新宿シネマカリテの特集企画「カリコレ2018／カリテ・ファンタスティック！シネマコレクション2018」（18年7月14日～8月24日）上映作品。',
+          'price' => '1800円',
+          'genrenum' => '1',
+          'prefecturenum' => '13',
+        ],
+        [
+          'name' => 'サムソン',
+          'eventdate' => '14',
+          'time' => '各映画館のスケジュールを参照ください。',
+          'prefecture' => '東京',
+          'place' => '新宿シネマカリテ',
+          'genre' => '映画',
+          'description' => '新宿シネマカリテの特集企画「カリコレ2018／カリテ・ファンタスティック！シネマコレクション2018」（18年7月14日～8月24日）上映作品。',
+          'price' => '1800円',
+          'genrenum' => '1',
+          'prefecturenum' => '13',
+        ],
+        
+      ]);
+        
+    }
+
+    /**
+     * Reverse the migrations.
+     *
+     * @return void
+     */
+    public function down()
+    {
+        Schema::table('events', function (Blueprint $table) {
+            //
+        });
+        
+        DB::table('events')->where('genre', '=', '映画')->delete();
+    }
+}
