@@ -16,7 +16,7 @@
     <body>
         <div class='col-xs-12'>
             <div class='title'>
-                <h1>EVENT-MOURA-KUN</h1>
+                <h1><img class=logo src="idea15.jpg" alt="EVENTMOURAKUN" width="390" height="60"></h1>
             </div>
 
     
