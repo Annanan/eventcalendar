@@ -16,7 +16,7 @@
       @include('commons.navbar')
        
         
-        <h1 class=copy >８がつ！！( キャッチコピー書くところ)</h1>
+        <h1 class=copy >作ろう、自分だけのイベントカレンダー。</h1>
         
    <div class='largebox'>
         
