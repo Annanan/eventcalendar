@@ -32,3 +32,11 @@ border-top:solid 1px black;
 }
 
 label,input[type='checkbox']{cursor: pointer;}
+
+.ken{color: green;
+    font-size: 14px;
+    margin-left: 15px;
+    display: inline-block;
+}
+
+#tab{text-align: right;}

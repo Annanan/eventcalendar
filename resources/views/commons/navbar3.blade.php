@@ -27,16 +27,16 @@
                 <ul class="nav navbar-nav navbar-center">
                    
                     <li>都道府県別でイベントを探す:</li>
-                    <li >{!! link_to_route('events.tabsearch','東京',['num' => 13]) !!}</li>   
-                    <li>{!! link_to_route('events.tabsearch','神奈川',['num' => 14]) !!}</li>
-                    <li >{!! link_to_route('events.tabsearch','埼玉',['num' => 11]) !!}</li>   
-                    <li>{!! link_to_route('events.tabsearch','千葉',['num' => 12]) !!}<li>
-                    <li>{!! link_to_route('events.tabsearch','大阪',['num' => 27]) !!}<li>
-                    <li>{!! link_to_route('events.tabsearch','愛知',['num' => 23]) !!}<li>
-                    <li>{!! link_to_route('events.tabsearch','福岡',['num' => 40]) !!}<li>
-                    <li>{!! link_to_route('events.tabsearch','北海道',['num' => 1]) !!}<li>
-               
-                   @include('commons.prefecture') 
+                    
+                     <a class=ken href="{{ action ('SearchController@tabsearch', 13)  }}">東京都</a>
+                     <a class=ken href="{{ action ('SearchController@tabsearch', 14)  }}">神奈川県</a>
+                     <a class=ken href="{{ action ('SearchController@tabsearch', 11)  }}">埼玉県</a>
+                     <a class=ken href="{{ action ('SearchController@tabsearch', 12)  }}">千葉県</a>
+                     <a class=ken href="{{ action ('SearchController@tabsearch', 27)  }}">大阪府</a>
+                     <a class=ken href="{{ action ('SearchController@tabsearch', 23)  }}">愛知県</a>
+                     <a class=ken href="{{ action ('SearchController@tabsearch', 40)  }}"> 福岡県</a>
+                     <a class=ken href="{{ action ('SearchController@tabsearch', 1)   }}">北海道</a>
+                     @include('commons.prefecture') 
                 </ul>
                   
             </div>
