@@ -6,13 +6,12 @@
 
 <p>検索結果　</p>
 
-<?php
+<?php foreach($prefectures as $num){
+      $number = Event:: where('prefecturenum' ,$num)->first();
+      
+      print $number->prefecture .PHP_EOL ;} ?>
 
-print "検索条件:";
-foreach ($prefectures as $num){
-    $number=\DB::table('events')->select('prefecture')->where('prefecturenum',$num)->get()->first();
-    
-    print_r ($number)  .PHP_EOL  ;} ?>
+
 
 
         

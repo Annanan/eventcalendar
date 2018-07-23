@@ -33,7 +33,7 @@ border-top:solid 1px black;
 
 label,input[type='checkbox']{cursor: pointer;}
 
-.ken{color: green;
+.ken{
     font-size: 14px;
     margin-left: 15px;
     display: inline-block;
