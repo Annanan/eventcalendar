@@ -1,17 +1,17 @@
-@extends('layouts.app2')
+@extends('layouts.app')
+ 
 
 @section('content')
 
-
-
 <p>検索結果　</p>
 
-<?php foreach($prefectures as $num){
-      $number = Event:: where('prefecturenum' ,$num)->first();
-      
-      print $number->prefecture .PHP_EOL ;} ?>
+<?php
 
-
+print "検索条件:";
+foreach ($prefectures as $num){
+    $object=\DB::table('events')->select('prefecture')->where('prefecturenum',$num)->get()->first();
+    $prefname= $object->prefecture;
+    print_r ($prefname)  .PHP_EOL  ;} ?>
 
 
         

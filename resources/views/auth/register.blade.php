@@ -24,8 +24,8 @@
       
       
       <div class=setsumei>
-        <h1 class=copy >君がくれた夏</h1>
-     
+        <a class=copy>作ろう、自分だけのイベントカレンダー。</a>
+
          <h3 class= bun>このアプリの使い方<br> How to use this app</h3>
        <div class=picture id=setsumei1><p class=bunbun id=bunbun1>①:カレンダーからイベントを検索</p>
        </div>
