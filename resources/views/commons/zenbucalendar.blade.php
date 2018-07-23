@@ -36,9 +36,7 @@
             <td class="monday"></td>
             <td class="tuesday"></td>
             
-            
             <td class="wednesday">
-            <button type='button'>
             <span style="font-weight:bold">
             {!! link_to_route('events.day', 1, ['id' => '1']) !!}
             </span> 
@@ -77,7 +75,6 @@
              <span class="glyphicon glyphicon-leaf">  その他  ({{$leisure_1 }})</span>
              @endif
               
-            </button>
             </td>
             
              <td class="thursday"><span style="font-weight:bold">
