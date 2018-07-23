@@ -111,3 +111,14 @@ img{
     top:100px;
     left:325px;
 }
+
+.h1{
+    position: absolute;
+    width:390px; 
+    height:60px;
+}
+
+.logo{
+    width:390px; 
+    height:60px;
+}
