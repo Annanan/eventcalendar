@@ -32,14 +32,10 @@
         <tr class="week1">
             <td class="monday"></td>
             <td class="tuesday"></td>
-            
-            <td class="wednesday">
-            <span style="font-weight:bold">
-            
             <td class="wednesday"><span style="font-weight:bold","font-size:12px">
-            {!! link_to_route('events.day', 1, ['id' => '1']) !!}
-            </span> 
-            <br>
+                 {!! link_to_route('events.day', 1, ['id' => '1']) !!}
+             </span> 
+              <br>
               
               <?php
              
