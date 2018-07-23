@@ -110,5 +110,10 @@ span{
 
 .boshu{font-weight: bold;
 background-color: pink;
-      
+
+}
+
+.daylink{font-size: 20px;
+    background-color: pink;
+    cursor: pointer
 }
