@@ -4,6 +4,7 @@
 @extends('layouts.app2')
 
 @section('content')
+
 <body>
 
 <div class=eventkuwashiku>

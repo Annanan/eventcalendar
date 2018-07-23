@@ -1,7 +1,8 @@
-@extends('layouts.app')
- 
+@extends('layouts.app2')
 
 @section('content')
+
+
 
 <p>検索結果　</p>
 
