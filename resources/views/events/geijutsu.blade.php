@@ -18,7 +18,7 @@
                 <li class="{{ Request::is('leisure') ? 'active' : '' }} w3-brown w3-button w3-thin"><a href="{{ route('events.leisure') }}"><span class="glyphicon glyphicon-leaf">  その他</span></a></li>  
 
                 
-           </ul>
+            </ul>
 
              @include('calendar.geijutsucalendar',['events' => $geijutsu_events])
              
