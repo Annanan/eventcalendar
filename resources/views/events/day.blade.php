@@ -23,25 +23,25 @@ $leisures= DB::table('events')->select('*')->where([['genre', '=','レジャー'
 ?>
 
 <div class="row">
-  <div id=upper>
-  <div class="col-sm-3">
-<div class="panel w3-pink" id=omatsuri>
-  <div class="panel-heading">
-    <h3 class="panel-title">お祭り・花火大会</h3>
-  </div>
-  <div class="panel-body w3-white">
+  <div class="row row-eq-height" id=upper>
+    <div class="col-sm-3">
+      <div class="panel w3-pink" id=omatsuri>
+        <div class="panel-heading">
+          <h3 class="panel-title">お祭り・花火大会</h3>
+        </div>
+        <div class="panel-body w3-white">
     <ul class="list-unstyled">
-    <?php foreach ($omatsuris as $event) {  
+      <?php foreach ($omatsuris as $event) {  
         echo'('. $event->prefecture .$event->time. ')';
-              ?>
+      ?>
         {!! link_to_route('events.show', $event->name, ['id' => $event->id]) !!}
       <?php
         print "<br>";
-    }
-    ?>
+      }
+      ?>
     </ul>
   </div>
-</div>
+  </div>
 </div>
 
 <div class="col-sm-3">
@@ -104,8 +104,8 @@ $leisures= DB::table('events')->select('*')->where([['genre', '=','レジャー'
 </div>
 </div>
 </div>
-
-<div class="col-sm-3">
+<div class="row row-eq-height" id=low>
+<div class="col-sm-4">
 <div class="panel w3-orange" id=gurume>
   <div class="panel-heading">
     <h3 class="panel-title">グルメ</h3>
@@ -125,7 +125,7 @@ $leisures= DB::table('events')->select('*')->where([['genre', '=','レジャー'
 </div>
 </div>
 
-<div class="col-sm-3">
+<div class="col-sm-4">
 <div class="panel w3-deep-orange" id=geijutsu>
   <div class="panel-heading">
     <h3 class="panel-title">芸術</h3>
@@ -145,7 +145,7 @@ $leisures= DB::table('events')->select('*')->where([['genre', '=','レジャー'
 </div>
 </div>
 
-<div class="col-sm-3">
+<div class="col-sm-4">
 <div class="panel w3-brown" id=sonota>
   <div class="panel-heading">
     <h3 class="panel-title">その他</h3>
@@ -165,6 +165,5 @@ $leisures= DB::table('events')->select('*')->where([['genre', '=','レジャー'
 </div>
 </div>
 </div>
-<img src="map.gif" alt="Japan">
 </div>
 @endsection
