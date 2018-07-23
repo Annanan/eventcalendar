@@ -4,12 +4,12 @@
 @section('content')
 <br>
 
-<p style="font-size:25px">[{{ Auth::user()->name }}さんのマイカレンダー]</p>
+<p style="font-size:25px">[{{ $user->name }}さんのマイカレンダー]</p>
 
-@include('commons.prefecture')
+
  
         <div class="col-xs-12">
-            @include('commons.calendar', ['events' => $event_favorites])
+            @include('commons.mypagecalendar', ['events' => $event_favorites, 'user' => $user ])
         
     
 @endsection
