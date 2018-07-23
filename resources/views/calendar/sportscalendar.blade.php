@@ -10,7 +10,6 @@
     <thead>
       
       <br>
-      <br>
        <tr class="youbi, w3-background w3-cyan">
             <th>MON</th>
             <th>TUE</th>
