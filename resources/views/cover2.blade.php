@@ -40,8 +40,8 @@
             </div>
             
                 <div class='touroku'>
-                        <span><a class=signup href="{{ action ('Auth\RegisterController@showRegistrationForm', 1)  }}">> Sign up</a></span>
-                        <span><a class=signin href="{{ action ('Auth\LoginController@showLoginForm', 1)  }}">> Log in</a></span>
+                        <span><a class=signup href="{{ action ('Auth\RegisterController@showRegistrationForm', 1)  }}">SignUp</a></span>
+                        <span><a class=signin href="{{ action ('Auth\LoginController@showLoginForm', 1)  }}">LogIn</a></span>
                         
                         <!--<div class='signin'><button type="button" class="btn btn-info btn-lg">{!! link_to_route('login',  '> Login', null, ['class'=>'sign']) !!}</button></div>-->
                         <!--<div class='signup'><button type="button" class="btn btn-warning btn-lg">{!! link_to_route('signup.get',  '> Sign up', null, ['class'=>'sign']) !!}</button></div>-->
