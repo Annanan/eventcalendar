@@ -105,7 +105,7 @@ $leisures= DB::table('events')->select('*')->where([['genre', '=','レジャー'
 </div>
 </div>
 
-<div class="col-sm-4">
+<div class="col-sm-3">
 <div class="panel w3-orange" id=gurume>
   <div class="panel-heading">
     <h3 class="panel-title">グルメ</h3>
@@ -125,7 +125,7 @@ $leisures= DB::table('events')->select('*')->where([['genre', '=','レジャー'
 </div>
 </div>
 
-<div class="col-sm-4">
+<div class="col-sm-3">
 <div class="panel w3-deep-orange" id=geijutsu>
   <div class="panel-heading">
     <h3 class="panel-title">芸術</h3>
@@ -145,7 +145,7 @@ $leisures= DB::table('events')->select('*')->where([['genre', '=','レジャー'
 </div>
 </div>
 
-<div class="col-sm-4">
+<div class="col-sm-3">
 <div class="panel w3-brown" id=sonota>
   <div class="panel-heading">
     <h3 class="panel-title">その他</h3>

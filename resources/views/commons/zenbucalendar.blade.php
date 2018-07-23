@@ -33,13 +33,13 @@
             <td class="monday">
              <!--&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;例-->
             </td>
-            <td class="tuesday"><span style="font-weight:bold">&nbsp;日付 (click!!)</span><br>
+            <td class="tuesday"><span style="font-weight:bold" class=daylink>&nbsp;日付 (click!!)</span><br>
         🐮イベント名 (イベント数)
         
             </td>
             
             <td class="wednesday"><span style="font-weight:bold">
-                &nbsp;{!! link_to_route('events.day', 1, ['id' => '1']) !!}
+                 <a class=daylink href="{{ action ('DayController@day', 1)  }}">1</a>
              </span> 
               <br>
               
@@ -79,7 +79,7 @@
             </td>
             
              <td class="thursday"><span style="font-weight:bold">
-                  &nbsp;{!! link_to_route('events.day', 2, ['id' => '2']) !!}
+                   <a class=daylink href="{{ action ('DayController@day', 2)  }}">2</a>
              </span> 
               <br>
               
@@ -121,7 +121,8 @@
             
             
              <td class="friday"><span style="font-weight:bold">
-                  &nbsp;{!! link_to_route('events.day', 3, ['id' => '3']) !!}
+                  
+                  <a class=daylink href="{{ action ('DayController@day', 3)  }}">3</a>
              </span> 
               <br>
               
@@ -169,7 +170,7 @@
             
             
              <td class="saturday"><span style="font-weight:bold">
-                  &nbsp;{!! link_to_route('events.day', 4, ['id' => '4']) !!}
+                   <a class=daylink href="{{ action ('DayController@day', 4)  }}">4</a>
              </span> 
               <br>
               
@@ -210,7 +211,7 @@
             </td>
             
              <td class="sunday"><span style="font-weight:bold">
-                  &nbsp;{!! link_to_route('events.day', 5, ['id' => '5']) !!}
+                   <a class=daylink href="{{ action ('DayController@day', 5)  }}">5</a>
              </span> 
               <br>
               
@@ -250,7 +251,7 @@
            </tr>
         <tr class="week2">  
             <td class="monday"><span style="font-weight:bold">
-                 &nbsp;{!! link_to_route('events.day', 6, ['id' => '6']) !!}
+                  <a class=daylink href="{{ action ('DayController@day', 6)  }}">6</a>
             </span> 
           <br>
               
@@ -293,7 +294,7 @@
 </td>
 
 <td class="tuesday"><span style="font-weight:bold">
-     &nbsp;{!! link_to_route('events.day', 7, ['id' => '7']) !!}
+     <a class=daylink href="{{ action ('DayController@day', 7)  }}">7</a>
 </span> 
     <br>
               
@@ -334,7 +335,7 @@
 </td>
 
 <td class="wednesday"><span style="font-weight:bold">
-     &nbsp;{!! link_to_route('events.day', 8, ['id' => '8']) !!}
+     <a class=daylink href="{{ action ('DayController@day', 8)  }}">8</a>
 </span> 
     <br>
               
@@ -375,7 +376,7 @@
 </td>
 
 <td class="thursday"><span style="font-weight:bold">
-     &nbsp;{!! link_to_route('events.day', 9, ['id' => '9']) !!}
+     <a class=daylink href="{{ action ('DayController@day', 9)  }}">9</a>
 </span> 
     <br>
               
@@ -417,7 +418,7 @@
 </td>
 
 <td class="friday"><span style="font-weight:bold">
-     &nbsp;{!! link_to_route('events.day', 10, ['id' => '10']) !!}
+     <a class=daylink href="{{ action ('DayController@day', 10)  }}">10</a>
 </span> 
     <br>
               
@@ -456,7 +457,7 @@
 </td>
 
 <td class="saturday"><span style="font-weight:bold">
-     &nbsp;{!! link_to_route('events.day', 11, ['id' => '11']) !!}
+  <a class=daylink href="{{ action ('DayController@day', 11)  }}">11</a>
 </span> 
               <br>
               
@@ -498,7 +499,7 @@
               
             </td>
 <td class="sunday"><span style="font-weight:bold">
-     &nbsp;{!! link_to_route('events.day', 12, ['id' => '12']) !!}
+      <a class=daylink href="{{ action ('DayController@day', 12)  }}">12</a>
 </span> 
               <br>
               
@@ -545,7 +546,7 @@
         <tr class="week3">
 
 <td class="monday"><span style="font-weight:bold">
-     &nbsp;{!! link_to_route('events.day', 13, ['id' => '13']) !!}
+      <a class=daylink href="{{ action ('DayController@day', 13)  }}">13</a>
 </span> 
               <br>
               
@@ -586,7 +587,7 @@
               
             </td>
 <td class="tuesday"><span style="font-weight:bold">
-     &nbsp;{!! link_to_route('events.day', 14, ['id' => '14']) !!}
+     <a class=daylink href="{{ action ('DayController@day', 14)  }}">14</a>
 </span> 
               <br>
               
@@ -629,7 +630,7 @@
               
             </td>
 <td class="wednesday"><span style="font-weight:bold">
-     &nbsp;{!! link_to_route('events.day', 15, ['id' => '15']) !!}
+     <a class=daylink href="{{ action ('DayController@day', 15)  }}">15</a>
 </span> 
               <br>
               
@@ -673,7 +674,7 @@
 
 
 <td class="thursday"><span style="font-weight:bold">
-     &nbsp;{!! link_to_route('events.day', 16, ['id' => '16']) !!}
+      <a class=daylink href="{{ action ('DayController@day', 16)  }}">16</a>
 </span> 
               <br>
               
@@ -715,7 +716,7 @@
             </td>
             
 <td class="friday"><span style="font-weight:bold">
-     &nbsp;{!! link_to_route('events.day', 17, ['id' => '17']) !!}
+     <a class=daylink href="{{ action ('DayController@day', 17)  }}">17</a>
 </span> 
               <br>
               
@@ -759,7 +760,7 @@
             </td>
             
 <td class="saturday"><span style="font-weight:bold">
-     &nbsp;{!! link_to_route('events.day', 18, ['id' => '18']) !!}
+     <a class=daylink href="{{ action ('DayController@day', 18)  }}">18</a>
 </span> 
               <br>
               
@@ -801,7 +802,7 @@
             </td>
             
 <td class="wednesday"><span style="font-weight:bold">
-     &nbsp;{!! link_to_route('events.day', 19, ['id' => '19']) !!}
+      <a class=daylink href="{{ action ('DayController@day', 19)  }}">19</a>
 </span> 
               <br>
               
@@ -846,7 +847,7 @@
         <tr class="week4">
             
 <td class="sunday"><span style="font-weight:bold">
-     &nbsp;{!! link_to_route('events.day', 20, ['id' => '20']) !!}
+     <a class=daylink href="{{ action ('DayController@day', 20)  }}">20</a>
 </span> 
               <br>
               
@@ -887,8 +888,8 @@
             </td>
             
             <td class="saturday"><span style="font-weight:bold">
-                 &nbsp;{!! link_to_route('events.day', 21, ['id' => '21']) !!}
-            </span> 
+               <a class=daylink href="{{ action ('DayController@day', 21)  }}">21</a>
+            </span>
               <br>
               
               <?php
@@ -928,7 +929,7 @@
               
             </td>
 <td class="sunday"><span style="font-weight:bold">
-     &nbsp;{!! link_to_route('events.day', 22, ['id' => '22']) !!}
+     <a class=daylink href="{{ action ('DayController@day', 22)  }}">22</a>
 </span> 
               <br>
               
@@ -970,7 +971,7 @@
             </td>
             
 <td class="monday"><span style="font-weight:bold">
-     &nbsp;{!! link_to_route('events.day', 23, ['id' => '23']) !!}
+      <a class=daylink href="{{ action ('DayController@day', 23)  }}">23</a>
 </span> 
               <br>
               
@@ -1012,7 +1013,7 @@
             </td>
 
 <td class="tuesday"><span style="font-weight:bold">
-     &nbsp;{!! link_to_route('events.day', 24, ['id' => '24']) !!}
+     <a class=daylink href="{{ action ('DayController@day', 24)  }}">24</a>
 </span> 
               <br>
               
@@ -1053,7 +1054,7 @@
               
             </td>
 <td class="wednesday"><span style="font-weight:bold">
-     &nbsp;{!! link_to_route('events.day', 25, ['id' => '25']) !!}
+      <a class=daylink href="{{ action ('DayController@day', 25)  }}">25</a>
 </span> 
               <br>
               
@@ -1095,7 +1096,7 @@
             </td>
 
 <td class="sunday"><span style="font-weight:bold">
-     &nbsp;{!! link_to_route('events.day', 26, ['id' => '26']) !!}
+     <a class=daylink href="{{ action ('DayController@day', 26)  }}">26</a>
 </span> 
               <br>
               
@@ -1141,7 +1142,7 @@
         <tr class="week5">
             
 <td class="monday"><span style="font-weight:bold">
-     &nbsp;{!! link_to_route('events.day', 27, ['id' => '27']) !!}
+     <a class=daylink href="{{ action ('DayController@day', 27)  }}">27</a>
 </span> 
               <br>
               
@@ -1183,7 +1184,7 @@
             </td>
             
 <td class="tuesday"><span style="font-weight:bold">
-     &nbsp;{!! link_to_route('events.day', 28, ['id' => '28']) !!}
+      <a class=daylink href="{{ action ('DayController@day', 28)  }}">28</a>
 </span> 
               <br>
               
@@ -1224,7 +1225,7 @@
             </td>
 
 <td class="wednesday"><span style="font-weight:bold">
-     &nbsp;{!! link_to_route('events.day', 29, ['id' => '29']) !!}
+     <a class=daylink href="{{ action ('DayController@day', 29)  }}">29</a>
 </span> 
               <br>
               
@@ -1265,7 +1266,7 @@
             </td>
 
 <td class="thursday"><span style="font-weight:bold">
-     &nbsp;{!! link_to_route('events.day', 30, ['id' => '30']) !!}
+      <a class=daylink href="{{ action ('DayController@day', 30)  }}">30</a>
 </span> 
               <br>
               
@@ -1308,7 +1309,7 @@
               
             </td>
 <td class="friday"><span style="font-weight:bold">
-     &nbsp;{!! link_to_route('events.day', 31, ['id' => '31']) !!}
+      <a class=daylink href="{{ action ('DayController@day', 31)  }}">31</a>
 </span> 
               <br>
               

@@ -23,7 +23,7 @@
     <tbody>
         <tr class="week1">
             <td class="monday"></td>
-            <td class="tuesday"></td>
+            <td class="tuesday"> </td>
             
             
             <td class="wednesday"><span style="font-weight:bold">1</span> 
