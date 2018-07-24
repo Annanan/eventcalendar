@@ -27,7 +27,7 @@ class AddSport2 extends Migration
           'description' => 'SUPER GTシリーズのGT300クラスや、ブランパンGTシリーズなどに参戦するスーパースポーツカーをベースとしたGT3カーやJAF-GTカーが賞金総額1億円と世界一の座をかけて10時間に及ぶ熱い戦いを繰り広げる。',
           'price' => '5700円～',
           'genrenum' => '5',
-          'prefecturenum' => '',
+          'prefecturenum' => '24',
         ],
         [
           'name' => 'SUZUKA 10HOURS',
@@ -39,7 +39,7 @@ class AddSport2 extends Migration
           'description' => 'SUPER GTシリーズのGT300クラスや、ブランパンGTシリーズなどに参戦するスーパースポーツカーをベースとしたGT3カーやJAF-GTカーが賞金総額1億円と世界一の座をかけて10時間に及ぶ熱い戦いを繰り広げる。',
           'price' => '5700円～',
           'genrenum' => '5',
-          'prefecturenum' => '',
+          'prefecturenum' => '24',
         ],
         [
           'name' => '世界女子ソフトボール選手権（日本‐イタリア）',
@@ -51,7 +51,7 @@ class AddSport2 extends Migration
           'description' => '各大陸の代表16か国によって争われる。　開幕戦であるこの試合を皮切りに、千葉県各地の球場で8チームごとの総当たり戦による予選リーグが行われ、上位チームはZOZOマリンスタジアムにて開催される準々決勝にコマを進める。8月12日まで開催予定。',
           'price' => '1500円～',
           'genrenum' => '5',
-          'prefecturenum' => '',
+          'prefecturenum' => '12',
         ],
         [
           'name' => '世界女子ソフトボール選手権（日本‐ボツワナ）',
@@ -63,7 +63,7 @@ class AddSport2 extends Migration
           'description' => '16か国によって争われる今大会の予選Bリーグ第2戦、アフリカ代表のボツワナと対戦する。8月12日まで開催予定。',
           'price' => '1500円～',
           'genrenum' => '5',
-          'prefecturenum' => '',
+          'prefecturenum' => '12',
         ],
         [
           'name' => '世界女子ソフトボール選手権（日本‐中国）',
@@ -75,7 +75,7 @@ class AddSport2 extends Migration
           'description' => '16か国によって争われる今大会の予選Bリーグ第3戦、アジア代表の中国と対戦する。8月12日まで開催予定。',
           'price' => '1500円～',
           'genrenum' => '5',
-          'prefecturenum' => '',
+          'prefecturenum' => '12',
         ],
         [
           'name' => '世界女子ソフトボール選手権（日本‐イギリス）',
@@ -87,7 +87,7 @@ class AddSport2 extends Migration
           'description' => '16か国によって争われる今大会の予選Bリーグ第4戦、ヨーロッパ代表のイギリスと対戦する。',
           'price' => '1500円～',
           'genrenum' => '5',
-          'prefecturenum' => '',
+          'prefecturenum' => '12',
         ],
         [
           'name' => '世界女子ソフトボール選手権（日本‐ベネズエラ）',
@@ -99,7 +99,7 @@ class AddSport2 extends Migration
           'description' => '16か国によって争われる今大会の予選Bリーグ第5戦、北中南アメリカ代表のベネズエラと対戦する。',
           'price' => '1500円～',
           'genrenum' => '5',
-          'prefecturenum' => '',
+          'prefecturenum' => '12',
         ],
         [
           'name' => '世界女子ソフトボール選手権（日本‐カナダ）',
@@ -111,7 +111,7 @@ class AddSport2 extends Migration
           'description' => '16か国によって争われる今大会の予選Bリーグ第6戦、北中南アメリカ代表のカナダと対戦する。',
           'price' => '1500円～',
           'genrenum' => '5',
-          'prefecturenum' => '',
+          'prefecturenum' => '12',
         ],
         [
           'name' => '世界女子ソフトボール選手権（日本‐オーストラリア）',
@@ -123,7 +123,7 @@ class AddSport2 extends Migration
           'description' => '16か国によって争われる今大会の予選Bリーグ第7戦、オセアニア代表のオーストラリアと対戦する。',
           'price' => '1500円～',
           'genrenum' => '5',
-          'prefecturenum' => '',
+          'prefecturenum' => '12',
         ],
         [
           'name' => '世界女子ソフトボール選手権（準々決勝）',
@@ -135,7 +135,7 @@ class AddSport2 extends Migration
           'description' => '各グループリーグ上位4チームずつの計8チームによる決勝トーナメントのうち4試合が行われる。',
           'price' => '2000円～',
           'genrenum' => '5',
-          'prefecturenum' => '',
+          'prefecturenum' => '12',
         ],
         [
           'name' => '世界女子ソフトボール選手権（準決勝）',
@@ -147,7 +147,7 @@ class AddSport2 extends Migration
           'description' => '各グループリーグ上位4チームずつの計8チームによる決勝トーナメントのうち4試合が行われる。',
           'price' => '2000円～',
           'genrenum' => '5',
-          'prefecturenum' => '',
+          'prefecturenum' => '12',
         ],
         [
           'name' => '世界女子ソフトボール選手権（決勝）',
@@ -159,7 +159,7 @@ class AddSport2 extends Migration
           'description' => '決勝戦と3位決定戦の2試合が行われる。',
           'price' => '2000円～',
           'genrenum' => '5',
-          'prefecturenum' => '',
+          'prefecturenum' => '12',
         ],
         [
           'name' => '岩洞湖4WDオフロードレース',
@@ -171,7 +171,7 @@ class AddSport2 extends Migration
           'description' => '年間5戦のトータルポイントで争われる、JOR（ジャパンオフロードレース）シリーズの第3戦。S,C,Xクラスのレースが行われる。',
           'price' => '1000円～',
           'genrenum' => '5',
-          'prefecturenum' => '',
+          'prefecturenum' => '3',
         ],
         [
           'name' => '大相撲　立川立飛場所',
@@ -183,7 +183,7 @@ class AddSport2 extends Migration
           'description' => '各段力士の取り組みに加え、力士たちによる公開稽古や、握手会、相撲のルールをを面白おかしく伝える初っ切り、歌うま力士による相撲甚句の披露など、本場所では見られない多彩なコンテンツがみられる。力士たちと近い距離で触れ合える１日。',
           'price' => '6000円～',
           'genrenum' => '5',
-          'prefecturenum' => '',
+          'prefecturenum' => '13',
         ],
         [
           'name' => '大相撲　渋谷青山学院場所',
@@ -195,7 +195,7 @@ class AddSport2 extends Migration
           'description' => '各段力士の取り組みに加え、力士たちによる公開稽古や、握手会、相撲のルールをを面白おかしく伝える初っ切り、歌うま力士による相撲甚句の披露など、本場所では見られない多彩なコンテンツがみられる。力士たちと近い距離で触れ合える１日。',
           'price' => '6000円～',
           'genrenum' => '5',
-          'prefecturenum' => '',
+          'prefecturenum' => '13',
         ],
         [
           'name' => '夏の甲子園　（開会式）',
@@ -207,7 +207,7 @@ class AddSport2 extends Migration
           'description' => '記念すべき100回大会。史上最多の56代表校が出場する今大会の開会式に加え、3試合が行われる。',
           'price' => '0円～',
           'genrenum' => '5',
-          'prefecturenum' => '',
+          'prefecturenum' => '28',
         ],
         [
           'name' => '夏の甲子園（決勝）',
@@ -219,7 +219,7 @@ class AddSport2 extends Migration
           'description' => '記念すべき100回大会。史上最多の56代表校が出場する今大会の王者を決める決勝戦が行われる。（雨天などによる順延の可能性あり）',
           'price' => '0円～',
           'genrenum' => '5',
-          'prefecturenum' => '',
+          'prefecturenum' => '28',
         ],
         [
           'name' => 'ヤクルト-広島',
@@ -231,7 +231,7 @@ class AddSport2 extends Migration
           'description' => '歴代の燕パワーユニホームなどを含む、全12種類の対象ユニホームを着用で先着5,000名様に燕日ミニ扇風機をプレゼント！',
           'price' => '東京ヤクルトスワローズ公式サイト参照',
           'genrenum' => '5',
-          'prefecturenum' => '',
+          'prefecturenum' => '13',
         ],
         [
           'name' => 'ヤクルト-広島',
@@ -243,7 +243,7 @@ class AddSport2 extends Migration
           'description' => '歴代の燕パワーユニホームなどを含む、全12種類の対象ユニホームを着用で先着5,000名様に燕日法被織手ぬぐいをプレゼント！',
           'price' => '東京ヤクルトスワローズ公式サイト参照',
           'genrenum' => '5',
-          'prefecturenum' => '',
+          'prefecturenum' => '13',
         ],
         [
           'name' => 'ヤクルト-DeNA',
@@ -255,7 +255,7 @@ class AddSport2 extends Migration
           'description' => '生ビールが通常750円のとこり350円で販売される。５回裏終了時には300発の花火の打ち上げもあります！',
           'price' => '東京ヤクルトスワローズ公式サイト参照',
           'genrenum' => '5',
-          'prefecturenum' => '',
+          'prefecturenum' => '13',
         ],
         [
           'name' => '巨人-広島',
@@ -267,7 +267,7 @@ class AddSport2 extends Migration
           'description' => '「ももクロDAY」ももいろクローバーZのメンバーが来場！',
           'price' => '読売巨人軍公式サイト参照',
           'genrenum' => '5',
-          'prefecturenum' => '',
+          'prefecturenum' => '13',
         ],
         [
           'name' => '巨人-広島',
@@ -279,7 +279,7 @@ class AddSport2 extends Migration
           'description' => 'キティちゃんが来場！',
           'price' => '読売巨人軍公式サイト参照',
           'genrenum' => '5',
-          'prefecturenum' => '',
+          'prefecturenum' => '13',
         ],
       ]);
     }
