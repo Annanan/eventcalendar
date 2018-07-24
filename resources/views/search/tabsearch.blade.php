@@ -2,12 +2,11 @@
 
 
 @section('content')
-
-<p>検索結果　</p>
+<br>
 
 <?php
 
-print "検索条件: 　{$search_event->prefecture}　 ";
+print "検索条件: {$search_event->prefecture}　 ";
 
 
 ?>
