@@ -1,19 +1,24 @@
 
-    {{ csrf_field() }}
 <link rel="stylesheet" href="{{ secure_asset('css/navbar3.css') }}">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+
+
+    <a class=ken  href="#"class="btn btn-lg btn-success" data-toggle="modal" data-target="#basicModal">その他の都道府県で検索</a>
+
+<form action="search" method="post" accept-charset=utf-8>
+    {{ csrf_field() }}
+
 <link href="https://fonts.googleapis.com/earlyaccess/mplus1p.css" rel="stylesheet" />
-    <a class=ken  href="#"  data-toggle="modal" data-target="#basicModal">その他の都道府県で検索</a>
-    
-<div class="modal fade"id="basicModal"tabindex="1"role="dialog" aria-labelledby="basicModal"aria-hidden="true">
+
+<div class="modal fade"id="basicModal"tabindex="-1"role="dialog"aria-labelledby="basicModal"aria-hidden="true">
     <div class="modal-dialog">
         <div  class =gamen class="modal-content">
-            <div class="modal-body">
-                　　<h4 class="modal-title"id="myModalLabel">都道府県で検索（複数選択可）</h4>
-                　　　　
-<form action="search" method="post" accept-charset=utf-8>
+            <div class="modal-header">
+                　　<h4 class="modal-title"id="myModalLabel">都道府県で検索（複数選択可）</h4></div>
+                　　　　<div class="modal-body">
 
-  <div class=ichiran styke="font-size:18px">
+  <div class=ichiran>
     首都圏:
     <label for="tokyo">東京</label>
     <input id="tokyo" type="checkbox" name="search[]" value="13" >&nbsp;&nbsp;&nbsp;&nbsp;
@@ -106,10 +111,10 @@
     <br>
     
     <input type="submit"  value="検索する！"></form>
-    <a id="modal-close" class="button-link">閉じる</a>
     
   </div>
                   </div>
+    <hr>
                   <div class="zeroken">
  <p> イベント0件の県　（17県）</p>
  <p>山形 栃木 石川 長野 岐阜 静岡 奈良 和歌山 <br> 鳥取 島根 広島 山口 佐賀 熊本 大分 宮崎 鹿児島</p>

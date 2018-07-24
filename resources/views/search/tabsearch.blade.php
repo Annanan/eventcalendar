@@ -10,6 +10,7 @@ print " {$search_event->prefecture}　のイベント一覧  ";
 
 
 ?></h3>
+<br>
         
         <div class="col-xs-12">
             
