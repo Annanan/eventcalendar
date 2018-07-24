@@ -21,21 +21,22 @@
             <h1 class='theme'>さあ、8月のカレンダーを彩ろう</h1>
             <div class='title'>
                 <h1 class='title1'>
-                    <span id=firstE>E</span>
-                    <span id=V>V</span>
-                    <span id=secondE>E</span>
-                    <span id=firstN>N</span>
-                    <span id=T>T</span>
-                    <span id=first->-</span>
-                    <span id=M>M</span>
-                    <span id=O>O</span>
-                    <span id=firstU>U</span>
-                    <span id=R>R</span>
-                    <span id=A>A</span>
-                    <span id=second->-</span>
-                    <span id=K>K</span>
-                    <span id=secondU>U</span>
-                    <span id=secondN>N</span>
+                    EVENT-MOURA-KUN
+                    <!--<span id=firstE>E</span>-->
+                    <!--<span id=V>V</span>-->
+                    <!--<span id=secondE>E</span>-->
+                    <!--<span id=firstN>N</span>-->
+                    <!--<span id=T>T</span>-->
+                    <!--<span id=first->-</span>-->
+                    <!--<span id=M>M</span>-->
+                    <!--<span id=O>O</span>-->
+                    <!--<span id=firstU>U</span>-->
+                    <!--<span id=R>R</span>-->
+                    <!--<span id=A>A</span>-->
+                    <!--<span id=second->-</span>-->
+                    <!--<span id=K>K</span>-->
+                    <!--<span id=secondU>U</span>-->
+                    <!--<span id=secondN>N</span>-->
                 </h1>
             </div>
             

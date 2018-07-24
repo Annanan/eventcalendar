@@ -23,14 +23,14 @@ body {
     width:42em;
 }
 
-.boshuchu{
+.panel{
     margin-top: 55px;
     margin-left: 110px;
     padding-top: 20px;
-    padding-left: 50px;
-    float:left;
+    padding-left: 45px;
+    float:right;
     width: 35%;
-    height: 90%;
+    height: 88%;
     box-shadow:0 0 0 1px rgba(89,105,128,0.1), 0 3px 20px 0 rgba(89,105,128,0.3), 0 1px 2px 0 rgba(0,0,0,0.05);
   
 }
@@ -39,12 +39,23 @@ body {
 
 span.glyphicon{
     font-weight: bold;
-    font-size: 20px;
-    color:#808080;
-    font-family: 'Yu Gothic';
+    
 }
 
 h2{
     font-weight: bold;
 }
+
+b {
+    font-family: 'Yu Gothic';
+}
+
+h4 {
+    font-family: 'Yu Gothic';
+    font-weight: bold;
+}
+
+.scroll{
+        overflow-y:scroll;
+    }
 

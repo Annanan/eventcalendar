@@ -13,7 +13,7 @@
 
 
 Route::get('/', function () {
-    return view('cover2');
+    return view('cover');
 });
 
 Route::get('zenbu', 'ZenbuController@zenbu')->name('events.events');

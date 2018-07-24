@@ -8,11 +8,11 @@
 
 
 <table border="3" class="kotei">
-   
+    
    <thead>
      
          <tr class="year">
-             <h1>August 2018</h1>  <p>日付をクリックで　その日のイベント一覧ページへ</p>
+             <h1>2018年 8月</h1> <p>日付をクリックで　その日のイベント一覧ページへ</p>
         </tr>
           
     </thead>
