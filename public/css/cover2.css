@@ -1,17 +1,30 @@
 @charset "utf-8";
 
+
+
 body{
     width: 100%;
     position: relative;
     /*font-family: 'Roman';*/
     font-family: 'Palatino Linotype';
     
+    background-color: #000;
+    
+  background: #FFF;
+  animation-name: rotation1;
+  animation-duration: 2s;
+  animation-timing-function: ease;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-fill-mode: none;
+  animation-play-state: running;
 }
 
 .theme{
   position: absolute;
   top: 180px;
-  left: 400px;
+  left: 200px;
   
   color: #000;
   transition-property: color;
@@ -20,10 +33,6 @@ body{
 }
 
 .theme:hover{
-  position: absolute;
-  top: 180px;
-  left: 400px;
-  
   color: #FF99CC;
 }
 
@@ -33,11 +42,11 @@ body{
 
 .title1{
     height: 100px;
-    width: 1150px;
-    background-color: #fff;
+    font-size: 100px;
+    /*background-color: #fff;*/
     position: absolute;
-    top:250px;
-    left:500px;
+    top:270px;
+    left:250px;
 }
 
 .touroku{
@@ -72,7 +81,7 @@ body{
   margin: -5px;
   background: #FFF;
   animation-name: rotation;
-  animation-duration: 2s;
+  animation-duration: 4s;
   animation-timing-function: ease;
   animation-delay: 0s;
   animation-iteration-count: infinite;
@@ -87,7 +96,7 @@ body{
   margin: -5px;
   background: #FFF;
   animation-name: rotation;
-  animation-duration: 2s;
+  animation-duration: 4s;
   animation-timing-function: ease;
   animation-delay: 100ms;
   animation-iteration-count: infinite;
@@ -102,7 +111,7 @@ body{
   margin: -5px;
   background: #FFF;
   animation-name: rotation;
-  animation-duration: 2s;
+  animation-duration: 4s;
   animation-timing-function: ease;
   animation-delay: 200ms;
   animation-iteration-count: infinite;
@@ -117,7 +126,7 @@ body{
   margin: -5px;
   background: #FFF;
   animation-name: rotation;
-  animation-duration: 2s;
+  animation-duration: 4s;
   animation-timing-function: ease;
   animation-delay: 300ms;
   animation-iteration-count: infinite;
@@ -132,7 +141,7 @@ body{
   margin: -5px;
   background: #FFF;
   animation-name: rotation;
-  animation-duration: 2s;
+  animation-duration: 4s;
   animation-timing-function: ease;
   animation-delay: 400ms;
   animation-iteration-count: infinite;
@@ -147,7 +156,7 @@ body{
   margin: -5px;
   background: #FFF;
   animation-name: rotation;
-  animation-duration: 2s;
+  animation-duration: 4s;
   animation-timing-function: ease;
   animation-delay: 500ms;
   animation-iteration-count: infinite;
@@ -162,7 +171,7 @@ body{
   margin: -5px;
   background: #FFF;
   animation-name: rotation;
-  animation-duration: 2s;
+  animation-duration: 4s;
   animation-timing-function: ease;
   animation-delay: 600ms;
   animation-iteration-count: infinite;
@@ -177,7 +186,7 @@ body{
   margin: -5px;
   background: #FFF;
   animation-name: rotation;
-  animation-duration: 2s;
+  animation-duration: 4s;
   animation-timing-function: ease;
   animation-delay: 700ms;
   animation-iteration-count: infinite;
@@ -192,7 +201,7 @@ body{
   margin: -5px;
   background: #FFF;
   animation-name: rotation;
-  animation-duration: 2s;
+  animation-duration: 4s;
   animation-timing-function: ease;
   animation-delay: 700ms;
   animation-iteration-count: infinite;
@@ -207,7 +216,7 @@ body{
   margin: -5px;
   background: #FFF;
   animation-name: rotation;
-  animation-duration: 2s;
+  animation-duration: 4s;
   animation-timing-function: ease;
   animation-delay: 600ms;
   animation-iteration-count: infinite;
@@ -222,7 +231,7 @@ body{
   margin: -5px;
   background: #FFF;
   animation-name: rotation;
-  animation-duration: 2s;
+  animation-duration: 4s;
   animation-timing-function: ease;
   animation-delay: 500ms;
   animation-iteration-count: infinite;
@@ -237,7 +246,7 @@ body{
   margin: -5px;
   background: #FFF;
   animation-name: rotation;
-  animation-duration: 2s;
+  animation-duration: 4s;
   animation-timing-function: ease;
   animation-delay: 400ms;
   animation-iteration-count: infinite;
@@ -252,7 +261,7 @@ body{
   margin: -5px;
   background: #FFF;
   animation-name: rotation;
-  animation-duration: 2s;
+  animation-duration: 4s;
   animation-timing-function: ease;
   animation-delay: 300ms;
   animation-iteration-count: infinite;
@@ -267,7 +276,7 @@ body{
   margin: -5px;
   background: #FFF;
   animation-name: rotation;
-  animation-duration: 2s;
+  animation-duration: 4s;
   animation-timing-function: ease;
   animation-delay: 200ms;
   animation-iteration-count: infinite;
@@ -282,7 +291,7 @@ body{
   margin: -5px;
   background: #FFF;
   animation-name: rotation;
-  animation-duration: 2s;
+  animation-duration: 4s;
   animation-timing-function: ease-in;
   animation-delay: 100ms;
   animation-iteration-count: infinite;
@@ -293,62 +302,101 @@ body{
 
 
 /*アニメーション*/
-@keyframes rotation {
-  0% {
+/*@keyframes rotation {*/
+/*  0% {*/
+/*    transform: scale(1);*/
+/*  }*/
+/*  10% {*/
+/*    transform: scale(1);*/
+/*    background: #CCCCCC;*/
+/*  }*/
+/*  20% {*/
+/*    transform: scale(1);*/
+/*    background: #FFCCCC;*/
+/*  }*/
+/*  30% {*/
+/*    transform: scale(1);*/
+/*    background: #99CC99;*/
+/*  }40% {*/
+/*    transform: scale(1);*/
+/*    background: #FFCC99;*/
+/*  }50% {*/
+/*    transform: scale(1);*/
+/*    background: #CCFF99;*/
+/*  }60% {*/
+/*    transform: scale(1);*/
+/*    background: #FFFFFF;*/
+/*  }70% {*/
+/*    transform: scale(1);*/
+/*    background: #CCCCFF;*/
+/*  }80% {*/
+/*    transform: scale(1);*/
+/*    background: #99CCFF;*/
+/*  }  */
+/*  90% {*/
+/*    transform: scale(1);*/
+/*    background: #99FF99;*/
+/*  }*/
+/*  100% {*/
+/*    transform: scale(1);*/
+/*    background: #99CCCC;*/
+/*  }*/
+/*}*/
+
+/*@keyframes rotation1 {*/
+/*    0% {*/
+/*    transform: scale(1);*/
+/*  }*/
+/*  10% {*/
+/*    transform: scale(1);*/
+/*    background: #CCFFFF;*/
+/*  }*/
+/*  20% {*/
+/*    transform: scale(1);*/
+/*    background: #CCFFCC;*/
+/*  }*/
+/*  30% {*/
+/*    transform: scale(1);*/
+/*    background: #FFFFCC;*/
+/*  }40% {*/
+/*    transform: scale(1);*/
+/*    background: #FFFF99;*/
+/*  }50% {*/
+/*    transform: scale(1);*/
+/*    background: #99FFCC;*/
+/*  }60% {*/
+/*    transform: scale(1);*/
+/*    background: #99FFFF;*/
+/*  }70% {*/
+/*    transform: scale(1);*/
+/*    background: #66FFFF;*/
+/*  }80% {*/
+/*    transform: scale(1);*/
+/*    background: #99FF99;*/
+/*  }  */
+/*  90% {*/
+/*    transform: scale(1);*/
+/*    background: #CCFF99;*/
+/*  }*/
+/*  100% {*/
+/*    transform: scale(1);*/
+/*    background: #FFFF66;*/
+/*  }*/
+/*}*/
+
+@keyframes rotation1 {
+    0% {
     transform: scale(1);
   }
-  10% {
+  50% {
     transform: scale(1);
-    background: #CCCCCC;
-  }
-  20% {
-    transform: scale(1);
-    background: #FFCCCC;
-  }
-  30% {
-    transform: scale(1);
-    background: #99CC99;
-  }40% {
-    transform: scale(1);
-    background: #FFCC99;
-  }50% {
-    transform: scale(1);
-    background: #CCFF99;
-  }60% {
-    transform: scale(1);
-    background: #FFFFFF;
-  }70% {
-    transform: scale(1);
-    background: #CCCCFF;
-  }80% {
-    transform: scale(1);
-    background: #99CCFF;
-  }  
-  90% {
-    transform: scale(1);
-    background: #99FF99;
+    background: #CCFFFF;
   }
   100% {
     transform: scale(1);
-    background: #99CCCC;
+    background: #FFFFCC;
   }
 }
-
-/*@keyframes rotation2 {*/
-/*  0% {*/
-/*    transform: scale(.3);*/
-/*  }*/
-
-/*  50% {*/
-/*    transform: scale(.6) rotate(-45deg);*/
-/*    background: red;*/
-/*  }*/
-
-/*  100% {*/
-/*    transform: scale(1) rotate(180deg);*/
-/*    background: blue;*/
-/*  }*/
-/*}*/
 
 /*@keyframes rotation3 {*/
 /*  0% {*/
