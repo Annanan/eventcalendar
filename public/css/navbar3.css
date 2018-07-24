@@ -32,16 +32,28 @@ border-top:solid 1px black;
 label,input[type='checkbox']{cursor: pointer;}
 
 .ken{
+    margin-left: 20px;
     font-size: 12px;
-    margin-left: 15px;
-    margin-right: 13px;
     display: inline-block;
     font-family: 'Yu Gothic';
     font-weight: bold;
     }
- .ken a {margin-top: 2px;}
+ .ken a {
+     margin-left: 10px;
+     margin-right: 30px;
+      
+ }
 .zeroken{text-align: center;
      font-weight: bold;
      
 }
 
+.button-link{
+	color:#00f;
+	text-decoration:underline;
+}
+ 
+.button-link:hover{
+	cursor:pointer;
+	color:#f00;
+}

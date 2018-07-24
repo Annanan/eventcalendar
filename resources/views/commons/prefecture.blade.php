@@ -3,9 +3,9 @@
 <link rel="stylesheet" href="{{ secure_asset('css/navbar3.css') }}">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link href="https://fonts.googleapis.com/earlyaccess/mplus1p.css" rel="stylesheet" />
-    <a class=ken  href="#"class="btn btn-lg btn-success" data-toggle="modal" data-target="#basicModal">その他の都道府県で検索</a>
+    <a class=ken  href="#"  data-toggle="modal" data-target="#basicModal">その他の都道府県で検索</a>
     
-<div class="modal fade"id="basicModal"tabindex="-1"role="dialog"aria-labelledby="basicModal"aria-hidden="true">
+<div class="modal fade"id="basicModal"tabindex="1"role="dialog" aria-labelledby="basicModal"aria-hidden="true">
     <div class="modal-dialog">
         <div  class =gamen class="modal-content">
             <div class="modal-body">
@@ -13,7 +13,7 @@
                 　　　　
 <form action="search" method="post" accept-charset=utf-8>
 
-  <div class=ichiran>
+  <div class=ichiran styke="font-size:18px">
     首都圏:
     <label for="tokyo">東京</label>
     <input id="tokyo" type="checkbox" name="search[]" value="13" >&nbsp;&nbsp;&nbsp;&nbsp;
@@ -106,6 +106,7 @@
     <br>
     
     <input type="submit"  value="検索する！"></form>
+    <a id="modal-close" class="button-link">閉じる</a>
     
   </div>
                   </div>
