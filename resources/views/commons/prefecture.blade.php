@@ -1,5 +1,4 @@
 
-<form action="search" method="post" accept-charset=utf-8>
     {{ csrf_field() }}
 <link rel="stylesheet" href="{{ secure_asset('css/navbar3.css') }}">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -12,6 +11,7 @@
             <div class="modal-body">
                 　　<h4 class="modal-title"id="myModalLabel">都道府県で検索（複数選択可）</h4>
                 　　　　
+<form action="search" method="post" accept-charset=utf-8>
 
   <div class=ichiran>
     首都圏:
