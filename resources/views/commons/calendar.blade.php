@@ -10,7 +10,6 @@
     <thead>
       
       <br>
-      <br>
        <tr class="youbi">
             <th>MON</th>
             <th>TUE</th>
