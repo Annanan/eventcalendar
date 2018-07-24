@@ -1,10 +1,10 @@
-
+<body>
 @extends('layouts.app3')
 
 @section('content')
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <div class=zenbu>
-<!--<link rel="stylesheet" href="{{ secure_asset('css/day.css') }}">-->
+<link rel="stylesheet" href="{{ secure_asset('css/day.css') }}">
 <br>
 <br>
 <h1>  8月{{ $date }}日のイベント一覧  </h1>
@@ -167,3 +167,5 @@ $leisures= DB::table('events')->select('*')->where([['genre', '=','レジャー'
 </div>
 </div>
 @endsection
+
+</body>
