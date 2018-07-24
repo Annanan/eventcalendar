@@ -11,6 +11,8 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
         
         <link rel="stylesheet" href="{{ secure_asset('css/login.css') }}">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
     </head>
     <body>
       @include('commons.navbar')
@@ -23,7 +25,7 @@
        <div class="panel" id="login"> 
        <br>
           <div class="text-center">
-            <h1>Log in</h1>
+            <h1>LOG IN</h1>
           </div>
 
     <div class="row">
@@ -33,21 +35,21 @@
                 <br>
                 <br>
                   <div class="input-group">
-                    <span class="input-group-addon">ニックネーム</span>
-                    <input type="text" name='name' class="form-control" placeholder="ex) Taro">
+                    <span class="input-group-addon">NAME</span>
+                    <input type="text" name='name' class="w3-input" placeholder="ex) Taro">
                   </div>
                  <br>
             
                 
                   <div class="input-group">
-                    <span class="input-group-addon">パスワード</span>
-                    <input type="password" name='password' class="form-control" placeholder="6文字以上">
+                    <span class="input-group-addon">PASSWORD</span>
+                    <input type="password" name='password' class="w3-input" placeholder="6文字以上">
                   </div>
                 <br>
                 
                
 
-            {!! Form::submit('Log in', ['class' => 'btn btn-info btn-block']) !!}
+            {!! Form::submit('LOG IN', ['class' => 'w3-black w3-button w3-wide w3-large']) !!}
             {!! Form::close() !!}
 
             <p></p><p>未登録の場合 → {!! link_to_route('signup.get', '新規登録') !!}</p>

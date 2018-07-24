@@ -42,7 +42,7 @@
             
             
             <div class="text-center">
-               <h1>Sign up</h1><br>
+               <h1>SIGN UP</h1><br>
             </div>
     
             <div class="row">
@@ -51,8 +51,8 @@
             {!! Form::open(['route' => 'signup.post']) !!}
                 
                   <div class="input-group">
-                    <span class="input-group-addon">ニックネーム</span>
-                    <input type="text" name="name" class="form-control" placeholder="ex) Taro">
+                    <span class="input-group-addon">NAME</span>
+                    <input type="text" name="name" class="w3-input" placeholder="ex) Taro">
                   </div>
                 
                 <!--↓元のコード-->
@@ -64,14 +64,14 @@
                 
             
                   <div class="input-group">
-                    <span class="input-group-addon">ホームグループ</span>
-                    <input type="text" name="group" class="form-control" placeholder="ex) 1A">
+                    <span class="input-group-addon">HOME GROUP</span>
+                    <input type="text" name="group" class="w3-input" placeholder="ex) 1A">
                   </div>
                 <br>
                   
                   <div class="input-group">
-                    <span class="input-group-addon">パスワード</span>
-                    <input type="password" name="password" class="form-control" placeholder="6文字以上">
+                    <span class="input-group-addon">PASSWORD</span>
+                    <input type="password" name="password" class="w3-input" placeholder="6文字以上">
                   </div>
                 <br>
                 
@@ -83,8 +83,8 @@
                 
                 
                   <div class="input-group">
-                    <span class="input-group-addon">パスワード (確認) </span>
-                    <input type="password" name='password_confirmation' class="form-control" placeholder="">
+                    <span class="input-group-addon">PASSWORD(CONFIRMATION)</span>
+                    <input type="password" name='password_confirmation' class="w3-input" placeholder="">
                   </div>
                 <br>
                 
@@ -94,7 +94,7 @@
                 <!--    {!! Form::password('password_confirmation', ['class' => 'form-control']) !!}-->
                 <!--</div>-->
                 
-                {!! Form::submit('Sign up', ['class' => 'btn btn-primary btn-block']) !!}
+                {!! Form::submit('SIGN UP', ['class' => 'w3-black w3-button w3-wide']) !!}
             {!! Form::close() !!}
             
             
