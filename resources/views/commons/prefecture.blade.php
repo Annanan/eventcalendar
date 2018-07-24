@@ -12,10 +12,9 @@
 <div class="modal fade"id="basicModal"tabindex="-1"role="dialog"aria-labelledby="basicModal"aria-hidden="true">
     <div class="modal-dialog">
         <div  class =gamen class="modal-content">
-            <div class="modal-header">
-                　　<h4 class="modal-title"id="myModalLabel">都道府県で検索（複数選択可）</h4></div>
-                　　　　<div class="modal-body">
-
+            <div class="modal-body">
+                　　<h4 class="modal-title"id="myModalLabel">都道府県で検索（複数選択可）</h4>
+     
   <div class=ichiran>
     首都圏:
     <label for="tokyo">東京</label>

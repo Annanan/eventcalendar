@@ -3,19 +3,18 @@
 
 @section('content')
 <br>
-
+<h3  style = 'text-align:center'>
 <?php
 
-print "検索条件: {$search_event->prefecture}　 ";
+print " {$search_event->prefecture}　のイベント一覧  ";
 
 
-?>
-
+?></h3>
         
         <div class="col-xs-12">
             
 
-            @include('commons.calendar',['events' => $search_events])
+            @include('calendar.kensakucalendar',['events' => $search_events])
         </div>
 
 @endsection
