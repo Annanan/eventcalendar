@@ -11,6 +11,8 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
         
         <link rel="stylesheet" href="{{ secure_asset('css/cover-style.css') }}">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
     </head>        
     
     <body>
@@ -53,8 +55,8 @@
         
         <div class='touroku'>
             <ul>
-                <li class='sign'><button type="button" class="btn btn-default">{!! link_to_route('login',  '> Login', null, ['class'=>'sign']) !!}</button></li>
-                <li class='sign'><button type="button" class="btn btn-default">{!! link_to_route('signup.get',  '> Sign up', null, ['class'=>'sign']) !!}</button></li>
+                <li class="w3-white w3-border w3-button w3-wide">{!! link_to_route('signup.get',  'SIGNUP', null, ['class'=>'sign']) !!}</li>
+                <li class="w3-white w3-border w3-button w3-wide">{!! link_to_route('login',  'LOGIN', null, ['class'=>'sign']) !!}</li>
             </ul>
         </div>
     </div>
