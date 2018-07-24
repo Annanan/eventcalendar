@@ -13,7 +13,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-left" href="/zenbu"><img src="\idea16.jpg" alt="EVENTMOURAKUN" width="65" height="65"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a class="navbar-left" href="/zenbu"><img src="/idea23.jpg" alt="EVENTMOURAKUN" width="65" height="65"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             </div>
             <div class="collapse navbar-collapse">
                 <ul class="nav navbar-nav navbar-center">
