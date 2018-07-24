@@ -3,7 +3,6 @@
 }
 
 
-
 .tab li{
     display: inline-block;
     width: 128px;
@@ -48,12 +47,4 @@ label,input[type='checkbox']{cursor: pointer;}
      
 }
 
-.button-link{
-	color:#00f;
-	text-decoration:underline;
-}
- 
-.button-link:hover{
-	cursor:pointer;
-	color:#f00;
-}
+
