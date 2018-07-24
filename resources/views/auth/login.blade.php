@@ -24,7 +24,7 @@
         
        <div class="panel" id="login"> 
        <br>
-          <div class="text-center">
+          <div class="text-center" style="margin-top: 30px">
             <h1>LOG IN</h1>
           </div>
 
@@ -46,7 +46,8 @@
                     <input type="password" name='password' class="w3-input" placeholder="6文字以上">
                   </div>
                 <br>
-                
+                <br>
+                <br>
                
 
             {!! Form::submit('LOG IN', ['class' => 'w3-black w3-button w3-wide w3-large']) !!}
