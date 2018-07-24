@@ -3,7 +3,7 @@
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
 
-<div class="dropdown">
+
     <a class=ken  href="#"class="btn btn-lg btn-success" data-toggle="modal" data-target="#basicModal">その他の都道府県で検索</a>
 
 <form action="search" method="post" accept-charset=utf-8>

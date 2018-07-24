@@ -15,7 +15,7 @@
 
                 <div class="nav navbar-nav navbar-center">
                    
-                    <div class=ken>都道府県別でイベントを探す:</li>
+                    <div class=ken>都道府県別でイベントを探す:
                      <a  href="{{ action ('SearchController@tabsearch', 13)  }}">東京都</a>
                      <a  href="{{ action ('SearchController@tabsearch', 14)  }}">神奈川県</a>
                      <a  href="{{ action ('SearchController@tabsearch', 11)  }}">埼玉県</a>
@@ -25,10 +25,11 @@
                      <a  href="{{ action ('SearchController@tabsearch', 40)  }}"> 福岡県</a>
                      <a  href="{{ action ('SearchController@tabsearch', 1)   }}">北海道</a>
                      @include('commons.prefecture' ) 
-                </div>
+                    </div>
+                </div>  
                   
             
-    </div>   
-        </div>
+        </div>   
+    </div>
     <div class=borderline></div>
 </header>
