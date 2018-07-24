@@ -16,7 +16,8 @@
     text-align: left;
 }
 
-.haikei{display: inline-block;}
+.haikei {background-color: #CCFFDD;
+}
 
 
 .borderline {
@@ -30,21 +31,28 @@ border-top:solid 1px black;
 
 label,input[type='checkbox']{cursor: pointer;}
 
-.ken{
-    margin-left: 20px;
-    font-size: 12px;
-    display: inline-block;
+#kensaku {background-color: #99FF99;
+    font-size: 17px;
     font-family: 'Yu Gothic';
     font-weight: bold;
     }
+
+#kensaku:hover {background-color: red;}
+    
  .ken a {
-     margin-left: 10px;
-     margin-right: 30px;
+     font-size: 13px;
+     margin-left: 50px;
+     margin-right: 100px;
+     font-family: 'Yu Gothic';
+    font-weight: bold;
       
  }
+ 
+ .ken{display: inline-block;}
 .zeroken{text-align: center;
      font-weight: bold;
      
 }
+
 
 
