@@ -18,7 +18,7 @@
     <body>
         <div class='col-xs-12'>
             <div class='title'>
-                <h1>EVENT-MOURA-KUN</h1>
+                EVENT-MOURA-KUN
             </div>
 
     
