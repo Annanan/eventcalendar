@@ -15,6 +15,7 @@ class EventFavoriteController extends Controller
     public function destroy($id)
     {
         \Auth::user()->event_unfavo($id);
+        \Auth::user()->unboshu($id);
         return redirect()->back();
     }
 }
