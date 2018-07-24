@@ -8,6 +8,7 @@ table {
     font-size: 12px;
     color: #000;
     font-weight: bold;
+    /*font-size: 10px;*/
 }
 
 table, td, th {
@@ -92,6 +93,7 @@ span{
   overflow: hidden;
   text-overflow: ellipsis;
   display: inline-block;
+  font-size: 10px;
 }
 
 .btn {
@@ -147,4 +149,40 @@ body {
 
 .kotei{
     font-family: 'Yu Gothic';
+}
+
+body{
+    background: url('../huurin.png') no-repeat center center fixed;
+   -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.glyphicon-asterisk{
+    font-size: 12px;
+}
+
+.glyphicon-film{
+     font-size: 12px;
+}
+
+.glyphicon-bullhorn{
+     font-size: 12px;
+}
+
+.glyphicon-music{
+     font-size: 12px;
+}
+
+.glyphicon-glass{
+     font-size: 12px;
+}
+
+.glyphicon-picture{
+     font-size: 12px;
+}
+
+.glyphicon-leaf{
+     font-size: 12px;
 }

@@ -6,6 +6,7 @@
 .tab li{
     display: inline-block;
     width: 128px;
+     font-weight:bold;
 }
 
 .tab li  {
