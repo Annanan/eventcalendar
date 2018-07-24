@@ -4,17 +4,14 @@
 <link rel="stylesheet" href="{{ secure_asset('css/navbar3.css') }}">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link href="https://fonts.googleapis.com/earlyaccess/mplus1p.css" rel="stylesheet" />
-
-
-<div class="dropdown">
     <a class=ken  href="#"class="btn btn-lg btn-success" data-toggle="modal" data-target="#basicModal">その他の都道府県で検索</a>
     
 <div class="modal fade"id="basicModal"tabindex="-1"role="dialog"aria-labelledby="basicModal"aria-hidden="true">
     <div class="modal-dialog">
         <div  class =gamen class="modal-content">
-            <div class="modal-header">
-                　　<h4 class="modal-title"id="myModalLabel">都道府県で検索（複数選択可）</h4></div>
-                　　　　<div class="modal-body">
+            <div class="modal-body">
+                　　<h4 class="modal-title"id="myModalLabel">都道府県で検索（複数選択可）</h4>
+                　　　　
 
   <div class=ichiran>
     首都圏:
