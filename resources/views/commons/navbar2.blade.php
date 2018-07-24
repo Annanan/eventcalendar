@@ -3,7 +3,7 @@
 <link rel="stylesheet" href="{{ secure_asset('css/navbar2.css') }}">
 
 
-<header>
+<header class="navbar2">
     <!--<nav class="navbar navbar-default navbar-static-top">-->
         <div class="container">
             <div class="nav navbar-nav navbar-left">
