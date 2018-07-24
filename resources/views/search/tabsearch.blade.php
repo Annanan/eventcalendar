@@ -2,7 +2,7 @@
 
 
 @section('content')
-<br>
+@include('commons.navbar3')
 <h3  style = 'text-align:center'>
 <?php
 
