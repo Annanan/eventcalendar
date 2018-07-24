@@ -25,7 +25,7 @@ class AddSport1 extends Migration
           'prefecture' => '埼玉',
           'place' => 'メットライフドーム',
           'genre' => 'スポーツ',
-          'description' => '　「獅子風流（ししぶる）」ユニフォームを来場者全員に配布。歌手の渡辺美里さんが来場！',
+          'description' => '「獅子風流（ししぶる）」ユニフォームを来場者全員に配布。歌手の渡辺美里さんが来場！',
           'price' => '公式サイト参照',
           'genrenum' => '5',
           'prefecturenum' => '11',
@@ -116,7 +116,7 @@ class AddSport1 extends Migration
         ],
         [
           'name' => 'ロッテ-オリックス',
-          'eventdate' => '',
+          'eventdate' => '26',
           'time' => '18:00',
           'prefecture' => '千葉',
           'place' => 'ZOZOマリンスタジアム',
