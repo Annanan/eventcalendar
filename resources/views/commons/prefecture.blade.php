@@ -4,7 +4,7 @@
 
 
 
-    <a class=ken  href="#"class="btn btn-lg btn-success" data-toggle="modal" data-target="#basicModal">その他の都道府県で検索</a>
+    <a class=ken id=kensaku  href="#"class="btn btn-lg btn-success" data-toggle="modal" data-target="#basicModal">都道府県別イベント検索ページへ</a>
 
 <form action="search" method="post" accept-charset=utf-8>
     {{ csrf_field() }}

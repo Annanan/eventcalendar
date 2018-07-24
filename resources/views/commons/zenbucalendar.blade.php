@@ -12,20 +12,20 @@
    <thead>
      
          <tr class="year">
-             <h1>　　　　　　　　　　　August　2018　　　　　　　　　　　　　</h1> 
+             <h1 class= w3-wide>　　　　　　　　　　　　　AUGUST　2018　　　　　　　　　　　　　</h1> 
         </tr>
           
     </thead>
   
     
         <tr class="youbi, w3-background w3-pale-red">
-            <th>MON</th>
-            <th>TUE</th>
-            <th>WED</th>
-            <th>THU</th>
-            <th>FRI</th>
-            <th><font color="blue">SAT</font></th>
-            <th><font color="red">SUN</font></th>
+            <th class= w3-wide>MON</th>
+            <th class= w3-wide>TUE</th>
+            <th class= w3-wide>WED</th>
+            <th class= w3-wide>THU</th>
+            <th class= w3-wide>FRI</th>
+            <th class= w3-wide><font color="blue">SAT</font></th>
+            <th class= w3-wide><font color="red">SUN</font></th>
         </tr>
         
     <tbody>
