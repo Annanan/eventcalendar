@@ -13,6 +13,5 @@
         &nbsp;  
 @endif
 
-<li class="w3-black w3-button w3-wide"><a href="{{ route('mypage.mycalendar', Auth::id()) }}">マイカレンダーを見る</a></li>
  
 
