@@ -11,7 +11,7 @@
 <div class=eventkuwashiku>
  <div class=description>
   <div class="col-xs-12">
-  <!--<span class="label label-default">{{$event->name}}</span>  -->
+    
   <h2>{{$event->name}}</h2><br>
   
   <span class="glyphicon glyphicon-calendar">：{{$event->eventdate}}日</span><br><br><br>
