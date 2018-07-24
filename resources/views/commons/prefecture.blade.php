@@ -11,7 +11,7 @@
     
 <div class="modal fade"id="basicModal"tabindex="-1"role="dialog"aria-labelledby="basicModal"aria-hidden="true">
     <div class="modal-dialog">
-        <div class="modal-content">
+        <div  class =gamen class="modal-content">
             <div class="modal-header">
                 　　<h4 class="modal-title"id="myModalLabel">都道府県で検索（複数選択可）</h4></div>
                 　　　　<div class="modal-body">
@@ -40,7 +40,7 @@
     <label for=aomori>青森</label>
     <input id="aomori" type="checkbox" name="search[]" value="2" >&nbsp;&nbsp;&nbsp;&nbsp;
     <label for="iwate">岩手</label>
-    <input id="iwate" type="checkbox" name="search[]" value="3" >&nbsp;&nbsp;&nbsp;&nbsp;
+    <input id="iwate" type="checkbox" name="search[]" value="3" ><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     <label for="miyagi">宮城</label>
     <input id="miyagi" type="checkbox" name="search[]" value="4" >&nbsp;&nbsp;&nbsp;&nbsp;
     <label for="akita">秋田</label>
@@ -106,11 +106,12 @@
     <label for='okinawa'>沖縄</label>
     <input id="okinawa" type="checkbox" name="search[]" value="47" >&nbsp;&nbsp;&nbsp;&nbsp;
     
+    <br>
     
-    <input type="submit" value="検索"></form>
+    <input type="submit"  value="検索する！"></form>
+    
   </div>
                   </div>
-    <hr>
                   <div class="zeroken">
  <p> イベント0件の県　（17県）</p>
  <p>山形 栃木 石川 長野 岐阜 静岡 奈良 和歌山 <br> 鳥取 島根 広島 山口 佐賀 熊本 大分 宮崎 鹿児島</p>

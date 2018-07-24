@@ -25,7 +25,8 @@
 border-top:solid 1px black;
 }
 
-.ichiran{width:600px;
+.gamen {background-image: url(../japanmap.jpg);
+    　　
 }
 
 label,input[type='checkbox']{cursor: pointer;}
@@ -37,5 +38,8 @@ label,input[type='checkbox']{cursor: pointer;}
     display: inline-block;
 }
 
-.zeroken{text-align: center;}
+.zeroken{text-align: center;
+     font-weight: bold;
+     background-color: white;
+}
 
