@@ -8,11 +8,11 @@
 
 
 <table border="3" class="kotei">
-    
+    <p>日付をクリックで　その日のイベント一覧ページへ</p>
    <thead>
      
          <tr class="year">
-             <h1>2018年 8月</h1> <p>日付をクリックで　その日のイベント一覧ページへ</p>
+             <h1>　　　　　　　　　　　August　2018　　　　　　　　　　　　　</h1> 
         </tr>
           
     </thead>
@@ -36,7 +36,7 @@
             <td class="tuesday">
                 <br>
                 <br>
-        🐮イベント名 (イベント数)
+          ICON イベント名 (数)
         
             </td>
             
