@@ -187,7 +187,7 @@ class AddSport2 extends Migration
         ],
         [
           'name' => '大相撲　渋谷青山学院場所',
-          'eventdate' => '',
+          'eventdate' => '8',
           'time' => '8:00',
           'prefecture' => '東京',
           'place' => '青山学院記念館"',
