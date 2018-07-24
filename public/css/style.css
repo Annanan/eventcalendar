@@ -151,14 +151,6 @@ body {
     font-family: 'Yu Gothic';
 }
 
-body{
-    background: url('../huurin.png') no-repeat center center fixed;
-   -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-
 .glyphicon-asterisk{
     font-size: 12px;
 }
