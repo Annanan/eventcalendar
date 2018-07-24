@@ -1,0 +1,445 @@
+@charset "utf-8";
+
+body{
+    width: 100%;
+    position: relative;
+    
+}
+
+.theme{
+  position: absolute;
+  top: 180px;
+  left: 400px;
+  
+  color: #000;
+  transition-property: color;
+  transition-duration: 1s;
+  transition-delay: 0s;
+}
+
+.theme:hover{
+  position: absolute;
+  top: 180px;
+  left: 400px;
+  
+  color: #FF99CC;
+}
+
+/*.title{*/
+/*    display: inline;*/
+/*}*/
+
+.title1{
+    height: 100px;
+    width: 1150px;
+    background-color: #fff;
+    position: absolute;
+    top:250px;
+    left:500px;
+}
+
+.touroku{
+    position: absolute;
+    left:500px;
+    
+}
+
+.signup{
+    font-size: 30px;
+    display: inline-block;
+    color: #000;
+    
+    position: absolute;
+    top:450px;
+    left:550px;
+}
+
+.signin{
+    font-size: 30px;
+    /*display: inline-block;*/
+    color: #000;
+    
+    position: absolute;
+    top:450px;
+    left:700px;
+}
+
+#firstE{
+  font-size: 100px;
+  height: 100px;
+  margin: -5px;
+  background: #FFF;
+  animation-name: rotation;
+  animation-duration: 2s;
+  animation-timing-function: ease;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-fill-mode: none;
+  animation-play-state: running;
+}
+
+#V{
+  font-size: 100px;
+  height: 100px;
+  margin: -5px;
+  background: #FFF;
+  animation-name: rotation;
+  animation-duration: 2s;
+  animation-timing-function: ease;
+  animation-delay: 100ms;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-fill-mode: none;
+  animation-play-state: running;
+}
+
+#secondE{
+  font-size: 100px;
+  height: 100px;
+  margin: -5px;
+  background: #FFF;
+  animation-name: rotation;
+  animation-duration: 2s;
+  animation-timing-function: ease;
+  animation-delay: 200ms;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-fill-mode: none;
+  animation-play-state: running;
+}
+
+#firstN{
+  font-size: 100px;
+  height: 100px;
+  margin: -5px;
+  background: #FFF;
+  animation-name: rotation;
+  animation-duration: 2s;
+  animation-timing-function: ease;
+  animation-delay: 300ms;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-fill-mode: none;
+  animation-play-state: running;
+}
+
+#T{
+  font-size: 100px;
+  height: 100px;
+  margin: -5px;
+  background: #FFF;
+  animation-name: rotation;
+  animation-duration: 2s;
+  animation-timing-function: ease;
+  animation-delay: 400ms;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-fill-mode: none;
+  animation-play-state: running;
+}
+
+#first-{
+  font-size: 100px;
+  height: 100px;
+  margin: -5px;
+  background: #FFF;
+  animation-name: rotation;
+  animation-duration: 2s;
+  animation-timing-function: ease;
+  animation-delay: 500ms;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-fill-mode: none;
+  animation-play-state: running;
+}
+
+#M{
+  font-size: 100px;
+  height: 100px;
+  margin: -5px;
+  background: #FFF;
+  animation-name: rotation;
+  animation-duration: 2s;
+  animation-timing-function: ease;
+  animation-delay: 600ms;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-fill-mode: none;
+  animation-play-state: running;
+}
+
+#O{
+  font-size: 100px;
+  height: 100px;
+  margin: -5px;
+  background: #FFF;
+  animation-name: rotation;
+  animation-duration: 2s;
+  animation-timing-function: ease;
+  animation-delay: 700ms;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-fill-mode: none;
+  animation-play-state: running;
+}
+
+#firstU{
+  font-size: 100px;
+  height: 100px;
+  margin: -5px;
+  background: #FFF;
+  animation-name: rotation;
+  animation-duration: 2s;
+  animation-timing-function: ease;
+  animation-delay: 700ms;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-fill-mode: none;
+  animation-play-state: running;
+}
+
+#R{
+  font-size: 100px;
+  height: 100px;
+  margin: -5px;
+  background: #FFF;
+  animation-name: rotation;
+  animation-duration: 2s;
+  animation-timing-function: ease;
+  animation-delay: 600ms;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-fill-mode: none;
+  animation-play-state: running;
+}
+
+#A{
+  font-size: 100px;
+  height: 100px;
+  margin: -5px;
+  background: #FFF;
+  animation-name: rotation;
+  animation-duration: 2s;
+  animation-timing-function: ease;
+  animation-delay: 500ms;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-fill-mode: none;
+  animation-play-state: running;
+}
+
+#second-{
+  font-size: 100px;
+  height: 100px;
+  margin: -5px;
+  background: #FFF;
+  animation-name: rotation;
+  animation-duration: 2s;
+  animation-timing-function: ease;
+  animation-delay: 400ms;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-fill-mode: none;
+  animation-play-state: running;
+}
+
+#K{
+  font-size: 100px;
+  height: 100px;
+  margin: -5px;
+  background: #FFF;
+  animation-name: rotation;
+  animation-duration: 2s;
+  animation-timing-function: ease;
+  animation-delay: 300ms;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-fill-mode: none;
+  animation-play-state: running;
+}
+
+#secondU{
+  font-size: 100px;
+  height: 100px;
+  margin: -5px;
+  background: #FFF;
+  animation-name: rotation;
+  animation-duration: 2s;
+  animation-timing-function: ease;
+  animation-delay: 200ms;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-fill-mode: none;
+  animation-play-state: running;
+}
+
+#secondN{
+  font-size: 100px;
+  height: 100px;
+  margin: -5px;
+  background: #FFF;
+  animation-name: rotation;
+  animation-duration: 2s;
+  animation-timing-function: ease-in;
+  animation-delay: 100ms;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-fill-mode: none;
+  animation-play-state: running;
+}
+
+
+/*アニメーション*/
+@keyframes rotation {
+  0% {
+    transform: scale(1);
+  }
+  10% {
+    transform: scale(1);
+    background: #CCCCCC;
+  }
+  20% {
+    transform: scale(1);
+    background: #FFCCCC;
+  }
+  30% {
+    transform: scale(1);
+    background: #99CC99;
+  }40% {
+    transform: scale(1);
+    background: #FFCC99;
+  }50% {
+    transform: scale(1);
+    background: #CCFF99;
+  }60% {
+    transform: scale(1);
+    background: #FFFFFF;
+  }70% {
+    transform: scale(1);
+    background: #CCCCFF;
+  }80% {
+    transform: scale(1);
+    background: #99CCFF;
+  }  
+  90% {
+    transform: scale(1);
+    background: #99FF99;
+  }
+  100% {
+    transform: scale(1);
+    background: #99CCCC;
+  }
+}
+
+/*@keyframes rotation2 {*/
+/*  0% {*/
+/*    transform: scale(.3);*/
+/*  }*/
+
+/*  50% {*/
+/*    transform: scale(.6) rotate(-45deg);*/
+/*    background: red;*/
+/*  }*/
+
+/*  100% {*/
+/*    transform: scale(1) rotate(180deg);*/
+/*    background: blue;*/
+/*  }*/
+/*}*/
+
+/*@keyframes rotation3 {*/
+/*  0% {*/
+/*    transform: scale(.3);*/
+/*  }*/
+
+/*  50% {*/
+/*    transform: scale(.6) rotate(-45deg);*/
+/*    background: red;*/
+/*  }*/
+
+/*  100% {*/
+/*    transform: scale(1) rotate(180deg);*/
+/*    background: blue;*/
+/*  }*/
+/*}*/
+
+/*@keyframes rotation4 {*/
+/*  0% {*/
+/*    transform: scale(.3);*/
+/*  }*/
+
+/*  50% {*/
+/*    transform: scale(.6) rotate(-45deg);*/
+/*    background: red;*/
+/*  }*/
+
+/*  100% {*/
+/*    transform: scale(1) rotate(180deg);*/
+/*    background: blue;*/
+/*  }*/
+/*}*/
+
+/*@keyframes rotation5 {*/
+/*  0% {*/
+/*    transform: scale(.3);*/
+/*  }*/
+
+/*  50% {*/
+/*    transform: scale(.6) rotate(-45deg);*/
+/*    background: red;*/
+/*  }*/
+
+/*  100% {*/
+/*    transform: scale(1) rotate(180deg);*/
+/*    background: blue;*/
+/*  }*/
+/*}*/
+
+/*@keyframes rotation6 {*/
+/*  0% {*/
+/*    transform: scale(.3);*/
+/*  }*/
+
+/*  50% {*/
+/*    transform: scale(.6) rotate(-45deg);*/
+/*    background: red;*/
+/*  }*/
+
+/*  100% {*/
+/*    transform: scale(1) rotate(180deg);*/
+/*    background: blue;*/
+/*  }*/
+/*}*/
+
+/*@keyframes rotation7 {*/
+/*  0% {*/
+/*    transform: scale(.3);*/
+/*  }*/
+
+/*  50% {*/
+/*    transform: scale(.6) rotate(-45deg);*/
+/*    background: red;*/
+/*  }*/
+
+/*  100% {*/
+/*    transform: scale(1) rotate(180deg);*/
+/*    background: blue;*/
+/*  }*/
+/*}*/
+
+/*@keyframes rotation8 {*/
+/*  0% {*/
+/*    transform: scale(.3);*/
+/*  }*/
+
+/*  50% {*/
+/*    transform: scale(.6) rotate(-45deg);*/
+/*    background: red;*/
+/*  }*/
+
+/*  100% {*/
+/*    transform: scale(1) rotate(180deg);*/
+/*    background: blue;*/
+/*  }*/
+/*}*/

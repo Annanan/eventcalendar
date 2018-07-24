@@ -26,9 +26,6 @@ border-top:solid 1px black;
 }
 
 .ichiran{width:600px;
-      background-color: #ddffdd;
-      
-
 }
 
 label,input[type='checkbox']{cursor: pointer;}
@@ -39,4 +36,6 @@ label,input[type='checkbox']{cursor: pointer;}
     margin-right: 13px;
     display: inline-block;
 }
+
+.zeroken{text-align: center;}
 

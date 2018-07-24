@@ -24,7 +24,7 @@
       
       
       <div class=setsumei>
-        <a class=copy>作ろう、自分だけのイベントカレンダー。</a>
+        <h1 class=copy>作ろう、自分だけのイベントカレンダー。</h1>
 
          <h3 class= bun>このアプリの使い方<br> How to use this app</h3>
        <div class=picture id=setsumei1><p class=bunbun id=bunbun1>①:カレンダーからイベントを検索</p>
