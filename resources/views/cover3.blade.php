@@ -10,18 +10,16 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
         
-        <link rel="stylesheet" href="{{ secure_asset('css/cover-style.css') }}">
+        <link rel="stylesheet" href="{{ secure_asset('css/cover3.css') }}">
         <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
     </head> 
     
     <body>
         <div class='col-xs-12'>
-            <div class='title'>
-                EVENT-MOURA-KUN
-            </div>
             
-            <img src="\.png"
+            
+            <img src="/idea23.gif" alt="gif" id="sun">
         
             <div class='touroku'>
                 <ul>

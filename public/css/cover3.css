@@ -1,0 +1,54 @@
+@charset "utf-8";
+
+
+
+body{
+    width: 100%;
+    position: relative;
+}
+
+.title{
+    font-size: 60px;
+}
+
+#sun{
+    width: 750px;
+    height: 750px;
+    
+    position: absolute;
+    top: 0px;
+    left: 400px;
+    
+}
+
+.sign{
+    font-size: 20px;
+    display: inline-block;
+    padding: 10px;
+     color: #000;
+}
+
+.title{
+    /*display: inline-block;*/
+    position: absolute;
+    top:0px;
+    left:200px;
+}
+
+.touroku{
+    position: absolute;
+    top:580px;
+    left:950px;
+}
+
+
+.h1{
+    position: absolute;
+    width:390px; 
+    height:60px;
+}
+
+.logo{
+    width:390px; 
+    height:60px;
+}

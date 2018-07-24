@@ -4,8 +4,6 @@
 @extends('layouts.app2')
 
 @section('content')
-
-<br>
 <body>
 
 
@@ -39,14 +37,7 @@
  <span class="glyphicon glyphicon-user"> {{$user->name}} ({{$user->group}})</span><br><br>
  @endforeach
 </div>
-
-
-
-</div>
-
 @endif
-
-
 
 </body>
 @endsection
