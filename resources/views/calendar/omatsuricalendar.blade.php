@@ -11,13 +11,13 @@
       
       <br>
        <tr class="youbi, w3-background w3-pink">
-            <th>MON</th>
-            <th>TUE</th>
-            <th>WED</th>
-            <th>THU</th>
-            <th>FRI</th>
-            <th><font color="blue">SAT</font></th>
-            <th><font color="red">SUN</font></th>
+            <th class= w3-wide>MON</th>
+            <th class= w3-wide>TUE</th>
+            <th class= w3-wide>WED</th>
+            <th class= w3-wide>THU</th>
+            <th class= w3-wide>FRI</th>
+            <th class= w3-wide><font color="blue">SAT</font></th>
+            <th class= w3-wide><font color="red">SUN</font></th>
         </tr>
     </thead>
     <tbody>
