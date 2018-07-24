@@ -24,8 +24,8 @@
                     
                     <li class="w3-grey w3-button w3-wide"><a href="{{ route('logout.get') }}">LOGOUT</a></li>
                     @else
-                        <li><a href="{{ route('signup.get') }}">SIGNUP</a></li>
-                        <li><a href="{{ route('login') }}">LOGIN</a></li>
+                        <li class="w3-black w3-button w3-wide"><a href="{{ route('signup.get') }}">SIGNUP</a></li>
+                        <li class="w3-grey w3-button w3-wide"><a href="{{ route('login') }}">LOGIN</a></li>
                     @endif
                 </ul>
             </div>

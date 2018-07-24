@@ -26,7 +26,7 @@
       <div class=setsumei>
         <h1 class=copy>作ろう、自分だけのイベントカレンダー。</h1>
 
-         <h3 class= bun>このアプリの使い方<br> How to use this app</h3>
+         <h3 class= bun> このアプリの使い方<br>HOW TO USE THIS APP</h3>
        <div class=picture id=setsumei1><p class=bunbun id=bunbun1>①:カレンダーからイベントを検索</p>
        </div>
        <div class=picture id=setsumei2><p class=bunbun id=bunbun2>②:興味を持ったイベントを<br>    マイカレンダーに追加</p></div>
@@ -41,7 +41,7 @@
           <div class="panel" id="register">
             
             
-            <div class="text-center">
+            <div class="text-center" style="margin-top: 70px;">
                <h1>SIGN UP</h1><br>
             </div>
     
@@ -61,12 +61,13 @@
                 <!--    {!! Form::text('name', old('name'), ['class' => 'form-control']) !!}-->
                 <!--</div>-->
                 <br>
-                
+                <br>
             
                   <div class="input-group">
                     <span class="input-group-addon">HOME GROUP</span>
                     <input type="text" name="group" class="w3-input" placeholder="ex) 1A">
                   </div>
+                <br>
                 <br>
                   
                   <div class="input-group">
@@ -74,7 +75,7 @@
                     <input type="password" name="password" class="w3-input" placeholder="6文字以上">
                   </div>
                 <br>
-                
+                <br>
                 <!--↓元のコード-->
                 <!--<div class="form-group">-->
                 <!--    {!! Form::label('password', 'パスワード') !!}-->
@@ -86,6 +87,7 @@
                     <span class="input-group-addon">PASSWORD(CONFIRMATION)</span>
                     <input type="password" name='password_confirmation' class="w3-input" placeholder="">
                   </div>
+                <br>
                 <br>
                 
                 <!--↓元のコード-->

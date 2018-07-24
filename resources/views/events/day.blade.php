@@ -7,7 +7,7 @@
 <!--<link rel="stylesheet" href="{{ secure_asset('css/day.css') }}">-->
 <br>
 <br>
-<h1>8月{{ $date }}日のイベント一覧🐮</h1>
+<h1>  8月{{ $date }}日のイベント一覧  </h1>
 <br>
 
 <?php
