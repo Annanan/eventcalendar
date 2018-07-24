@@ -17,9 +17,8 @@
                         
                          
                      
-                     
                       @include('commons.prefecture' ) 
-                      <div class=ken> 
+                      <div class='ken'> 
                      <a  href="{{ action ('SearchController@tabsearch', 13)  }}">東京都のイベント</a>
                      <a  href="{{ action ('SearchController@tabsearch', 14)  }}">神奈川県のイベント</a>
                      <a  href="{{ action ('SearchController@tabsearch', 12)  }}">千葉県のイベント</a>
