@@ -37,6 +37,9 @@ body {
 
 span.glyphicon{
     font-weight: bold;
+    font-size: 20px;
+    color:#808080;
+    font-family: 'Yu Gothic';
 }
 
 h2{
