@@ -8,9 +8,12 @@
 <br>
 <body>
 
+<div class="col-xs-12">
+
 <div class=eventkuwashiku>
  <div class=description>
-  <div class="col-xs-12">
+  
+  
   <!--<span class="label label-default">{{$event->name}}</span>  -->
   <h2>{{$event->name}}</h2><br>
   
@@ -20,22 +23,31 @@
   <span class="glyphicon glyphicon-list-alt">：{{$event->description}}</span><br><br><br>
   <span class="glyphicon glyphicon-usd">：{{$event->price}}</span><br><br><br>
   <span class="glyphicon glyphicon-book">：{{$event->genre}}</span><br><br><br>
- </div> 
-</div>
+  </div> 
+ </div>
+
+
 
 @if(Auth::check())
-@include('favorites.favorite_button', ['event' => $event])
-<li class="w3-black w3-button w3-wide"><a href="{{ route('mypage.mycalendar', Auth::id()) }}">マイカレンダーを見る</a></li> 
-</div>
 
 <div class=boshuchu>
-
-<h4>一緒に行く人を募集している同期</h4><br>
-@foreach($users as $user)
-<span class="glyphicon glyphicon-user"> {{$user->name}} ({{$user->group}})</span><br><br>
-@endforeach
+ <h4>一緒に行く人を募集している同期</h4><br>
+ @foreach($users as $user)
+ <span class="glyphicon glyphicon-user"> {{$user->name}} ({{$user->group}})</span><br><br>
+ @endforeach
 </div>
 
+<br>
+
+<div class="button">
+@include('favorites.favorite_button', ['event' => $event])
+</div>
+
+
+
 @endif
+
+</div>
+
 </body>
 @endsection
