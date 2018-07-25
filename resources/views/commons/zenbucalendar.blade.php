@@ -9,9 +9,13 @@
 
 <table border="3" class="kotei">
    <thead>
-     
+   <p></p>  
         
+<<<<<<< HEAD
              <p class= "w3-wide" style ="font-size: 25px; text-align: center;">AUGUST　2018</p> 
+=======
+             <p class= "w3-wide" style ="font-size: 30px; text-align: center;">AUGUST 2018</p> 
+>>>>>>> 114aa17c5d47b031b47eca97eebac6308c06678e
         
           
     </thead>

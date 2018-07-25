@@ -14,9 +14,23 @@
         <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
     </head>
+
+
+    
+    
+    
     <body>
+        
+　　 @if (Auth::check()) 
+  
+　　<h1>エラー起きている</h1>
+ 
+　　 @else              
+        
       @include('commons.navbar')
-       
+    
+  
+
 <div class="zentai">
         <h1 class=copy ></h1>
         
@@ -62,3 +76,9 @@
    </div>
   </div>
  </div>
+ 
+ 
+ @endif
+ 
+ 
+ 
