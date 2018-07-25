@@ -7,48 +7,42 @@ body{
     position: relative;
 }
 
-.title{
-    font-size: 60px;
-}
 
-#sun{
-    width: 750px;
-    height: 750px;
+img {
+    /*width: 750px;*/
+    /*height: 750px;*/
     
-    position: absolute;
-    top: 0px;
-    left: 400px;
+    width: 50%;
+    height: 50%;
     
+    /*position: absolute;*/
+    /*top: 0px;*/
+    /*left: 400px;*/
+    align-items: center;
+    display: flex;
+    justify-content: center;
 }
 
-.sign{
-    font-size: 20px;
-    display: inline-block;
-    padding: 10px;
-     color: #000;
-}
-
-.title{
-    /*display: inline-block;*/
-    position: absolute;
-    top:0px;
-    left:200px;
-}
 
 .touroku{
-    position: absolute;
-    top:580px;
-    left:580px;
+    width: 100%;
+    height: 50%;
+    /*align-items: center;*/
+    /*display: flex;*/
+    /*justify-content: center;*/
 }
 
-
-.h1{
-    position: absolute;
-    width:390px; 
-    height:60px;
+.touroku ul{
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 0;
 }
 
-.logo{
-    width:390px; 
-    height:60px;
+.issho {
+    align-items: center;
+    display: flex;
+    justify-content: center;
 }
