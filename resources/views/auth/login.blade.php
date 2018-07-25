@@ -14,8 +14,14 @@
         <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
     </head>
+
+
+    
+    
+    
     <body>
       @include('commons.navbar')
+    
        
 <div class="zentai">
         <h1 class=copy ></h1>
@@ -62,3 +68,4 @@
    </div>
   </div>
  </div>
+ 
