@@ -15,38 +15,51 @@
         <link rel="stylesheet" href="{{ secure_asset('css/login.css') }}">
     </head>
     <body>
+  <div class="col-xs-10 col-xs-offset-1">
       @include('commons.navbar')
         
-        
-    <div class='header'> </div>
-    <div class="clearfix">
-    <div class='largebox'>
-      
-      
-      <div class=setsumei>
-        <h1 class=copy><br>作ろう、自分だけのイベントカレンダー。</h1>
+         @include('commons.error_messages')
+   
 
-         <h3 class= bun> このアプリの使い方<br>HOW TO USE THIS APP</h3>
-       <div class=picture id=setsumei1><p class=bunbun id=bunbun1>①:カレンダーからイベントを検索</p>
+    
+      
+      <h1 class=copy>作ろう、自分だけのイベントカレンダー。</h1>
+       
+    <div class=setsumei  id=ue  class=clearfix>
+        
+
+         <h2 class= bun id=bun1> このアプリの使い方</h2>
+         
+       <div    class=picture id=setsumei1>  <h3>1:イベントを検索</h3><p class=bunbun id=bunbun1>ジャンル別のカレンダーからイベントを検索できます</p>
        </div>
-       <div class=picture id=setsumei2><p class=bunbun id=bunbun2>②:興味を持ったイベントを<br>    マイカレンダーに追加</p></div>
-       <div class=picture id= setsumei3><p class=bunbun id=bunbun3>③:一緒に行く仲間を<br> 募集することもできる！</p></div>
+       <div class=picture id=setsumei2><h3>2:マイカレンダーに追加</h3><p class=bunbun id=bunbun2>興味を持ったイベントの詳細ページからマイカレンダーに追加することができます</p></div>
+       <div class=picture id= setsumei3><h3>3:友達を募集</h3><p class=bunbun id=bunbun3>一緒にイベントに行く仲間を募集することもできます</p></div>
       </div>
+         
+      
+     <div class=setsumei  id=shita  class=clearfix>
+        
+         <h2 class=bun id=bun2> イベントもうラクんの特徴</h2>
+       <div class=picture id=setsumei4><h3>都道府県検索機能</h3><h4 class=bunbun id=bunbun1>都道府県からイベントを検索！</h4>
+       </div>
+       <div class=picture id=setsumei5><h3>日付検索機能</h3></h3><h4 class=bunbun id=bunbun2>日付からイベントを検索！</h4></div>
+       <div class=picture id= setsumei6><h3>自分だけのカレンダー</h3><h4 class=bunbun id=bunbun3>マイカレンダーをカスタマイズしよう！！</h4></div>
+    </div> 
+  </diV>   <!--ここまで　largebox-->
       
       
     
 
 
-
-          <div class="panel" id="register">
-            
+    <div class= panelbox>
+      <div class="panel" id="register">
             
             <div class="text-center" style="margin-top: 70px;">
                <h1>SIGN UP</h1><br>
             </div>
     
             <div class="row">
-              <div class="col-md-10 col-md-offset-1">
+              <div class="col-xs-10 col-xs-offset-1">
             
             {!! Form::open(['route' => 'signup.post']) !!}
                 
@@ -55,7 +68,7 @@
                     <input type="text" name="name" class="w3-input" placeholder="ex) Taro">
                   </div>
                 
-                <!--↓元のコード-->
+                
                 <!--<div class="form-group">-->
                 <!--    {!! Form::label('name', 'ニックネーム') !!}-->
                 <!--    {!! Form::text('name', old('name'), ['class' => 'form-control']) !!}-->
@@ -100,12 +113,12 @@
             {!! Form::close() !!}
             
             
-            @include('commons.error_messages')
+           
              </div>
-            </div>
-           </div>
-      </div>
-      </div>
-
+        </div>
+     </div>
+   </div>
+ 
+</div>
 </body>
 </html>
