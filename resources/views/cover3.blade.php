@@ -12,6 +12,8 @@
         
         <link rel="stylesheet" href="{{ secure_asset('css/cover3.css') }}">
         <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        
+        
 
     </head> 
     

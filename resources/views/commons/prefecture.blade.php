@@ -6,7 +6,7 @@
 
     <a class=ken id=kensaku  href="#"class="btn btn-lg btn-success" data-toggle="modal" data-target="#basicModal">都道府県別イベント検索ページへ</a>
 
-<form action="search" method="post" accept-charset=utf-8>
+<form action="{{route('events.search')}}" method="post" accept-charset=utf-8>
     {{ csrf_field() }}
 
 <link href="https://fonts.googleapis.com/earlyaccess/mplus1p.css" rel="stylesheet" />
