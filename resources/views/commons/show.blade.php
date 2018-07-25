@@ -34,7 +34,7 @@
 
 <div class='panel panel-info scroll'>
  <div style="border-bottom: 0.2px solid black">
- <p style="font-size: 20px; font-weight: bold; margin-bottom: 0;"><img src="/otoko.png" alt="onna">　一緒に行く人を募集している同期</p>
+ <p style="font-size: 20px; font-weight: bold; margin-bottom: 0;"><img src="/otoko.png" alt="onna" style="width: 25px; height: 40px;">　一緒に行く人を募集している同期</p>
  <p class=koekake>　　　　　　　　一緒に行きたい人に声をかけてみよう！</p>
  </div>
  <br>
