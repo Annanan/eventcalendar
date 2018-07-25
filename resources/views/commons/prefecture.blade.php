@@ -14,10 +14,10 @@
 <div class="modal fade"id="basicModal"tabindex="-1"role="dialog"aria-labelledby="basicModal"aria-hidden="true">
     <div class="modal-dialog">
         <div  class =gamen class="modal-content">
-            <div class="modal-header">
-                　　<h4 class="modal-title"id="myModalLabel">都道府県で検索（複数選択可）</h4></div>
-                　　　　<div class="modal-body">
-
+            <div class="modal-body">
+                　　<h2 class="modal-title"id="myModalLabel">都道府県で検索（複数選択可）</h2>
+                　　　　
+  <br>
   <div class=ichiran>
     首都圏:
     <label for="tokyo">東京</label>
@@ -110,11 +110,13 @@
     
     <br>
     
-    <input type="submit"  value="検索する！"></form>
+    <b><input type="submit"  value="検索する！"></form></b>
     
   </div>
                   </div>
-    <hr>
+<br>
+<br>
+<br>
                   <div class="zeroken">
  <p> イベント0件の県　（17県）</p>
  <p>山形 栃木 石川 長野 岐阜 静岡 奈良 和歌山 <br> 鳥取 島根 広島 山口 佐賀 熊本 大分 宮崎 鹿児島</p>

@@ -6,7 +6,7 @@
 .tab li{
     display: inline-block;
     width: 128px;
-     font-weight:bold;
+    font-weight:bold;
 }
 
 .tab li  {
@@ -33,8 +33,8 @@ label,input[type='checkbox']{cursor: pointer;}
 
 #kensaku {
     font-size: 17px;
-    font-family: 'Yu Gothic';
-    font-weight: bold;
+    /*font-family: 'Yu Gothic';*/
+    /*font-weight: bold;*/
     }
 
 #kensaku:hover {background-color: red;}
@@ -43,9 +43,9 @@ label,input[type='checkbox']{cursor: pointer;}
      font-size: 13px;
      margin-left: 100px;
      margin-right: 100px;
-     font-family: 'Yu Gothic';
-    font-weight: bold;
-      display: inline-block;}
+     /*font-family: 'Yu Gothic';*/
+     /*font-weight: bold;*/
+     display: inline-block;}
       
 .ken a{margin-left: 50px;}  
 .ken a:hover{background-color: white;}
@@ -55,5 +55,10 @@ label,input[type='checkbox']{cursor: pointer;}
      
 }
 
+h4{
+    font-weight: bold;
+}
 
-
+.modal-title{
+    font-weight: bold;
+}
