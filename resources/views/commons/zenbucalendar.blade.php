@@ -10,9 +10,9 @@
 <table border="3" class="kotei">
    <thead>
      
-         <tr class="year">
-             <h1 class= w3-wide>　　　　　　　　　　　　　AUGUST　2018　　　　　　　　　　　　　</h1> 
-        </tr>
+        
+             <p class= "w3-wide" style ="font-size: 30px; text-align: center;">　　　　　　  　　　AUGUST　2018　　　　　　　　　　　　　</p> 
+        
           
     </thead>
   
@@ -35,7 +35,7 @@
             <td class="tuesday"><font size="3">
                 日付をClickで詳細へ</font>
                 <br>
-          ◎ イベント名 (数)
+          ◎ イベント名 (イベント数)
         
             </td>
             
