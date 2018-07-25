@@ -5,7 +5,7 @@
 table {
     width: 70%;
     height: 530px;
-    font-size: 12px;
+    font-size: 8px;
     color: #000;
     font-weight: bold;
     margin-left: 12.5%;
@@ -25,50 +25,50 @@ table, td, th {
     padding: 0 0 0 0;
 }
 .w3-deep-purple  th{
-   height: 45px;
-   font-size: 20px;
+   height: 20px;
+   font-size: 15px;
    text-align: center;
 }
 
 .w3-deep-orange th{
-   height: 45px;
-   font-size: 20px;
+   height: 20px;
+   font-size: 15px;
    text-align: center;
 }
 
 .w3-orange th{
-   height: 45px;
-   font-size: 20px;
+   height: 20px;
+   font-size: 15px;
    text-align: center;
 }
 
 .w3-brown th{
-   height: 45px;
-   font-size: 20px;
+   height: 20px;
+   font-size: 15px;
    text-align: center;
 }
 
 .w3-pink th{
-   height: 45px;
-   font-size: 20px;
+   height: 20px;
+   font-size: 15px;
    text-align: center;
 }
 
 .w3-lime th{
-   height: 45px;
-   font-size: 20px;
+   height: 20px;
+   font-size: 15x;
    text-align: center;
 }
 
 .w3-cyan th{
-   height: 45px;
-   font-size: 20px;
+   height: 20px;
+   font-size: 15px;
    text-align: center;
 }
 
 .w3-pale-red th{
-    height: 45px;
-   font-size: 20px;
+    height: 20px;
+   font-size: 15px;
    text-align: center;
 }
 
@@ -92,7 +92,7 @@ td {
 }
 
 a {
-    font-size: 10px;
+    font-size: 13px;
 }
 
 
