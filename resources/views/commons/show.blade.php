@@ -33,13 +33,21 @@
 </div>
 
 <div class='panel panel-info scroll'>
- <h4>一緒に行く人を募集している同期</h4><br>
+ <div style="border-bottom: 0.2px solid black">
+ <p style="font-size: 20px; font-weight: bold; margin-bottom: 0;"><img src="/otoko.png" alt="onna">　一緒に行く人を募集している同期</p>
+ <p class=koekake>　　　　　　　　一緒に行きたい人に声をかけてみよう！</p>
+ </div>
+ <br>
+ <br>
+ 
+ <div style="padding-left: 30px">
  @foreach($users as $user)
  <span class="glyphicon glyphicon-user"> {{$user->name}} ({{$user->group}})</span><br><br>
  @endforeach
+ </div>
 </div>
 
-<p class=koekake>一緒に行きたい人に声をかけてみよう！</p>
+
 
 @endif
 

@@ -35,14 +35,12 @@ body {
     margin-top: 55px;
     margin-left: 110px;
     padding-top: 20px;
-    padding-left: 45px;
+    padding-left: 20px;
     float:right;
     width: 35%;
     box-shadow:0 0 0 1px rgba(89,105,128,0.1), 0 3px 20px 0 rgba(89,105,128,0.3), 0 1px 2px 0 rgba(0,0,0,0.05);
   
 }
-
-
 
 span.glyphicon{
     font-weight: bold;
@@ -58,10 +56,9 @@ b {
     font-family: 'Yu Gothic';
 }
 
-h4 {
-    font-family: 'Yu Gothic';
-    font-weight: bold;
-}
+
+
+
 
 .scroll{
         overflow-y:scroll;
@@ -70,6 +67,10 @@ h4 {
 .koekake{
  font-family: 'Yu Gothic';
     font-weight: bold;
-    float:right;
-font-size:15pt;
+font-size:10pt;
+}
+
+img {
+    width: 25px;
+    height: 44px;
 }
