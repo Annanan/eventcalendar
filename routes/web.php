@@ -12,9 +12,7 @@
 */
 
 
-Route::get('/', function () {
-    return view('cover3');
-});
+Route::get('/', 'UsersController@cover');
 
 Route::get('zenbu', 'ZenbuController@zenbu')->name('events.events');
 
@@ -52,8 +50,10 @@ Route::group(['prefix' => 'users/{id}'], function () {
 
 Route::resource('events', 'EventFavoriteController', ['only' => ['store', 'destroy']]);
 
+Route::get('search', 'SearchController@search')->name('events.search');
 Route::post('search', 'SearchController@search')->name('events.search');
 Route::get('/tabsearch/{num}', 'SearchController@tabsearch')->name('events.tabsearch');
+Route::post('/tabsearch/{num}', 'SearchController@tabsearch')->name('events.tabsearch');
 
 
 Route::get('/day/{id}', 'DayController@day')->name('events.day');
