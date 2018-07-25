@@ -5,11 +5,12 @@
 
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <p></p>
+
  <p class= "w3-wide" style ="font-size: 25px; text-align: center;"><img src="/otoko.png" alt="EVENTMOURAKUN" width="25" height="44">&nbsp;&nbsp;AUGUST　2018&nbsp;&nbsp;<img src="/onna.png" alt="EVENTMOURAKUN" width="30" height="44"></p> 
 
 <table border="3" class="kotei">
-  <thead>
-    
+   <thead>
+
         <tr class="youbi, w3-background w3-pale-red">
             <th class= w3-wide>MON</th>
             <th class= w3-wide>TUE</th>
@@ -51,25 +52,25 @@
 
               ?>
              @if($omatsuri_1 !== 0)
-             <span class="glyphicon glyphicon-asterisk"></span><b>  お祭り ({{ $omatsuri_1 }}) </b><br>
+             <span class="glyphicon glyphicon-asterisk">  お祭り ({{ $omatsuri_1 }})</span>
              @endif
              @if($eiga_1 !== 0)
-             <span class="glyphicon glyphicon-film"></span><b> 映画  ({{ $eiga_1 }}) </b><br>
+             <span class="glyphicon glyphicon-film">   映画  ({{ $eiga_1 }}) </span>
              @endif
              @if($sports_1 !==0)
-             <span class="glyphicon glyphicon-bullhorn"></span><b>  スポーツ  ({{ $sports_1 }}) </b><br>
+             <span class="glyphicon glyphicon-bullhorn">  スポーツ  ({{ $sports_1 }}) </span>
              @endif
              @if($ongaku_1 !== 0)
-             <span class="glyphicon glyphicon-music"></span><b> 音楽 ({{ $ongaku_1 }})</b><br>
+             <span class="glyphicon glyphicon-music">　音楽 ({{ $ongaku_1 }})</span>
              @endif
              @if($gurume_1 !== 0)
-             <span class="glyphicon glyphicon-glass"></span><b> グルメ  ({{ $gurume_1 }})</b><br>
+             <span class="glyphicon glyphicon-glass"> グルメ  ({{ $gurume_1 }})</span>
              @endif
              @if($geijutsu_1 !== 0)
-             <span class="glyphicon glyphicon-picture"></span><b>　芸術 ({{$geijutsu_1 }}) </b><br>
+             <span class="glyphicon glyphicon-picture">　芸術 ({{$geijutsu_1 }}) </span>
              @endif
              @if($leisure_1 !== 0)
-             <span class="glyphicon glyphicon-leaf"></span><b> その他  ({{$leisure_1 }})</b><br>
+             <span class="glyphicon glyphicon-leaf">  その他  ({{$leisure_1 }})</span>
              @endif
               
             </td>
@@ -90,26 +91,26 @@
 
               ?>
               
-             @if($omatsuri_2 !== 0)
-             <span class="glyphicon glyphicon-asterisk"></span><b>  お祭り ({{ $omatsuri_1 }}) </b><br>
+              @if($omatsuri_2 !== 0)
+             <span class="glyphicon glyphicon-asterisk">  お祭り ({{ $omatsuri_2 }})</span>
              @endif
              @if($eiga_2 !== 0)
-             <span class="glyphicon glyphicon-film"></span><b> 映画  ({{ $eiga_1 }}) </b><br>
+             <span class="glyphicon glyphicon-film">   映画  ({{ $eiga_2 }}) </span>
              @endif
              @if($sports_2 !==0)
-             <span class="glyphicon glyphicon-bullhorn"></span><b>  スポーツ  ({{ $sports_1 }}) </b><br>
+             <span class="glyphicon glyphicon-bullhorn">  スポーツ  ({{ $sports_2 }}) </span>
              @endif
              @if($ongaku_2 !== 0)
-             <span class="glyphicon glyphicon-music"></span><b> 音楽 ({{ $ongaku_1 }})</b><br>
+             <span class="glyphicon glyphicon-music">　音楽 ({{ $ongaku_2 }})</span>
              @endif
              @if($gurume_2 !== 0)
-             <span class="glyphicon glyphicon-glass"></span><b> グルメ  ({{ $gurume_1 }})</b><br>
+             <span class="glyphicon glyphicon-glass"> グルメ  ({{ $gurume_2 }})</span>
              @endif
              @if($geijutsu_2 !== 0)
-             <span class="glyphicon glyphicon-picture"></span><b>　芸術 ({{$geijutsu_1 }}) </b><br>
+             <span class="glyphicon glyphicon-picture">　芸術 ({{$geijutsu_2 }}) </span>
              @endif
              @if($leisure_2 !== 0)
-             <span class="glyphicon glyphicon-leaf"></span><b> その他  ({{$leisure_1 }})</b><br>
+             <span class="glyphicon glyphicon-leaf">  その他  ({{$leisure_2 }})</span>
              @endif
             
               

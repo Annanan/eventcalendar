@@ -98,6 +98,7 @@ a {
 
 span{
 
+  width: 160px;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -206,9 +207,4 @@ body {
 
 .w3-wide{
     text-align: center;
-}
-
-b{
-   font-family: 'Yu Gothic';
-   font-size: 13px;
 }
