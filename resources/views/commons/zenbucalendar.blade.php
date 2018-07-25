@@ -32,12 +32,13 @@
             <td class="monday">
              <!--&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;例-->
             </td>
-            <td class="tuesday"><font size="3">
+            <td class="tuesday" ><font size="3" style="background-color: #ffd6d6">
                 日付をClickで詳細へ</font>
                 <br>
-          ◎ イベント名 (イベント数)
-        
-            </td>
+                <br>
+          <font size="3">◎ イベント名 (数)
+</font>
+</td>
             
             <td class="wednesday"><span style="font-weight:bold">
                  <a class=daylink href="{{ action ('DayController@day', 1)  }}">1</a>
