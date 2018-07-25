@@ -11,7 +11,7 @@
    <thead>
      
         
-             <p class= "w3-wide" style ="font-size: 30px; text-align: center;">AUGUST　2018</p> 
+             <p class= "w3-wide" style ="font-size: 25px; text-align: center;">AUGUST　2018</p> 
         
           
     </thead>
