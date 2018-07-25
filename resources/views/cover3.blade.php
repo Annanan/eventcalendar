@@ -19,12 +19,12 @@
         <div class='col-xs-12'>
             
             <div class="issho">
-            <img src="/idea23.gif" alt="gif" id="sun">
+            <img src="/idea24yohakunaiyo.gif" alt="gif" id="sun">
             </div>
         
             <div class='touroku'>
                 <ul>
-                    <li class="w3-white w3-border w3-button w3-wide">{!! link_to_route('signup.get',  'SIGNUP', null, ['class'=>'sign']) !!}</li>
+                    <li class="w3-white w3-border w3-button w3-wide">{!! link_to_route('signup.get',  'SIGNUP', null, ['class'=>'sign']) !!}</li> &nbsp;
                     <li class="w3-white w3-border w3-button w3-wide">{!! link_to_route('login',  'LOGIN', null, ['class'=>'sign']) !!}</li>
                 </ul>
             </div>
