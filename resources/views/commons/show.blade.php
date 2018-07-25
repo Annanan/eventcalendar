@@ -1,7 +1,8 @@
 <head>
 <link rel="stylesheet" href="{{ secure_asset('css/show.css') }}">
 </head>
-@extends('layouts.app2')
+
+@extends('layouts.app4')
 
 @section('content')
 <body>
