@@ -4,7 +4,7 @@
 <link rel="stylesheet" href="{{ secure_asset('css/style.css') }}">
 
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-
+<p></p>
  <p class= "w3-wide" style ="font-size: 25px; text-align: center;">AUGUST　2018</p> 
 
 <table border="3" class="kotei">
