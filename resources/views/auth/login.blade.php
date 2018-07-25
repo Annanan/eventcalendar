@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">       <title>Login [EVENT MOURAKUN]</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">       <title>EVENT MOURAKUN</title>
         
         <!-- Bootstrap -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -20,9 +20,17 @@
     
     
     <body>
+        
+　　 @if (Auth::check()) 
+  
+　　<h1>エラー起きている</h1>
+ 
+　　 @else              
+        
       @include('commons.navbar')
     
-       
+  
+
 <div class="zentai">
         <h1 class=copy ></h1>
         
@@ -68,4 +76,9 @@
    </div>
   </div>
  </div>
+ 
+ 
+ @endif
+ 
+ 
  
