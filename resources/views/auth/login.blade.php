@@ -10,7 +10,7 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
         
-        <link rel="stylesheet" href="{{ secure_asset('css/login.css') }}">
+        <link rel="stylesheet" href="{{ secure_asset('css/login2.css') }}">
         <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
     </head>
@@ -32,11 +32,11 @@
   
 
 <div class="zentai">
-        <h1 class=copy ></h1>
+        <!--<h1 class=copy ></h1>-->
         
-   <div class='largebox'>
+   <!--<div class='largebox'>-->
         
-       <div class="panel" id="login"> 
+       <div class="panel"> 
        <br>
           <div class="text-center" style="margin-top: 30px">
             <h1>LOG IN</h1>
@@ -53,7 +53,7 @@
                     <input type="text" name='name' class="w3-input" placeholder="ex) Taro">
                   </div>
                  <br>
-            
+                 <br>
                 
                   <div class="input-group">
                     <span class="input-group-addon">PASSWORD</span>
@@ -61,7 +61,7 @@
                   </div>
                 <br>
                 <br>
-                <br>
+                
                
 
             {!! Form::submit('LOG IN', ['class' => 'w3-black w3-button w3-wide w3-large']) !!}
@@ -74,11 +74,12 @@
         </div>
     </div>
    </div>
-  </div>
+  <!--</div>-->
  </div>
  
  
  @endif
  
+ </body>
  
- 
+</html>
