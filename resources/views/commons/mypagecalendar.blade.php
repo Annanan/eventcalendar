@@ -419,6 +419,9 @@
               <span>
               <?php foreach ($events as $event) {  
                   if($event->eventdate ==21){
+                     if ($user->boshuchu($event->id)){?><span class='boshu'> <?php ;}
+                  else{?> <span> <?php ;}
+                
                 echo'('. $event->prefecture .')';
               ?>
                   {!! link_to_route('events.show', $event->name, ['id' => $event->id]) !!}
