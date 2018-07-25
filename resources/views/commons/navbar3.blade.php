@@ -7,16 +7,8 @@
      
         <div class="haikei">
             
-        
-            
+        <span class="w3-wide" style="font-size:23px;">都道府県からイベント検索</span>
 
-                <div class="nav navbar-nav navbar-center">
-                   
-                    
-                        
-                         
-                     
-                    
                       <div class='ken'> 
                      <a  href="{{ action ('SearchController@tabsearch', 13)  }}">東京都のイベント</a>
                      <a  href="{{ action ('SearchController@tabsearch', 14)  }}">神奈川県のイベント</a>
@@ -26,7 +18,7 @@
                     
                     
                       
-                </div>  
+                
                   
             
         </div>   
