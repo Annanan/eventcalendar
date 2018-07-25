@@ -12,7 +12,7 @@ print " {$search_event->prefecture}　のイベント一覧  ";
 
 ?></h3>
         <br>
-        <div class="col-xs-10 ">
+        <div class="col-xs-12 ">
             @include('calendar.kensakucalendar',['events' => $search_events])
         </div>
 
