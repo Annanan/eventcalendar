@@ -17,14 +17,28 @@
     text-align: left;
 }
 
-.ken {
-    padding: 0.5em 1em;
+.haikei {
+   position: relative;
     margin: 0;
-    font-weight: bold;
-     background: #FFF;
-    border: solid 1px #696969;/*線*/
-    border-radius: 10px;/*角の丸み*/
+    padding: 1em 1em;
+    border: solid 3px #696969;
+    border-radius: 8px;
+ box-shadow:5px 5px 50px 10px rgba(89,105,128,0.1), 0 3px 20px 0 rgba(89,105,128,0.3), 0 1px 40px 5px rgba(0,0,0,0.05);;
+}
 
+.haikei .w3-wide {
+    position: absolute;
+    display: inline-block;
+    top: -16px;
+    left: 10px;
+    padding: 4px 8px;
+    line-height: 1;
+    font-size: 19px;
+    background: black;
+    color: #FFF;
+   
+    width: 400px;
+    border-radius: 8px;
 }
 
 /*.borderline {*/

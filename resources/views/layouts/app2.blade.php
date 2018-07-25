@@ -27,7 +27,7 @@
     </body>
     
     <footer>
-        Copyright © 2018 Koders. All Rights Reserved.
+       © 2018 Koders.
     </footer>
     
 </html>
