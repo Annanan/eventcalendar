@@ -7,7 +7,7 @@
 
 
 <table border="3" class="kotei">
-   
+    <thead>
       
       <br>
        <tr class="youbi, w3-background w3-deep-purple">
@@ -19,7 +19,7 @@
             <th class= w3-wide><font color="blue">SAT</font></th>
             <th class= w3-wide><font color="red">SUN</font></th>
         </tr>
-    
+    </thead>
     <tbody>
         <tr class="week1">
             <td class="monday"></td>

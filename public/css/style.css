@@ -21,55 +21,61 @@ table, td, th {
     padding: 0 0 0 0;
 }
 .w3-deep-purple  th{
-   height: 50px;
+   height: 45px;
    font-size: 20px;
    text-align: center;
 }
 
 .w3-deep-orange th{
-   height: 50px;
+   height: 45px;
    font-size: 20px;
    text-align: center;
 }
 
 .w3-orange th{
-   height: 50px;
+   height: 45px;
    font-size: 20px;
    text-align: center;
 }
 
 .w3-brown th{
-   height: 50px;
+   height: 45px;
    font-size: 20px;
    text-align: center;
 }
 
 .w3-pink th{
-   height: 50px;
+   height: 45px;
    font-size: 20px;
    text-align: center;
 }
 
 .w3-lime th{
-   height: 50px;
+   height: 45px;
    font-size: 20px;
    text-align: center;
 }
 
 .w3-cyan th{
-   height: 50px;
+   height: 45px;
    font-size: 20px;
    text-align: center;
 }
 
 .w3-pale-red th{
-    height: 50px;
+    height: 45px;
    font-size: 20px;
    text-align: center;
 }
 
 .w3-green  th{
    height: 20px;
+   font-size: 15px;
+   text-align: center;
+}
+
+.mypagenoyoubi th{
+     height: 20px;
    font-size: 15px;
    text-align: center;
 }
@@ -152,6 +158,9 @@ body {
     font-family: 'Yu Gothic';
 }
 
+.w3-wide {
+    font-weight: 500;
+}
 .glyphicon-asterisk{
     font-size: 12px;
 }
