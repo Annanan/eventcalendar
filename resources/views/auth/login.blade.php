@@ -62,7 +62,7 @@
             {!! Form::submit('LOG IN', ['class' => 'w3-black w3-button w3-wide w3-large']) !!}
             {!! Form::close() !!}
 
-            <p></p><p>未登録の場合 → {!! link_to_route('signup.get', '新規登録') !!}</p>
+            <p></p><p>{!! link_to_route('signup.get', '新規登録') !!}</p>
             
             
              @include('commons.error_messages')
