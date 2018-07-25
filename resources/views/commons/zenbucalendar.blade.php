@@ -51,25 +51,25 @@
 
               ?>
              @if($omatsuri_1 !== 0)
-             <span class="glyphicon glyphicon-asterisk">  お祭り ({{ $omatsuri_1 }})</span>
+             <span class="glyphicon glyphicon-asterisk"></span><b>  お祭り ({{ $omatsuri_1 }}) </b><br>
              @endif
              @if($eiga_1 !== 0)
-             <span class="glyphicon glyphicon-film">   映画  ({{ $eiga_1 }}) </span>
+             <span class="glyphicon glyphicon-film"></span><b> 映画  ({{ $eiga_1 }}) </b><br>
              @endif
              @if($sports_1 !==0)
-             <span class="glyphicon glyphicon-bullhorn">  スポーツ  ({{ $sports_1 }}) </span>
+             <span class="glyphicon glyphicon-bullhorn"></span><b>  スポーツ  ({{ $sports_1 }}) </b><br>
              @endif
              @if($ongaku_1 !== 0)
-             <span class="glyphicon glyphicon-music">　音楽 ({{ $ongaku_1 }})</span>
+             <span class="glyphicon glyphicon-music"></span><b> 音楽 ({{ $ongaku_1 }})</b><br>
              @endif
              @if($gurume_1 !== 0)
-             <span class="glyphicon glyphicon-glass"> グルメ  ({{ $gurume_1 }})</span>
+             <span class="glyphicon glyphicon-glass"></span><b> グルメ  ({{ $gurume_1 }})</b><br>
              @endif
              @if($geijutsu_1 !== 0)
-             <span class="glyphicon glyphicon-picture">　芸術 ({{$geijutsu_1 }}) </span>
+             <span class="glyphicon glyphicon-picture"></span><b>　芸術 ({{$geijutsu_1 }}) </b><br>
              @endif
              @if($leisure_1 !== 0)
-             <span class="glyphicon glyphicon-leaf">  その他  ({{$leisure_1 }})</span>
+             <span class="glyphicon glyphicon-leaf"></span><b> その他  ({{$leisure_1 }})</b><br>
              @endif
               
             </td>
@@ -90,26 +90,26 @@
 
               ?>
               
-              @if($omatsuri_2 !== 0)
-             <span class="glyphicon glyphicon-asterisk">  お祭り ({{ $omatsuri_2 }})</span>
+             @if($omatsuri_2 !== 0)
+             <span class="glyphicon glyphicon-asterisk"></span><b>  お祭り ({{ $omatsuri_1 }}) </b><br>
              @endif
              @if($eiga_2 !== 0)
-             <span class="glyphicon glyphicon-film">   映画  ({{ $eiga_2 }}) </span>
+             <span class="glyphicon glyphicon-film"></span><b> 映画  ({{ $eiga_1 }}) </b><br>
              @endif
              @if($sports_2 !==0)
-             <span class="glyphicon glyphicon-bullhorn">  スポーツ  ({{ $sports_2 }}) </span>
+             <span class="glyphicon glyphicon-bullhorn"></span><b>  スポーツ  ({{ $sports_1 }}) </b><br>
              @endif
              @if($ongaku_2 !== 0)
-             <span class="glyphicon glyphicon-music">　音楽 ({{ $ongaku_2 }})</span>
+             <span class="glyphicon glyphicon-music"></span><b> 音楽 ({{ $ongaku_1 }})</b><br>
              @endif
              @if($gurume_2 !== 0)
-             <span class="glyphicon glyphicon-glass"> グルメ  ({{ $gurume_2 }})</span>
+             <span class="glyphicon glyphicon-glass"></span><b> グルメ  ({{ $gurume_1 }})</b><br>
              @endif
              @if($geijutsu_2 !== 0)
-             <span class="glyphicon glyphicon-picture">　芸術 ({{$geijutsu_2 }}) </span>
+             <span class="glyphicon glyphicon-picture"></span><b>　芸術 ({{$geijutsu_1 }}) </b><br>
              @endif
              @if($leisure_2 !== 0)
-             <span class="glyphicon glyphicon-leaf">  その他  ({{$leisure_2 }})</span>
+             <span class="glyphicon glyphicon-leaf"></span><b> その他  ({{$leisure_1 }})</b><br>
              @endif
             
               

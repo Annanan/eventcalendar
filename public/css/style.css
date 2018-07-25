@@ -2,9 +2,6 @@
 @import URL(https://fonts.googleapis.com/earlyaccess/roundedmplus1c.css);
 @import URL(https://www.w3schools.com/w3css/4/w3.css);
 
-b{
-    font-weight: bold;
-}
 table {
     width: 70%;
     height: 530px;
@@ -101,7 +98,6 @@ a {
 
 span{
 
-  width: 160px;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -210,4 +206,9 @@ body {
 
 .w3-wide{
     text-align: center;
+}
+
+b{
+   font-family: 'Yu Gothic';
+   font-size: 13px;
 }
