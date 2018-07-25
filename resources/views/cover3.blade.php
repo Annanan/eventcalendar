@@ -12,6 +12,13 @@
         
         <link rel="stylesheet" href="{{ secure_asset('css/cover3.css') }}">
         <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        
+        <!-- Bootstrap first -->
+<link rel="stylesheet" media="all" href="/assets/base/bootstrap.css"  type="text/css">
+
+<!-- Your extra styling -->
+<link rel="stylesheet" media="all" href="/assets/application-52c2922bf3888faae91327ac966f10f93474a159ef20a14180eb9bd164ed87cf.css" data-turbolinks-track="true" />
+
 
     </head> 
     
