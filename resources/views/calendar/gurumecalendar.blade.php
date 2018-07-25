@@ -6,7 +6,7 @@
 
 
 
-<table border="3" class="kotei">
+<table border="3" class="kotei"  class="col-xs-10 col-xs-offset-1">
     <thead>
       
       <br>
