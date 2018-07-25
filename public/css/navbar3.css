@@ -21,10 +21,11 @@
 .borderline {
     width:100%;
     border-top:solid 1px black;
+     margin: auto;
 }
 
 .borderline2 {
-    width:75%;
+    width:82.5%;
     border-top:solid 1px black;
     margin: auto;
 }
