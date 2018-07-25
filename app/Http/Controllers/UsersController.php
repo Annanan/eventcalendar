@@ -44,4 +44,12 @@ class UsersController extends Controller
           'users' => $users,
         ]);
     }
+  
+    
+    public function cover() {
+      if (Auth::check()){return view ('welcome');}
+      else{return view ('cover3');}
+      
+    }
+    
 }

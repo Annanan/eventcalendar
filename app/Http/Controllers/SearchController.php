@@ -20,15 +20,15 @@ class SearchController extends Controller
 
         $search_events = Event:: whereIn('prefecturenum' ,$checkboxnums)->get(); 
         
-        
 
         return view('search.search', [
             'search_events' => $search_events],['prefectures' => $checkboxnums
-        ]);
-        
+        ]);}
+    
+    else{ return view ('welcome') ;}
+    
     }
-    else{echo "都道府県を選択してください";}
-    }
+    
     
     
     public function tabsearch($num) {
