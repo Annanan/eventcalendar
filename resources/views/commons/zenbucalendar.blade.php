@@ -9,7 +9,16 @@
 
 <table border="3" class="kotei">
    <thead>
+<<<<<<< HEAD
  
+=======
+   <p></p>
+        
+     <p class= "w3-wide" style ="font-size: 25px; text-align: center;">AUGUST　2018</p> 
+          
+    </thead>
+  
+>>>>>>> 8428f424cd27bd90902ef7e21cb152b1c9dd3989
     
         <tr class="youbi, w3-background w3-pale-red">
             <th class= w3-wide>MON</th>

@@ -2,6 +2,9 @@
 @import URL(https://fonts.googleapis.com/earlyaccess/roundedmplus1c.css);
 @import URL(https://www.w3schools.com/w3css/4/w3.css);
 
+b{
+    font-weight: bold;
+}
 table {
     width: 70%;
     height: 530px;
@@ -148,7 +151,9 @@ body {
 .boshu1{
        font-weight: bold;
        background-color: pink;
-       width: 390px;
+
+       width: 450px;
+
        text-align: center;
 }
 .daylink:hover {background-color: lightgreen;}
@@ -172,6 +177,7 @@ body {
 .glyphicon-asterisk{
     font-size: 12px;
 }
+
 .glyphicon-film{
      font-size: 12px;
 }

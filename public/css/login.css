@@ -21,11 +21,11 @@
      padding-top:30px; 
      padding-left: 60px;
      font-weight: bold;
+     font-family: 'Yu Gothic'; 
      font-size: 2em;
      float: left;
      width: 800px;
      height: 100px;
-     font-family: Meiryo;
      }
     
 .clearfix::after {
@@ -51,7 +51,7 @@
     padding-left: 280px;
     padding-top:200px;
     color: red;
-    
+    font-family: 'Yu Gothic'; 
 }
 
 .panel{
@@ -86,9 +86,9 @@
      box-shadow:0 0 0 1px rgba(89,105,128,0.1), 0 3px 20px 0 rgba(89,105,128,0.3), 0 1px 2px 0 rgba(0,0,0,0.05);;
     }
     
-#setsumei1{ background-image: url("../setsumei1.png");}
-#setsumei2{ background-image: url("../logo.jpg");}
-#setsumei3{ background-image: url("../hanabi.jpg");}
+#setsumei1{ background-image: url("../calendar.PNG");}
+#setsumei2{ background-image: url("../isshoni.PNG");}
+#setsumei3{ background-image: url("../tsuika.PNG");}
 
 .bunbun{
     text-align:left;
@@ -110,3 +110,13 @@ body {
 p{
  font-family: 'Yu Gothic';
      }
+     
+.input-group{
+ font-family: 'Yu Gothic';
+ font-weight: bold;
+}
+
+.input-group-addon{
+font-family: 'Yu Gothic';
+ font-weight: bold;
+}

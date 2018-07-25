@@ -12,6 +12,8 @@
         
         <link rel="stylesheet" href="{{ secure_asset('css/all.css') }}">
         
+        
+        
     </head>
 
     <body>
