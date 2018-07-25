@@ -8,7 +8,6 @@
 
 
 <table border="3" class="kotei">
-    <p>日付をクリックで　その日のイベント一覧ページへ</p>
    <thead>
      
          <tr class="year">
@@ -33,10 +32,10 @@
             <td class="monday">
              <!--&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;例-->
             </td>
-            <td class="tuesday">
+            <td class="tuesday"><font size="3">
+                日付をClickで詳細へ</font>
                 <br>
-                <br>
-          ICON イベント名 (数)
+          ◎ イベント名 (数)
         
             </td>
             
