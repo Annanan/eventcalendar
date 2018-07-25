@@ -1,0 +1,23 @@
+
+
+.body{position: relative;
+    min-height: 100%;
+    font-family: "Source Sans Pro", Helvetica, Arial, 游ゴシック体, YuGothic, メイリオ, Meiryo, sans-serif;
+    font-size: 14px;
+    color: rgb(51, 51, 51);
+    line-height: 1;
+    background: rgb(245, 245, 245);
+}
+.text-center{ text-align:center;}
+
+img {
+     vertical-align: middle; 
+}
+
+.setsumei{
+          width: 800px;
+          height: 500px;
+          margin-left:20px;
+          float: left;
+         
+}

@@ -21,12 +21,7 @@
     
     <body>
         
-　　 @if (Auth::check()) 
-  
-　　<h1>エラー起きている</h1>
- 
-　　 @else              
-        
+　　
       @include('commons.navbar')
     
   
@@ -78,7 +73,6 @@
  </div>
  
  
- @endif
  
  </body>
  

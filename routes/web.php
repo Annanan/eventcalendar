@@ -58,8 +58,6 @@ Route::post('/tabsearch/{num}', 'SearchController@tabsearch')->name('events.tabs
 
 Route::get('/day/{id}', 'DayController@day')->name('events.day');
 
-Route::view('tmpsearch', 'search.search')->name('tmpsearch');
-
 // Route::get('search', function () {
 //     return view('search.search');
 // });
