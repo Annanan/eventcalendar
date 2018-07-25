@@ -38,6 +38,9 @@
  <span class="glyphicon glyphicon-user"> {{$user->name}} ({{$user->group}})</span><br><br>
  @endforeach
 </div>
+
+<p class=koekake>一緒に行きたい人に声をかけてみよう！</p>
+
 @endif
 
 </body>

@@ -1,10 +1,11 @@
+
 @extends('layouts.app2')
  
 
 @section('content')
 @include('commons.navbar3')
 <br>
-<h3 style="text-align:center"><?php
+<h3 style="text-align:center;font-family: 'Yu Gothic';font-weight: bold;"><?php
 print " ";
 foreach ($prefectures as $num){
    

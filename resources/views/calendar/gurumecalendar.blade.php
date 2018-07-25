@@ -4,7 +4,7 @@
 
 
 
- <p class= "w3-wide" style ="font-size: 25px; text-align: center;">AUGUST　2018</p> 
+ <p class= "w3-wide" style ="font-size: 25px; text-align: center;"><img src="/otoko.png" alt="EVENTMOURAKUN" width="25" height="44">&nbsp;&nbsp;AUGUST　2018&nbsp;&nbsp;<img src="/onna.png" alt="EVENTMOURAKUN" width="30" height="44"></p> 
 
 <table border="3" class="kotei"  class="col-xs-10 col-xs-offset-1">
     <thead>
