@@ -369,6 +369,7 @@ class DeleteAten extends Migration
           'genrenum' => '6',
           'prefecturenum' => '13',
         ],
+        ]);
     }
 
     /**
