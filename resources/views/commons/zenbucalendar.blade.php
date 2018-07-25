@@ -11,12 +11,12 @@
    <thead>
   
         
-<p class= "w3-wide" style ="font-size: 25px; text-align: center;">AUGUST　2018</p> 
+     <p class= "w3-wide" style ="font-size: 25px; text-align: center;">AUGUST　2018</p> 
           
     </thead>
   
     
-        <tr class="youbi, w3-background w3-pale-r<p class= "w3-wide" style ="font-size: 25px; text-align: center;">AUGUST　2018</p> ed">
+        <tr class="youbi, w3-background w3-pale-red">
             <th class= w3-wide>MON</th>
             <th class= w3-wide>TUE</th>
             <th class= w3-wide>WED</th>
