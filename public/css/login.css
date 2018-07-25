@@ -110,3 +110,13 @@ body {
 p{
  font-family: 'Yu Gothic';
      }
+     
+.input-group{
+ font-family: 'Yu Gothic';
+ font-weight: bold;
+}
+
+.input-group-addon{
+font-family: 'Yu Gothic';
+ font-weight: bold;
+}

@@ -4,12 +4,12 @@
 
 
 
-
+ <p class= "w3-wide" style ="font-size: 25px; text-align: center;">AUGUST　2018</p> 
 
 <table border="3" class="kotei"  class="col-xs-10 col-xs-offset-1">
     <thead>
       
-      <br>
+
        <tr class="youbi, w3-background w3-orange">
             <th class= w3-wide>MON</th>
             <th class= w3-wide>TUE</th>

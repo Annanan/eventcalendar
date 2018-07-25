@@ -2,6 +2,9 @@
 @import URL(https://fonts.googleapis.com/earlyaccess/roundedmplus1c.css);
 @import URL(https://www.w3schools.com/w3css/4/w3.css);
 
+b{
+    font-weight: bold;
+}
 table {
     width: 70%;
     height: 530px;
@@ -31,7 +34,7 @@ table, td, th {
 }
 
 .w3-deep-orange th{
-   height: 20px;
+   height: 10px;
    font-size: 15px;
    text-align: center;
 }
@@ -142,13 +145,15 @@ body {
 }
 
 .daylink {
-   background-color: #ffd6d6;
+   background-color: pink;
 }
 
 .boshu1{
        font-weight: bold;
        background-color: pink;
-       width: 280px;
+
+       width: 450px;
+
        text-align: center;
 }
 .daylink:hover {background-color: lightgreen;}
@@ -167,10 +172,12 @@ body {
 
 .w3-wide {
     font-weight: 500;
+     
 }
 .glyphicon-asterisk{
     font-size: 12px;
 }
+
 .glyphicon-film{
      font-size: 12px;
 }

@@ -3,13 +3,13 @@
 <link rel="stylesheet" href="{{ secure_asset('css/style.css') }}">
 
 
-
+ <p class= "w3-wide" style ="font-size: 25px; text-align: center;">AUGUST　2018</p> 
 
 
 <table border="3" class="kotei">
     <thead>
       
-      <br>
+    
        <tr class="youbi, w3-background w3-cyan">
             <th class= w3-wide>MON</th>
             <th class= w3-wide>TUE</th>

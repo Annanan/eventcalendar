@@ -3,13 +3,15 @@
 <link rel="stylesheet" href="{{ secure_asset('css/style.css') }}">
 
 
-
+ <p class= "w3-wide" style ="font-size: 20px; text-align: center;">AUGUST　2018</p> 
+          
 
 
 <table border="3" class="kotei">
-    <thead>
-      
-      <br>
+    
+
+  
+<thead>
        <tr class="youbi, w3-background w3-deep-orange">
             <th class= w3-wide>MON</th>
             <th class= w3-wide>TUE</th>
@@ -19,7 +21,9 @@
             <th class= w3-wide><font color="blue">SAT</font></th>
             <th class= w3-wide><font color="red">SUN</font></th>
         </tr>
-    </thead>
+        
+</thead>
+    
     <tbody>
         <tr class="week1">
             <td class="monday"></td>

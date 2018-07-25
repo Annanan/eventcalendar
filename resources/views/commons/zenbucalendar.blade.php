@@ -4,17 +4,11 @@
 <link rel="stylesheet" href="{{ secure_asset('css/style.css') }}">
 
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-
-
+<p></p>
+ <p class= "w3-wide" style ="font-size: 25px; text-align: center;">AUGUST　2018</p> 
 
 <table border="3" class="kotei">
-   <thead>
-  
-        
-     <p class= "w3-wide" style ="font-size: 25px; text-align: center;">AUGUST　2018</p> 
-          
-    </thead>
-  
+  <thead>
     
         <tr class="youbi, w3-background w3-pale-red">
             <th class= w3-wide>MON</th>
@@ -25,13 +19,14 @@
             <th class= w3-wide><font color="blue">SAT</font></th>
             <th class= w3-wide><font color="red">SUN</font></th>
         </tr>
-        
+         </thead>
+  
     <tbody>
         <tr class="week1">
             <td class="monday">
              <!--&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;例-->
             </td>
-            <td class="tuesday" ><font size="3" style="background-color: #ffd6d6">
+            <td class="tuesday" ><font size="3" style="background-color: pink">
                 日付をClickで詳細へ</font>
                 <br>
                 <br>
@@ -40,7 +35,7 @@
 </td>
             
             <td class="wednesday"><span style="font-weight:bold">
-                 <a class=daylink href="{{ action ('DayController@day', 1)  }}">1</a>
+                 <a class=daylink href="{{ action ('DayController@day', 1)  }}">1 <font size='3'>(Click!)</font></a>
              </span> 
               <br>
               
@@ -1176,7 +1171,7 @@
              <span class="glyphicon glyphicon-picture">　芸術 ({{$geijutsu_27 }}) </span>
              @endif
              @if($leisure_27 !== 0)
-             <span class="glyphicon glyphicon-leaf">  その他  ({{$leisure_27 }})</span>
+             <span class="glyphicon glyphicon-leaf">  そ���他  ({{$leisure_27 }})</span>
              @endif
               
             
