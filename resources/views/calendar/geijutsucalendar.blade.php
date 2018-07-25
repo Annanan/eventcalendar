@@ -3,7 +3,7 @@
 <link rel="stylesheet" href="{{ secure_asset('css/style.css') }}">
 
 
- <p class= "w3-wide" style ="font-size: 25px; text-align: center;"><img src="/otoko.png" alt="EVENTMOURAKUN" width="25" height="44">&nbsp;&nbsp;AUGUST　2018&nbsp;&nbsp;<img src="/onna.png" alt="EVENTMOURAKUN" width="30" height="44"></p> 
+ <p class= "w3-wide" style ="font-size: 25px; text-align: center;"><img src="/otoko.png" alt="EVENTMOURAKUN" width="25" height="44">&nbsp;&nbsp;AUGUST　2018&nbsp;&nbsp;<img src="/onna.png" alt="EVENTMOURAKUN" width="30" height="44"></p>
           
 
 
