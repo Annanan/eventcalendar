@@ -49,3 +49,12 @@ img {
     display: flex;
     justify-content: center;
 }
+
+.touroku ul li {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.touroku ul li a{
+    padding: 10px 15px 10px 15px ;
+}
