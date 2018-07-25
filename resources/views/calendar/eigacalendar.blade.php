@@ -4,12 +4,14 @@
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
 
-
+ <p class= "w3-wide" style ="font-size: 25px; text-align: center;">AUGUST　2018</p> 
 
 <table border="3" class="kotei">
-    <thead>
-      
-      <br>
+    
+   
+     <thead>
+        
+   
        <tr class="youbi, w3-background w3-deep-purple">
             <th class= w3-wide>MON</th>
             <th class= w3-wide>TUE</th>
