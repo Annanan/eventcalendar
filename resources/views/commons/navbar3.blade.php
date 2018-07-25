@@ -1,8 +1,7 @@
 <link rel="stylesheet" href="{{ secure_asset('css/navbar3.css') }}">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link href="https://fonts.googleapis.com/earlyaccess/mplus1p.css" rel="stylesheet" />
 
 <header>
+  <br>
     <div class=borderline></div>
     <!--<nav class="navbar navbar-default navbar-static-top">-->
      
@@ -29,5 +28,5 @@
             
         </div>   
     
-    <div class=borderline></div>
+    <div class=borderline2></div>
 </header>

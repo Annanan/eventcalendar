@@ -10,6 +10,11 @@
     flex-wrap: wrap;
 }
 
+.panel-title{
+     font-family: 'Yu Gothic';
+     font-weight: bold;
+}
+
 body {
      background: url('../Picture6.png') no-repeat center center fixed;
   
@@ -17,4 +22,12 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  font-family: 'Yu Gothic';
+  font-weight: bold;
 }
+
+h1{
+    font-family: 'Yu Gothic';
+    font-weight: bold;
+}
+

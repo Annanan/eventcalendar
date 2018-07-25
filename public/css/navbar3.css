@@ -18,11 +18,15 @@
 }
 
 
-
-
 .borderline {
     width:100%;
-border-top:solid 1px black;
+    border-top:solid 1px black;
+}
+
+.borderline2 {
+    width:75%;
+    border-top:solid 1px black;
+    margin: auto;
 }
 
 .gamen {background-image: url(../japanmap.jpg);
@@ -39,7 +43,7 @@ label,input[type='checkbox']{cursor: pointer;}
 
 #kensaku:hover {background-color: red;}
     
- .ken  {
+.ken  {
      font-size: 13px;
      margin-left: 100px;
      margin-right: 100px;
