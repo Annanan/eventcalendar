@@ -30,7 +30,7 @@ $leisures= DB::table('events')->select('*')->where([['genre', '=','レジャー'
         <div class="panel-body w3-white">
     <ul class="list-unstyled">
       <?php foreach ($omatsuris as $event) {  
-        echo'('. $event->prefecture .$event->time. ')';
+        echo'('. $event->prefecture .')';
       ?>
         {!! link_to_route('events.show', $event->name, ['id' => $event->id]) !!}
       <?php
