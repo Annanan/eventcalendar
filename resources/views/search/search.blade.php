@@ -4,7 +4,6 @@
 @section('content')
 @include('commons.navbar3')
 <br>
-
 <h3 style="text-align:center"><?php
 print " ";
 foreach ($prefectures as $num){
@@ -18,8 +17,7 @@ foreach ($prefectures as $num){
     ?>
     
     </h3>
-    <br>
-        
+        <br>
         <div class="col-xs-12">
             @include('calendar.kensakucalendar',['events' => $search_events])
         </div>
