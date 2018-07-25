@@ -17,18 +17,27 @@
     text-align: left;
 }
 
+.ken {
+    padding: 0.5em 1em;
+    margin: 0;
+    font-weight: bold;
+     background: #FFF;
+    border: solid 1px #696969;/*線*/
+    border-radius: 10px;/*角の丸み*/
 
-.borderline {
-    width:100%;
-    border-top:solid 1px black;
-     margin: auto;
 }
 
-.borderline2 {
-    width:74.2%;
-    border-top:solid 1px black;
-    margin: auto;
-}
+/*.borderline {*/
+/*    width:100%;*/
+/*    border-top:solid 1px black;*/
+/*     margin: auto;*/
+/*}*/
+
+/*.borderline2 {*/
+/*    width:74.2%;*/
+/*    border-top:solid 1px black;*/
+/*    margin: auto;*/
+/*}*/
 
 .gamen {background-image: url(../japanmap.jpg);
     　　
