@@ -1,13 +1,14 @@
+
 @extends('layouts.app2')
 
 
 @section('content')
 @include('commons.navbar3')
 <br>
-<h3  style = 'text-align:center'>
+<h3 style="text-align:center;font-family: 'Yu Gothic';font-weight: bold;">
 <?php
 
-print " {$search_event->prefecture}　のイベント一覧  ";
+print " {$search_event->prefecture} のイベント一覧  ";
 
 
 ?></h3>
