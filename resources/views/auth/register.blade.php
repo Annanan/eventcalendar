@@ -23,27 +23,27 @@
 
     
       
-      <h1 class=copy>作ろう、自分だけのイベントカレンダー。</h1>
+      <h1 class=copy>作ろう、自分だけのイベントカレンダー</h1>
        
     <div class=setsumei  id=ue  class=clearfix>
         
 
          <h2 class= bun id=bun1> このアプリの使い方</h2>
          
-       <div    class=picture id=setsumei1>  <h3>1:イベントを検索</h3><p class=bunbun id=bunbun1>ジャンル別のカレンダーからイベントを検索できます</p>
+       <div    class=picture id=setsumei1>  <h3>1:イベントを検索</h3>
        </div>
-       <div class=picture id=setsumei2><h3>2:マイカレンダーに追加</h3><p class=bunbun id=bunbun2>興味を持ったイベントの詳細ページからマイカレンダーに追加することができます</p></div>
-       <div class=picture id= setsumei3><h3>3:友達を募集</h3><p class=bunbun id=bunbun3>一緒にイベントに行く仲間を募集することもできます</p></div>
+       <div class=picture id=setsumei2><h3>2:マイカレンダーに追加</h3></div>
+       <div class=picture id= setsumei3><h3>3:友達を募集</h3></div>
       </div>
          
       
      <div class=setsumei  id=shita  class=clearfix>
         
          <h2 class=bun id=bun2> イベントもうラクんの特徴</h2>
-       <div class=picture id=setsumei4><h3>都道府県検索機能</h3><h4 class=bunbun id=bunbun1>都道府県からイベントを検索！</h4>
+       <div class=picture id=setsumei4><h3>都道府県検索機能</h3>
        </div>
-       <div class=picture id=setsumei5><h3>日付検索機能</h3></h3><h4 class=bunbun id=bunbun2>日付からイベントを検索！</h4></div>
-       <div class=picture id= setsumei6><h3>自分だけのカレンダー</h3><h4 class=bunbun id=bunbun3>マイカレンダーをカスタマイズしよう！！</h4></div>
+       <div class=picture id=setsumei5><h3>日付検索機能</h3></div>
+       <div class=picture id= setsumei6><h3>カレンダーをカスタマイズ</h3></div>
     </div> 
   </diV>   <!--ここまで　largebox-->
       
